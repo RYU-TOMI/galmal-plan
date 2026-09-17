@@ -1371,12 +1371,12 @@ git rev-parse HEAD:data/prices.db
 | 순서 | 담당 | 내용 |
 |---|---|---|
 | **T0** | 백·프 | ✅ 선행 확인 — M5 첫 예약 실행(9/18 아침)이 **dispatch 1회로 오늘 날짜**를 구웠는가. 이게 통과하기 전엔 구형을 치우지 않는다(되돌릴 곳) |
-| **T0b** | **사용자** | **R8 결정** — `galmal-plan` public / private. private이면 R8 (나) 경로(복사본 + plan CI 대조) |
+| **T0b** | 사용자 | ✅ **2026-09-17 결정: public.** 근거 `DECISIONS.md` 2026-09-17 (2). R8은 별도로 C안 확정(백엔드 BE10) — 공개 여부와 무관해졌다 |
 | **T1pre** | 기획 | 🔴 **`design/` 빌더를 파일 의존에서 URL 의존으로** — T1b보다 **먼저**. 아래 박스 |
 | **T1a** | 사용자 | 구형 Pages **끄기** (Settings → Pages → None). 옛 사이트가 github.io 주소로 계속 뜨면 검색엔진에 **중복 콘텐츠**다 |
 | **T1b** | 기획 | 구형에서 **코드·데이터·남의 문서 삭제 커밋**: `collector/ data/ docs/ site/ tests/ fixtures/ requirements.txt v.txt .github/workflows/` · `BACKEND.md FRONTEND.md BACKLOG.md`(새 저장소에 정본이 있다 — 사본은 갈린다). **이력은 남는다**. 기획 문서·`design/`만 남긴다 |
 | **T1c** | 기획 | `.gitattributes` 정규화 커밋(T4a에서 미룬 것) — **T1b와 섞지 않고 따로** |
-| T1 | 사용자 | `promo-ticket-site` → `galmal-plan` rename (+ T0b가 private이면 private) |
+| T1 | 사용자 | `promo-ticket-site` → `galmal-plan` rename. **공개 유지**(T0b) |
 | T2 | 기획 | `CLAUDE.md`를 3레포 판으로 재작성. 🔴 **사본을 만들지 않는다** — 아래 |
 
 > **T2의 함정 — `CLAUDE.md`도 공용 문서 사본이다** (프론트 지적, 2026-09-17).
