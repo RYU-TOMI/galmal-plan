@@ -1342,11 +1342,21 @@ git rev-parse HEAD:data/prices.db
 
 ### M6 — 정리
 
-| 태스크 | 담당 | 내용 |
+> 🔴 **2026-09-17 보강** — 원래 T1~T3 세 줄이었다. M5 직후 실측하니 **구형 레포에 코드·데이터가 그대로 있고
+> Pages도 켜져 있어** `ryu-tomi.github.io/promo-ticket-site`가 옛 사이트를 서빙 중이었다. 「문서만 남는 `galmal-plan`」이 되려면
+> 치울 것이 더 있다. 그리고 **T1의 「private」은 R8 결정에 달려 있다** — 순서를 다시 잡았다.
+
+| 순서 | 담당 | 내용 |
 |---|---|---|
-| T1 | 사용자 | `promo-ticket-site` → `galmal-plan` rename 후 **private** |
+| **T0** | 백·프 | ✅ 선행 확인 — M5 첫 예약 실행(9/18 아침)이 **dispatch 1회로 오늘 날짜**를 구웠는가. 이게 통과하기 전엔 구형을 치우지 않는다(되돌릴 곳) |
+| **T0b** | **사용자** | **R8 결정** — `galmal-plan` public / private. private이면 R8 (나) 경로(복사본 + plan CI 대조) |
+| **T1a** | 사용자 | 구형 Pages **끄기** (Settings → Pages → None). 옛 사이트가 github.io 주소로 계속 뜨면 검색엔진에 **중복 콘텐츠**다 |
+| **T1b** | 기획 | 구형에서 **코드·데이터·남의 문서 삭제 커밋**: `collector/ data/ docs/ site/ tests/ fixtures/ requirements.txt v.txt .github/workflows/` · `BACKEND.md FRONTEND.md BACKLOG.md`(새 저장소에 정본이 있다 — 사본은 갈린다). **이력은 남는다**. 기획 문서·`design/`만 남긴다 |
+| **T1c** | 기획 | `.gitattributes` 정규화 커밋(T4a에서 미룬 것) — **T1b와 섞지 않고 따로** |
+| T1 | 사용자 | `promo-ticket-site` → `galmal-plan` rename (+ T0b가 private이면 private) |
 | T2 | 기획 | `CLAUDE.md`를 3레포 판으로 재작성. 각 레포에 자기 `CLAUDE.md` + `../galmal-plan/` 참조 |
 | T3 | 기획 | `PROJECT.md` 운영 정보 갱신, **이 문서 삭제** |
+| **T4** | 사용자 | **로컬 폴더 정리** — 세 세션을 닫은 뒤(셸 잠금 때문에) 구형 워크트리 `galmal-backend`·`galmal-frontend` 제거, `galmal/backend`·`galmal/frontend`를 제자리 이름으로. 사용자가 원래 고른 배치다 |
 
 ---
 
