@@ -1375,7 +1375,17 @@ git rev-parse HEAD:data/prices.db
 | **T1b** | 기획 | 구형에서 **코드·데이터·남의 문서 삭제 커밋**: `collector/ data/ docs/ site/ tests/ fixtures/ requirements.txt v.txt .github/workflows/` · `BACKEND.md FRONTEND.md BACKLOG.md`(새 저장소에 정본이 있다 — 사본은 갈린다). **이력은 남는다**. 기획 문서·`design/`만 남긴다 |
 | **T1c** | 기획 | `.gitattributes` 정규화 커밋(T4a에서 미룬 것) — **T1b와 섞지 않고 따로** |
 | T1 | 사용자 | `promo-ticket-site` → `galmal-plan` rename (+ T0b가 private이면 private) |
-| T2 | 기획 | `CLAUDE.md`를 3레포 판으로 재작성. 각 레포에 자기 `CLAUDE.md` + `../galmal-plan/` 참조 |
+| T2 | 기획 | `CLAUDE.md`를 3레포 판으로 재작성. 🔴 **사본을 만들지 않는다** — 아래 |
+
+> **T2의 함정 — `CLAUDE.md`도 공용 문서 사본이다** (프론트 지적, 2026-09-17).
+> 지금 세 저장소에 같은 `CLAUDE.md`가 딸려 가 있다. R8(`CONTRACT.md` 사본이 첫날 2KB 갈림)과 **같은 병**인데,
+> 세션이 자동으로 읽는 파일이라 **지울 수는 없다.**
+> → **공통 규칙(세션 간 소통·작업 단위·스코프 잠금·git)은 `galmal-plan`에 한 벌**(예: `SESSIONS.md`),
+> 각 저장소의 `CLAUDE.md`에는 **그 저장소만의 규칙 + 공통 파일 가져오기 한 줄**(`@../galmal-plan/SESSIONS.md`)만 둔다.
+> Claude Code `CLAUDE.md`의 `@경로` 가져오기가 **저장소 밖 상대 경로**에서 동작하는지 T2 착수 때 실측한다
+> (안 되면 차선: 공통 파일을 짧게 유지하고 각 `CLAUDE.md`가 「먼저 `../galmal-plan/SESSIONS.md`를 읽어라」로 가리킨다).
+> CI는 `CLAUDE.md`를 읽지 않으므로 R8과 달리 **로컬 경로 의존이 문제되지 않는다.**
+> ✅ 참고: 프론트 저장소의 `CONTRACT/COPY/TAGS` 사본은 `f85d16d`로 **삭제 완료.** 백엔드 사본은 테스트가 읽어 `0467a14`로 **동기화**(R8 근본 해결 전 임시).
 | T3 | 기획 | `PROJECT.md` 운영 정보 갱신, **이 문서 삭제** |
 | **T4** | 사용자 | **로컬 폴더 정리** — 세 세션을 닫은 뒤(셸 잠금 때문에) 구형 워크트리 `galmal-backend`·`galmal-frontend` 제거, `galmal/backend`·`galmal/frontend`를 제자리 이름으로. 사용자가 원래 고른 배치다 |
 
