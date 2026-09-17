@@ -1,9 +1,9 @@
 name: 가격 수집
 
 on:
-  schedule:
-    # 매일 22:10 UTC = 한국 시간 07:10 (GitHub 크론은 UTC 기준)
-    - cron: "10 22 * * *"
+  # 🔴 schedule 없음 — 크론은 2026-09-17 M5 로 **galmal-backend** 로 넘어갔다.
+  # 이 레포에서도 돌면 수집·메일 발송이 **이중**이 된다. Actions UI 에서도 비활성(disabled_manually)이지만
+  # 누가 켜는 순간 이중 발송이라 트리거 자체를 뺐다. 되돌리기 경로로 수동 실행만 남긴다.
   workflow_dispatch: {}   # 수동 실행 버튼
 
 permissions:
