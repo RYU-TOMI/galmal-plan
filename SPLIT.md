@@ -1340,6 +1340,26 @@ git rev-parse HEAD:data/prices.db
 > `gh api repos/…/actions/workflows --jq '.workflows[].state'`까지 봐야 한다.
 > 경보 자체는 옳은 방향이다(놓치면 알림 이중 발송). **확인 대상을 「설정 파일」이 아니라 「실행 상태」로 둔다.**
 
+#### M6 T1pre — plan에 남는 코드는 「제품을 밖에서 쓰는 손님」이어야 한다 (2026-09-17, 사용자 질문에서)
+
+**원칙**: `galmal-plan`에 **제품 코드는 없다**(`collector/ site/ tests/ data/ docs/` — 정본이 두 벌이 된다).
+**문서를 만드는 도구**(`design/*.py` 목업 빌더)는 둔다. **단 제품에 파일 경로가 아니라 공개 URL로 기댄다** —
+레포 분리의 원칙(「데이터는 URL로 건넨다」) 그대로다. 그러면 세 레포가 한 줄로 선다:
+`backend → API 발행` · `frontend → API 소비·사이트 발행` · `plan → API·사이트 소비·목업`.
+
+**실측 — 지금은 파일로 기댄다** (제품 모듈 import는 **0**):
+| 의존 | 빌더 수 | 바꿀 곳 |
+|---|---|---|
+| `docs/v1/deals.json` | 18 | `https://api.galmal.kr/v1/deals.json` |
+| `docs/data/world.geojson` · `docs/assets/d3-*.min.js` | 4 | `https://galmal.kr/data/…` · `/assets/…` |
+| `collector/dests.py` **소스를 텍스트 파싱** (`build_tags.py:139`) | 1 | 🔴 역방향 의존. R8에서 태그 배정표가 데이터 파일로 빠지면 그 URL로. **그 전까지 이 빌더만 동결** |
+
+→ **T1b(코드 지우기)를 먼저 하면 빌더 20여 개가 깨진다.** 계획에 없던 순서 의존이라 T1pre로 넣었다.
+18개가 **각자** 경로를 연다 — 공용 로더(`design/_data.py`) 하나로 모은 뒤 URL로 바꾼다.
+
+**기존 목업 HTML 23장은 다시 굽지 않는다.** 본문에 그날 기준 수치(「70건 중 23곳」 등)가 적혀 있어
+새 데이터로 구우면 설명과 어긋난다 — **그날 결정의 스냅숏**이다. 새 목업부터 URL 로더를 쓴다.
+
 ### M6 — 정리
 
 > 🔴 **2026-09-17 보강** — 원래 T1~T3 세 줄이었다. M5 직후 실측하니 **구형 레포에 코드·데이터가 그대로 있고
@@ -1350,6 +1370,7 @@ git rev-parse HEAD:data/prices.db
 |---|---|---|
 | **T0** | 백·프 | ✅ 선행 확인 — M5 첫 예약 실행(9/18 아침)이 **dispatch 1회로 오늘 날짜**를 구웠는가. 이게 통과하기 전엔 구형을 치우지 않는다(되돌릴 곳) |
 | **T0b** | **사용자** | **R8 결정** — `galmal-plan` public / private. private이면 R8 (나) 경로(복사본 + plan CI 대조) |
+| **T1pre** | 기획 | 🔴 **`design/` 빌더를 파일 의존에서 URL 의존으로** — T1b보다 **먼저**. 아래 박스 |
 | **T1a** | 사용자 | 구형 Pages **끄기** (Settings → Pages → None). 옛 사이트가 github.io 주소로 계속 뜨면 검색엔진에 **중복 콘텐츠**다 |
 | **T1b** | 기획 | 구형에서 **코드·데이터·남의 문서 삭제 커밋**: `collector/ data/ docs/ site/ tests/ fixtures/ requirements.txt v.txt .github/workflows/` · `BACKEND.md FRONTEND.md BACKLOG.md`(새 저장소에 정본이 있다 — 사본은 갈린다). **이력은 남는다**. 기획 문서·`design/`만 남긴다 |
 | **T1c** | 기획 | `.gitattributes` 정규화 커밋(T4a에서 미룬 것) — **T1b와 섞지 않고 따로** |
