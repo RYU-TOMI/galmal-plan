@@ -1187,6 +1187,33 @@ M0의 전제였다 — 기획 문서는 원본 한 벌, 양쪽이 `../galmal-pla
 > 신형에 `schedule:`이 없어 매일 울지도 않으므로 늑대 소년이 아니다.
 > → **M5에서 이게 저절로 초록불이 되는 것이 배선이 끝났다는 증거다.** 놓치지 않게 항목으로 둔다.
 
+#### 📍 M5 당일 실측·절차 (2026-09-17)
+
+**DNS는 가비아다.** 그리고 **galmal.kr 본체는 DNS를 안 바꾼다** — 구형·신형 둘 다 `ryu-tomi.github.io`
+밑이라 apex A 레코드 4개(`185.199.108~111.153`)가 그대로 맞다. **3·4번은 GitHub 설정에서 도메인을
+옮기는 것뿐**이다. 사용자가 가비아에서 하는 건 **1번의 `api` CNAME 하나**다.
+
+| | 실측 |
+|---|---|
+| 구형 `promo-ticket-site` | branch 배포 `main:/docs` · `docs/CNAME` = galmal.kr |
+| 신형 `galmal-backend` | branch 배포 `main:/docs` → 도메인 등록 시 GitHub가 **`docs/CNAME`을 커밋**한다. **크론이 그 파일을 지우지 않는지** 백엔드 확인 |
+| 신형 `galmal-frontend` | **workflow 배포** → `CNAME` 파일 **불필요**(GitHub 문서: *"no CNAME file is created, and any existing CNAME file is ignored"*). 설정에 저장된다 |
+
+**2번(프론트)은 변수 하나**다 — `deploy.yml:50`이 `vars.API_URL`을 읽는다. 값 `https://api.galmal.kr/v1`
+(**24자**, 끝 `/`·개행 없음, 넣은 뒤 길이를 잰다). **바꾸기 전에** `https://api.galmal.kr/v1/meta.json`이
+200이고 `generated`가 백엔드 Pages와 같은지 실측한다. 틀려도 안전하다 — 빌드가 404에서 **배포 전에** 멈춘다.
+**2번은 3번보다 먼저** — 새 API를 보는 상태로 도메인을 옮겨야 원인이 섞이지 않는다.
+
+**4번 절차 (사용자 + 프론트 확인)**
+```
+① galmal-frontend Settings → Pages → Custom domain: galmal.kr → Save
+② DNS check 통과 · 인증서 발급 대기
+③ 🔴 Enforce HTTPS 가 켜져 있는지 **다시** 확인 — 도메인을 붙이면 인증서 전까지 풀릴 수 있다.
+   풀려 있어도 사이트는 뜨므로 **조용히 틀리는 종류**다
+④ (프론트) 배포를 **일부러 한 번 더** 돌리고 cname 이 여전히 galmal.kr 인지 읽는다
+   — 「재배포 뒤 유지」는 문서에 명시가 없어서 실측한다
+```
+
 #### 🔴 M5 2b — 크론 맞바꾸기와 DB 인계 (백엔드 발견, 2026-09-16)
 
 M4 T4가 저장소를 복제한 뒤 **구형만 매일 수집한다**(T4b로 신형 `schedule:`을 뺐으므로).
