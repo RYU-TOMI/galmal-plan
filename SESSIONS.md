@@ -10,7 +10,7 @@
 |---|---|---|---|
 | `galmal-plan` | 기획 | 제품·스펙·결정 기록·계약의 **이유** · `design/` 목업 | 없음 |
 | `galmal-backend` | 백엔드 | 수집·특가 판정·v1 API 발행 · **계약 정본**(`contract/v1/`) | `https://api.galmal.kr/v1/` |
-| `galmal-frontend` | 프론트 | v1을 받아 화면을 굽는다 | `https://galmal.kr` |
+| `galmal-frontend` | 프론트 | v1 소비 · 화면 빌드 | `https://galmal.kr` |
 
 로컬 배치: `개인 프로젝트/` 아래 **형제 폴더** `galmal-plan` · `galmal-backend` · `galmal-frontend`.
 **세 저장소 모두 공개다.** 사업 민감 정보(경쟁 분석 · 제휴 조건 · 매출·전환 수치 · 지원사업 서류)는 저장소가 아니라 **노션**에 둔다.
