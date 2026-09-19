@@ -12,7 +12,9 @@ sys.path.insert(0, BASE)
 from _app import CSS
 from _fmt import money
 
-D = json.load(io.open(os.path.join(BASE, "..", "docs", "v1", "deals.json"), encoding="utf-8"))
+import sys as _sys, os as _os; _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import _data  # 제품 데이터는 공개 URL로 받는다 (SPLIT M6 T1pre)
+D = _data.deals()
 deals = D["deals"]
 N = len(deals)
 
@@ -279,7 +281,7 @@ html = ("<!doctype html><html lang=ko><head><meta charset=utf-8>"
         "<p class=note>&#9888; <b>칩 개수가 늘어난다</b>(언제 6 + 며칠 5). 팝오버 안이라 "
         "지도를 안 가리지만, 모바일에서 두 줄이 될지는 폭을 봐야 안다. "
         "이 세션엔 브라우저가 없어 확인을 못 한다.</p>"
-        "<p class=foot>생성 <b>design/build_filters.py</b> &middot; 데이터 <b>docs/v1/deals.json</b> "
+        "<p class=foot>생성 <b>design/build_filters.py</b> &middot; 데이터 <b>api.galmal.kr/v1/deals.json</b> "
         "&middot; 검색 바 <b>search.html</b> &middot; 확정 홈 <b>home.html</b></p>"
         "</div></body></html>"
         % (nb[0][1], nb[1][1], nb[2][1], nb[3][1]))

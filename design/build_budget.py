@@ -13,7 +13,9 @@ sys.path.insert(0, BASE)
 from _app import CSS
 from _fmt import money
 
-D = json.load(io.open(os.path.join(BASE, "..", "docs", "v1", "deals.json"), encoding="utf-8"))
+import sys as _sys, os as _os; _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import _data  # 제품 데이터는 공개 URL로 받는다 (SPLIT M6 T1pre)
+D = _data.deals()
 deals = D["deals"]
 N = len(deals)
 ps = sorted(d["price"] for d in deals)
@@ -245,7 +247,7 @@ html = ("<!doctype html><html lang=ko><head><meta charset=utf-8>"
         "붙여도 된다 &mdash; 칩이 슬라이더의 바로가기라 나중에 얹어도 구조가 안 깨진다.</p>"
         "<p class=note>&#9888; 이 세션엔 브라우저가 없어 실제 렌더를 못 본다. "
         "모바일 시트 높이가 지도를 얼마나 덮는지는 봐야 안다.</p>"
-        "<p class=foot>생성 <b>design/build_budget.py</b> &middot; 데이터 <b>docs/v1/deals.json</b> "
+        "<p class=foot>생성 <b>design/build_budget.py</b> &middot; 데이터 <b>api.galmal.kr/v1/deals.json</b> "
         "&middot; 날짜·예산 비교 <b>filters.html</b> &middot; 검색 바 <b>search.html</b></p>"
         "</div></body></html>")
 

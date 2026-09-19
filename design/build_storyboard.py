@@ -6,9 +6,11 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent  # design/ 의 상위 = 저장소 루트
 OUT = Path(__file__).resolve().parent / "storyboard.html"
 
-d3arr = (REPO / "docs/assets/d3-array.min.js").read_text(encoding="utf-8")
-d3geo = (REPO / "docs/assets/d3-geo.min.js").read_text(encoding="utf-8")
-world = (REPO / "docs/data/world.geojson").read_text(encoding="utf-8")
+import sys as _sys, os as _os; _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import _data  # 제품 데이터는 공개 URL로 받는다 (SPLIT M6 T1pre)
+d3arr = _data.site_text("assets/d3-array.min.js")
+d3geo = _data.site_text("assets/d3-geo.min.js")
+world = _data.site_text("data/world.geojson")
 
 APP = r"""
 var SVGNS="http://www.w3.org/2000/svg";

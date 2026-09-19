@@ -13,7 +13,9 @@ import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "design" / "card.html"
-D = json.loads((ROOT / "docs/v1/deals.json").read_text(encoding="utf-8"))
+import sys as _sys, os as _os; _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import _data  # 제품 데이터는 공개 URL로 받는다 (SPLIT M6 T1pre)
+D = _data.deals()
 
 WD = ["월", "화", "수", "목", "금", "토", "일"]
 STAMP_MIN = 15

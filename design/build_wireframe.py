@@ -12,10 +12,12 @@ import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "design" / "wireframe.html"
-d3a = (ROOT / "docs/assets/d3-array.min.js").read_text(encoding="utf-8")
-d3g = (ROOT / "docs/assets/d3-geo.min.js").read_text(encoding="utf-8")
-world = (ROOT / "docs/data/world.geojson").read_text(encoding="utf-8")
-D = json.loads((ROOT / "docs/v1/deals.json").read_text(encoding="utf-8"))
+import sys as _sys, os as _os; _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import _data  # 제품 데이터는 공개 URL로 받는다 (SPLIT M6 T1pre)
+d3a = _data.site_text("assets/d3-array.min.js")
+d3g = _data.site_text("assets/d3-geo.min.js")
+world = _data.site_text("data/world.geojson")
+D = _data.deals()
 
 sel = [x for x in D["deals"] if x["o"] == "SEL"]
 n_sel = len(sel)

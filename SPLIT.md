@@ -1370,9 +1370,9 @@ git rev-parse HEAD:data/prices.db
 
 | 순서 | 담당 | 내용 |
 |---|---|---|
-| **T0** | 백·프 | ✅ 선행 확인 — M5 첫 예약 실행(9/18 아침)이 **dispatch 1회로 오늘 날짜**를 구웠는가. 이게 통과하기 전엔 구형을 치우지 않는다(되돌릴 곳) |
+| **T0** | 백·프 | ✅ **2026-09-19 통과 (기획 실측).** 9/18·9/19 두 날 모두 예약 수집 → `repository_dispatch` **1회** → 배포 success, 수동 재전송 0. 라이브 `api_generated` == API `generated`(9/19 `09:17:44`). 프론트 스냅숏 검사 **재시도 0회** — 백엔드의 「신호 전 대기」(`654dc70`)가 먹었고 CDN 엣지 차이는 아직 한 번도 안 났다 |
 | **T0b** | 사용자 | ✅ **2026-09-17 결정: public.** 근거 `DECISIONS.md` 2026-09-17 (2). R8은 별도로 C안 확정(백엔드 BE10) — 공개 여부와 무관해졌다 |
-| **T1pre** | 기획 | 🔴 **`design/` 빌더를 파일 의존에서 URL 의존으로** — T1b보다 **먼저**. 아래 박스 |
+| **T1pre** | 기획 | ✅ **2026-09-19 완료.** `design/_data.py`(공개 URL 로더) + 빌더 22개 34줄 교체, `build_tags.py` 동결. **22개 전부 실제 URL로 실행 성공** — 새로 구워진 목업 23장은 스냅숏이라 되돌렸다. 로컬 파일 의존 0 |
 | **T1a** | 사용자 | 구형 Pages **끄기** (Settings → Pages → None). 옛 사이트가 github.io 주소로 계속 뜨면 검색엔진에 **중복 콘텐츠**다 |
 | **T1b** | 기획 | 구형에서 **코드·데이터·남의 문서 삭제 커밋**: `collector/ data/ docs/ site/ tests/ fixtures/ requirements.txt v.txt .github/workflows/` · `BACKEND.md FRONTEND.md BACKLOG.md`(새 저장소에 정본이 있다 — 사본은 갈린다). **이력은 남는다**. 기획 문서·`design/`만 남긴다 |
 | **T1c** | 기획 | `.gitattributes` 정규화 커밋(T4a에서 미룬 것) — **T1b와 섞지 않고 따로** |
