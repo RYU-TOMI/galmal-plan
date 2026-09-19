@@ -83,7 +83,7 @@ galmal-frontend deploy.yml
 | `CONTRACT.md` · `TAGS.md` | 계약·태그의 **이유와 원칙**(목록 정본은 `galmal-backend`) |
 | `DECISIONS.md` | 왜 그렇게 정했나 + 기각안 |
 | `PLAN.md` | 기획 작업 방식 · 함정 기록 |
-| `SPLIT.md` | 저장소 분리 M0~M6 기록 — **M6 T3에서 삭제**(이력에 남는다) |
+| ~~`SPLIT.md`~~ | 저장소 분리 M0~M6 기록 — **2026-09-19 삭제.** 전문은 `git show 810dafa:SPLIT.md` |
 | `design/` | 목업 — 글로 합의 안 되는 것만 |
 
 ### 미결은 한 곳에서 본다
