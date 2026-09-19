@@ -4,7 +4,7 @@
 > 세 세션 공통 규칙은 **`SESSIONS.md`**, 저장소별 규칙은 각 저장소의 `CLAUDE.md`. (규칙을 두 곳에 적으면 갈린다.)
 
 ## 한 줄 요약
-"시간 남는데 어디 싸게 갈까?"에 답하는 **항공권 특가 발견(discovery) 서비스**.
+"시간 남는데 어디 싸게 갈까?"에 답하는 **항공권 발견(discovery) 서비스**. (「특가」는 쓰지 않는다 — `SPEC.md` F19)
 목적지를 검색하는 게 아니라, 예산·기분으로 **목적지를 정해준다**. 한국 출발 전용.
 
 ## 저장소 셋 (2026-09-19~)
@@ -29,7 +29,7 @@
   수집 → 판정 → 메일 수집·파싱 → 알림 발송 → publish.py(docs/v1) → 커밋 → Pages(api.galmal.kr)
   → API가 새 값을 서빙하는지 확인 → repository_dispatch(client_payload.generated)
 galmal-frontend deploy.yml
-  v1 39개를 한 스냅숏으로 받는다(섞이면 배포 안 함) → site/build.py → Pages(galmal.kr) + build.json
+  v1 40개(meta·index·deals·vocab + 노선 36)를 한 스냅숏으로 받는다(섞이면 배포 안 함) → site/build.py → Pages(galmal.kr) + build.json
 다음 날 백엔드 상태 점검: API 신선도 · 사이트 build.json 일치 · 구독 주소
 ```
 
