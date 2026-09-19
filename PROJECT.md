@@ -25,7 +25,7 @@
 
 ## 하루의 흐름
 ```
-22:10 UTC 예약(실제 ~00:15Z) · galmal-backend collect.yml
+20:10 UTC(05:10 KST) 예약 — 2026-09-20~, 실제 시작은 GitHub 지연만큼 늦다 · galmal-backend collect.yml
   수집 → 판정 → 메일 수집·파싱 → 알림 발송 → publish.py(docs/v1) → 커밋 → Pages(api.galmal.kr)
   → API가 새 값을 서빙하는지 확인 → repository_dispatch(client_payload.generated)
 galmal-frontend deploy.yml
