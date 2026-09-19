@@ -1,37 +1,37 @@
-# 갈래말래 — 프로젝트 상태·로드맵·규칙
+# 갈래말래 — 프로젝트 지도·현황·운영 정보
 
-> 이 파일은 Claude(및 사람)가 세션 시작 시 프로젝트를 빠르게 파악하기 위한 단일 진실 문서다.
-> 작업 진행/방향 전환 때마다 갱신한다. 상세 리서치 히스토리는 Claude 메모리의
-> `flight-deal-site-research.md` 참조.
+> 세션 시작 시 프로젝트를 빠르게 파악하기 위한 **지도**다. 규칙은 여기 두지 않는다 —
+> 세 세션 공통 규칙은 **`SESSIONS.md`**, 저장소별 규칙은 각 저장소의 `CLAUDE.md`. (규칙을 두 곳에 적으면 갈린다.)
 
 ## 한 줄 요약
 "시간 남는데 어디 싸게 갈까?"에 답하는 **항공권 특가 발견(discovery) 서비스**.
 목적지를 검색하는 게 아니라, 예산·기분으로 **목적지를 정해준다**. 한국 출발 전용.
 
-## 작업 체제 — 3세션 분업 (2026-08-06~)
+## 저장소 셋 (2026-09-19~)
 
-> 🔴 **저장소 구조가 바뀌는 중이다 (2026-09-08~).** 아래 표는 **이전 전** 모습이다.
-> `promo-ticket-site` 하나 → `galmal-backend`(백) + `galmal-frontend`(프) + `galmal-plan`(문서) 셋.
-> 계획·단계·현황은 **`SPLIT.md`**, 결정 근거는 `DECISIONS.md` 2026-09-08 (1)(2)(3).
-> 새 계약은 `CONTRACT.md` §v1 API.
+| 저장소 | 세션 | 무엇 | 서빙 |
+|---|---|---|---|
+| [`galmal-plan`](https://github.com/RYU-TOMI/galmal-plan) | 기획 | 제품·스펙·결정 기록·계약의 **이유** · `design/` | — |
+| [`galmal-backend`](https://github.com/RYU-TOMI/galmal-backend) | 백엔드 | 수집·판정·**v1 API**·계약 정본 `contract/v1/`·크론 | `https://api.galmal.kr/v1/` |
+| [`galmal-frontend`](https://github.com/RYU-TOMI/galmal-frontend) | 프론트 | v1을 받아 화면을 굽는다 | `https://galmal.kr` |
 
-Claude 세션 3개가 **git worktree**로 나눠 작업한다. 담당 구역·규칙은 **`CLAUDE.md`**, 프론트↔백 인터페이스는 **`CONTRACT.md`**(deals.json 스키마)가 단일 출처.
+로컬: `개인 프로젝트/galmal-plan · galmal-backend · galmal-frontend`(형제). 세 저장소 모두 **공개**.
 
-| 세션 | 폴더 | 브랜치 |
-|---|---|---|
-| 기획 | `../galmal-plan` | `plan` |
-| 프론트 | `../galmal-frontend` | `frontend` |
-| 백엔드 | `../galmal-backend` | `backend` |
-| (통합) | `promo-ticket-site` | `main` — 크론이 매일 `data/`·`docs/`를 커밋한다. **배포 원본** |
+## 아키텍처 (핵심 원칙)
+- **정적 생성 + 서버 없음.** 백엔드는 JSON을, 프론트는 HTML을 미리 만든다 → GitHub Pages 두 곳. 비용은 도메인 외 $0.
+- **경계는 「데이터 / 화면」**: 백엔드는 사실(v1 JSON)만, 프론트는 말(화면)만. 창은 백엔드, 임계는 프론트(`DECISIONS.md` 2026-09-08).
+- **데이터는 URL로 건넨다** — 나중에 백엔드가 서버가 돼도 프론트 코드는 안 바뀐다. `design/` 목업도 같은 규칙.
+- 스택 고정: Python 정적 생성 + 순수 JS + 지도만 d3-geo(벤더링). Node/npm·프레임워크 없음.
 
-> 🔴 **누가 무엇을 소유하는지는 여기 안 적는다.** `CLAUDE.md` §「세션 3개와 담당 구역」이 단일 출처다.
-> 2026-09-16까지 이 표에 소유 열이 **복사본으로** 있었고, 같은 날 기획과 프론트가 각자 한쪽만
-> 고쳐 **이미 갈려 있었다.** 바로 윗줄이 「단일 출처는 `CLAUDE.md`」라고 말하는데도 그랬다 —
-> **출처를 선언하는 것만으로는 복사본이 안 사라진다. 복사본을 지워야 사라진다.**
-
-- 작업 전 `git merge origin/main`, 기능 단위로 main 병합(트렁크 기반, 브랜치 오래 끌지 않기).
-- `.env`는 gitignore라 worktree에 자동 복사되지 않음 → **백엔드 worktree에만 복사해 둠**(수집·빌드용).
-- 사용자가 세 세션을 오가며 조율. 결정·계약 변경은 **문서로 남기고** 반대편 세션에 전달.
+## 하루의 흐름
+```
+22:10 UTC 예약(실제 ~00:15Z) · galmal-backend collect.yml
+  수집 → 판정 → 메일 수집·파싱 → 알림 발송 → publish.py(docs/v1) → 커밋 → Pages(api.galmal.kr)
+  → API가 새 값을 서빙하는지 확인 → repository_dispatch(client_payload.generated)
+galmal-frontend deploy.yml
+  v1 39개를 한 스냅숏으로 받는다(섞이면 배포 안 함) → site/build.py → Pages(galmal.kr) + build.json
+다음 날 백엔드 상태 점검: API 신선도 · 사이트 build.json 일치 · 구독 주소
+```
 
 ## 제품 방향 (중요 — 2026-07-30 전환)
 - 초기엔 "특가 목록"이었으나, **발견(discovery)** 콘셉트로 전환.
@@ -40,35 +40,14 @@ Claude 세션 3개가 **git worktree**로 나눠 작업한다. 담당 구역·�
   클릭하면 실시간 예약처로 넘어감.
 - 메인 화면 = **인터랙티브 세계지도** (아래 로드맵 참조).
 
-## 아키텍처 (핵심 원칙)
-- **정적 사이트 + 서버 없음.** Python이 HTML/JSON을 미리 생성 → GitHub Pages 서빙. **비용 $0.**
-- **매일 아침 크론**(GitHub Actions, KST 07:10)이 수집→판정→파싱→발송→사이트생성 전부 자동.
-- 프론트 스택: **Python 정적 생성 + 순수 JS**. 지도만 **d3-geo**(브라우저 실행, 저장소에 벤더링).
-  **Node/npm 빌드 없음.** 프레임워크(React 등) 안 씀 — 규모·SEO·속도상 불필요.
-
-## 데이터 파이프라인 (2계층)
-1. **노선 상세(depth)**: `fetch_prices.py` — 26개 노선을 v3 API로 날짜별 깊게 수집 → `offers` 테이블.
+## 데이터 파이프라인 (2계층) — `galmal-backend`
+1. **노선 상세(depth)**: `fetch_prices.py` — 36개 노선을 v3 API로 날짜별 깊게 수집 → `offers` 테이블.
    특가 판정(`detect_deals.py`)·노선 상세 페이지·30일 히스토리 차트용.
 2. **광역 발견(breadth)**: `fetch_breadth.py` — 한국 전 공항(ICN/GMP/PUS/TAE/CJU)을 v2 API로
    공항당 1회 호출, 목적지당 최저가 → `broad_offers` 테이블. "어디 갈까" 발견 피드용.
    품질 필터: `dests.py` 사전에 있는 목적지 + 신선도 3일 이내만.
 - 메일: `mail_ingest.py`(수집, IMAP) → `parse_mail.py`(claude-haiku-4-5로 특가 추출) → `mail_deals`.
 - 구독: `subscriptions.py`(받은편지함=구독자 DB, PII 미저장) → `send_alerts.py`(Gmail SMTP 발송).
-
-## 주요 모듈 (collector/)
-| 파일 | 역할 |
-|---|---|
-| `config.py` | 노선 상세 수집 대상 26노선, 특가 판정 기준(중앙값의 65%) |
-| `dests.py` | 한국인 인기 목적지 ~90곳 사전 = 한글명+지역+분위기+haul. 발견 품질필터 겸용 |
-| `db.py` | SQLite 스키마. offers/broad_offers/mail_deals/emails/alert_log |
-| `fetch_prices.py` / `fetch_breadth.py` | 노선 상세 / 광역 발견 수집 |
-| `detect_deals.py` | 직항/경유 분리 시세 대비 급락 판정 |
-| `parse_mail.py` | 메일 본문 → 구조화 특가 (Claude API, Haiku, 제목 사전필터로 호출 절감) |
-| `subscriptions.py` / `send_alerts.py` | 구독자 계산 / 알림 발송 |
-| `affiliates.py` | 예약 링크 빌더 (Trip.com 미승인 → 현재 Aviasales 폴백) |
-| `labels.py` / `theme.py` / `charts.py` | 라벨·도시명 / CSS·페이지셸 / 의존성 없는 SVG 차트 |
-| `publish.py` | **백엔드 진입점**. `docs/v1/` JSON 4종 발행 (`meta`·`deals`·`routes/index`·`routes/{code}`) |
-| `site/build.py` | **프론트 진입점**(프론트 구역). v1 JSON → index + 노선 페이지 + sitemap/robots |
 
 ## 완료된 것 ✅
 - 데이터 수집·특가 판정·메일 파싱·구독 알림 파이프라인 (크론 매일 무결점 가동 중)
@@ -78,53 +57,34 @@ Claude 세션 3개가 **git worktree**로 나눠 작업한다. 담당 구역·�
 - **발견 홈 v1 (동작 중)**: 화면0 출발지 선택 · 지도 무대(핀·항로·거리 3단계·LOD) ·
   카드 피드(hero·정렬 3종) · 필터 도크(날짜·분위기·예산) · 확장 상세(시세 비교·예약처 4곳·광고 고지) · noscript 대체
 - **작업 체계 정립(2026-08-22)**: 3세션 모두 챕터제 — `PLAN.md`·`FRONTEND.md`, 미결은 `SPEC.md`·`BACKLOG.md`
+- **저장소 분리 M0~M6 (2026-09-08 ~ 09-19)** — 한 저장소 → `galmal-backend` · `galmal-frontend` · `galmal-plan`.
+  v1 API(`api.galmal.kr/v1`) 뒤로 데이터를 건네고, 화면은 프론트가 굽는다. 기록 `SPLIT.md`·`DECISIONS.md` 2026-09-08~09-17.
 
-## 현재 진행 — 세션별 챕터 현황판
+## 현재 — 세션별 현황
 
-> **로드맵은 각 세션 문서가 소유한다.** 여기는 현황만 본다.
-> 기획 `PLAN.md` §6 · 프론트 `FRONTEND.md` §6 · 백엔드 `BACKEND.md`(BE0~BE7 + 곁가지 BB1~).
-> (이전의 "파트1~6" 로드맵은 프론트 CH 체계와 이중화되어 **2026-08-22 폐기**했다.)
+> 로드맵은 각 세션 문서가 소유한다: 기획 `PLAN.md` · 백엔드 `galmal-backend/BACKEND.md` · 프론트 `galmal-frontend/FRONTEND.md`.
 
-| 세션 | 현재 | 다음 | 상태 |
-|---|---|---|---|
-| 기획 | PH0~PH6b ✅ | PH7 시즌 이벤트(10월 착수) | 이전 작업 중 |
-| 프론트 | **M2 ✅** 39/39 동등성 | M4에서 `site/` 이동 (CH6는 중단) | 대기 |
-| 백엔드 | **M1 ✅** v1 39개 발행 | **M3** (BE8은 중단) | 🔶 승인 대기 |
-
-> 🔴 **이전이 단일 트랙이다** (2026-09-08 사용자 지시 — "레포 나누는 거를 최우선으로").
-> 기능 챕터는 **전부 멈춘다**: 프론트 CH6·CH4 T7, 백엔드 BE8. **M6 후 재개.**
-> 이전 중 화면이 바뀌면 M2 기준선을 다시 잡아야 해 증명이 흐려진다. 근거는 `SPLIT.md` §7.
-
-### 저장소 분리 이전 — `SPLIT.md`
-
-| 단계 | 담당 | 상태 |
+| 세션 | 최근 | 다음 |
 |---|---|---|
-| **M0** 계약 확정 | 기획 | ✅ 2026-09-08 (`CONTRACT.md` §v1 · `DECISIONS.md` (1)(2)(3)) |
-| **M1** 백엔드 JSON 발행 | 백엔드 | ✅ 2026-09-08 (v1 39개 · 실측 대조 불일치 0) |
-| **M2** 프론트 화면 생성 · **동등성 증명** | 프론트 | ✅ 2026-09-09 (39/39 바이트 동일 · 기획 독립 검증) |
-| **M3** 스위치 · 백엔드 HTML 삭제 | 백 (+기획 T7) | 🔷 진행 중 (2026-09-11 재개) |
-| **M4** 저장소 분할 | 사용자+양쪽 | 대기 |
-| **M5** 도메인 이전 | 사용자 | 대기 |
-| **M6** 정리 · `CLAUDE.md` 재작성 | 사용자+기획 | 대기 |
+| 기획 | 저장소 분리 M0~M6 | **참조 데이터 v1 발행** 계약(`DECISIONS.md` 2026-09-17 완료 절) → PH7 시즌 이벤트 |
+| 백엔드 | BE9(테스트 신뢰성) · BE10(계약 목록 이전) | 참조 데이터 발행 · BE8 재개 |
+| 프론트 | M4 이동 · T6d 스냅숏 검사 | 참조 데이터로 손 사본 제거 · CH6 재개 · B43 |
 
-**규칙: 기획 챕터(PH)는 프론트 챕터(CH)보다 하나 앞선다.** 프론트가 "스펙이 없다"고 멈추면 기획의 실패다.
+**규칙: 기획 챕터(PH)는 프론트 챕터(CH)보다 하나 앞선다.** 이전 동안 멈췄던 기능 챕터(CH6·CH4 T7·BE8)는 M6 후 재개한다.
 
-### 문서 지도
-| 문서 | 역할 | 소유 |
-|---|---|---|
-| `PRODUCT.md` | 제품 본질 — 대상·목적·포지셔닝·원칙 | 기획 |
-| `IA.md` | 사이트맵·페이지 역할·URL·네비 | 기획 |
-| `FLOWS.md` | 유저 플로우·분기·실패 경로 | 기획 |
-| **`SPEC.md`** | **화면·상태 인벤토리 + 챕터별 확정 인터랙션 스펙** | 기획 |
-| `COPY.md` | 화면 문자열 전수 + 보이스 규칙 | 기획 |
-| `DESIGN.md` | 디자인 시스템(시각 언어) | 기획 |
-| `DECISIONS.md` | 왜 그렇게 정했나 + 기각안 | 기획 |
-| `CONTRACT.md` | deals.json 계약 | 기획(중재) |
-| `PLAN.md` | 기획 세션 작업 방식 | 기획 |
-| `FRONTEND.md` · `BACKLOG.md` | 프론트 작업 방식 · 미해결 목록 | 프론트 |
-| `BACKEND.md` | 백엔드 작업 방식 · 로드맵 BE0~BE7 · 곁가지 BB | 백엔드 |
-| **`SPLIT.md`** | **저장소 분리 이전 계획 M0~M6 (임시 — M6에서 삭제)** | 기획 |
-| `design/*.html` | 목업 — 글로 합의 안 되는 것만 | 기획 |
+### 문서 지도 (`galmal-plan`)
+| 문서 | 역할 |
+|---|---|
+| `SESSIONS.md` | **세 세션 공통 규칙**(한 벌) |
+| `PRODUCT.md` | 제품 본질 — 대상·목적·포지셔닝·원칙 |
+| `IA.md` · `FLOWS.md` | 사이트맵·URL / 유저 플로우·실패 경로 |
+| **`SPEC.md`** | 화면·상태 인벤토리 + 챕터별 확정 인터랙션 스펙 · §3 미결 |
+| `COPY.md` · `DESIGN.md` | 화면 문자열·보이스 / 시각 언어 |
+| `CONTRACT.md` · `TAGS.md` | 계약·태그의 **이유와 원칙**(목록 정본은 `galmal-backend`) |
+| `DECISIONS.md` | 왜 그렇게 정했나 + 기각안 |
+| `PLAN.md` | 기획 작업 방식 · 함정 기록 |
+| `SPLIT.md` | 저장소 분리 M0~M6 기록 — **M6 T3에서 삭제**(이력에 남는다) |
+| `design/` | 목업 — 글로 합의 안 되는 것만 |
 
 ### 미결은 한 곳에서 본다
 열린 결정은 **`SPEC.md` §3 미결 통합 목록**이 단일 출처다(현재 17건 + 프론트 실측 4건).
@@ -143,49 +103,25 @@ PROJECT.md에 열린 결정을 중복해 적지 않는다 — 두 곳에 적으�
 | `freshness.html` | 신선도 배지 확정 스펙 (2026-08-22) |
 
 ## 이후 백로그
-- 커스텀 도메인(galmal.kr 추천) → 구글 서치콘솔 등록 → 커뮤니티 시딩(뽐뿌 등)
+- ~~커스텀 도메인·서치콘솔~~ ✅(2026-09-05) → 커뮤니티 시딩(뽐뿌 등)
 - Trip.com 제휴 재신청(3개월 트래픽 후) — affiliates.py 코드는 대기 상태로 유지
 - 항공사 프로모션 페이지 크롤링(두 번째 LLM 파싱 사용처)
 
-## 작업 규칙 (반드시 지킬 것)
-1. **챕터 → 태스크 → 커밋.** 세션 1개 = 챕터 1개, 태스크 1개 = 커밋 1개.
-   챕터 시작 전 태스크 목록과 건드릴 파일을 승인받아 **스코프를 잠근다.**
-   작업 중 발견한 곁가지는 **고치지 말고** 적재소에 한 줄 남긴다(기획 `SPEC.md` 미결 / 프론트 `BACKLOG.md`).
-   → 상세는 `PLAN.md`·`FRONTEND.md`.
-2. **push 전 반드시 `git pull`.** 크론이 매일 `data/prices.db`·`docs/`를 커밋해 충돌 잦음.
-   충돌 시: 생성물은 **이름으로 집어 원격 것을 취한다** —
-   `git checkout origin/main -- docs/index.html docs/routes docs/v1 docs/sitemap.xml docs/robots.txt data/prices.db`.
-   🔴 `--theirs`를 쓰지 않는다(merge/rebase에서 가리키는 쪽이 반대다). 재빌드는 `.env`가 있는
-   **백엔드 worktree에서만** 하고, 커밋 전 「딜 수 == 제휴 링크 수」를 확인한다. 상세는 `CLAUDE.md`.
-3. **로컬 점검 방법** (서버 없이 가능):
-   - 개발 중: `docs/index.html` 브라우저로 열기. 단 `fetch()`는 `file://`서 CORS 막힘
-     → 개발 중엔 **JSON을 HTML에 인라인**하면 파일 열기로도 지도 확인 가능.
-   - 실배포 동일 확인: `python -m http.server 8000` → localhost:8000.
-   - 최종: GitHub Pages(반영 1~2분).
-4. **스택 고정**: Python 정적생성 + 순수 JS + 지도만 d3-geo(벤더링). Node/프레임워크 도입 금지.
-5. **빌드 진입점은 둘이다**(M3 T3, 2026-09-15~) — `collector/publish.py`(데이터→v1 JSON) →
-   `site/build.py --api docs/v1 --out docs`(v1→화면). 크론이 이 순서로 부르고 **둘 다 성공해야** `docs/`를 커밋한다.
-   새 페이지는 `site/` 쪽에 붙인다.
-6. **커밋 메시지에 `Co-Authored-By: Claude` 라인 포함.** 모델명은 세션이 받는 지시를 따른다(여기 박아두지 않는다).
-
-## 법적·보안 가드레일
-- **저장소는 공개다**(`galmal-plan` 포함, 2026-09-17 결정). **사업 민감 정보는 노션에** — 경쟁 분석·제휴 조건·매출 수치·지원사업 서류. 저장소에는 「어떻게·왜」만.
-- 타 비교사이트(네이버/스카이스캐너/플레이윙즈) **DB 크롤링 금지** (여기어때 판례, 민사 10억).
-  항공사 자사 공지·공식 API·제휴만 사용.
-- 제휴 링크: 제목 "(광고)" + 수수료 고지 필수(정보통신망법/공정위). 알림 메일에 수신거부 안내.
-- 가격 표시엔 "조회 시점 기준, 실제 가격은 예약처 확인" 문구(데이터 3일 지연).
-- **공개 저장소에 PII/시크릿 금지**: 구독자 이메일은 해시만(alert_log), 메일 본문은 로컬 전용
-  (`data/emails_raw.db` gitignore), `.env` gitignore.
+## 법적·보안
+규칙은 **`SESSIONS.md` §법적·보안**. 여기엔 배경만:
+- 타 비교사이트 DB 크롤링 금지의 근거 — 여기어때 판례(민사 10억).
+- 구독자 이메일은 해시만 저장(`alert_log`), 메일 본문은 로컬 전용(`data/emails_raw.db`, gitignore).
+- 가격은 데이터가 최대 수일 지연이라 「조회 시점 기준, 실제 가격은 예약처 확인」을 붙인다.
 
 ## 운영 정보
-- 저장소: https://github.com/RYU-TOMI/promo-ticket-site (공개) — **`SPLIT.md` M4에서 셋으로 나뉜다**
-- 사이트: **https://galmal.kr** (2026-09-05 전환, BE7). `docs/CNAME`이 정본이고 `theme.BASE_URL`과 일치해야 한다
-- 이전 후 예정: `galmal.kr`(프론트 Pages) · `api.galmal.kr`(백엔드 Pages → 나중에 자체 서버)
-- GitHub Secrets **5종(등록됨)**: `TP_TOKEN`, `MAIL_ADDRESS`, `MAIL_APP_PASSWORD`, `ANTHROPIC_API_KEY`, `TP_MARKER`
-- 🔴 **미등록 3종**: `TP_TRIP_TRS`, `TP_TRIP_P`, `TP_TRIP_CAMPAIGN` — Trip.com 제휴 파라미터.
-  없으면 Trip.com 링크가 수수료 없이 나간다(화면은 동일). **Travelpayouts에서 Trip.com 프로그램 승인 후** 등록한다.
-- **M4 재등록** — ✅ 5종은 `galmal-backend`의 **`production` 환경 시크릿**으로 옮겼다(2026-09-11).
-  변수 `SITE_URL`·`API_URL`은 **저장소 레벨**(공개값이라 환경에 넣으면 점검이 못 읽는다). 배포용 PAT는 M4 직전에 발급.
+- **도메인**: `galmal.kr`(가비아). apex A 4개 → GitHub(`185.199.108~111.153`), `api` CNAME → `ryu-tomi.github.io.`
+  - `galmal.kr` = `galmal-frontend` Pages(**Actions 배포** — 도메인은 Pages 설정에 저장, CNAME 파일 불필요)
+  - `api.galmal.kr` = `galmal-backend` Pages(**브랜치 배포** `main:/docs` — `docs/CNAME`이 있어야 한다)
+  - 도메인을 새로 붙였는데 `https_certificate`가 `null`이면 **기다리지 말고 제거→재등록**(2026-09-17 실측: 33분 무반응 → 재등록 25초)
+- **시크릿**: `galmal-backend`의 **`production` 환경**에만 6종 — `TP_TOKEN` · `TP_MARKER` · `MAIL_ADDRESS` · `MAIL_APP_PASSWORD` · `ANTHROPIC_API_KEY` · `DISPATCH_TOKEN`.
+  GitHub 시크릿은 **쓰기 전용** — 읽을 수 있는 사본은 로컬 `galmal-backend/.env`뿐이다(gitignore). 잃지 않는다.
+  - `DISPATCH_TOKEN`: fine-grained PAT, `galmal-frontend` 하나에 **Contents: Read and write**(Actions 아님), 만료 없음.
+  - 🔴 미등록 3종 `TP_TRIP_TRS`·`TP_TRIP_P`·`TP_TRIP_CAMPAIGN` — Trip.com 제휴 승인 후 등록. 없으면 Trip.com 링크가 수수료 없이 나간다.
+- **변수**(로그에 보여야 해서 vars): `galmal-backend` `API_URL=https://api.galmal.kr` · `SITE_URL=https://galmal.kr` / `galmal-frontend` `API_URL=https://api.galmal.kr/v1`.
 - 전용 메일: flightpromokr@gmail.com (항공사 뉴스레터 구독 + 구독 신청 접수)
-- 비용: 연 25,700원 — 도메인 `galmal.kr` 첫해 16,500원(갱신 23,100원) + 메일 파싱 API ~연 2,600원.
-  호스팅·Actions는 공개 저장소라 $0이고, 분리 후에도 **두 저장소 모두 공개**라 그대로 $0이다.
+- 비용: 연 25,700원 — 도메인 첫해 16,500원(갱신 23,100원) + 메일 파싱 API ~연 2,600원. 호스팅·Actions는 공개 저장소라 $0.
