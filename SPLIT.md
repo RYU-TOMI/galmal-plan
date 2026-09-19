@@ -1373,9 +1373,8 @@ git rev-parse HEAD:data/prices.db
 | **T0** | 백·프 | ✅ **2026-09-19 통과 (기획 실측).** 9/18·9/19 두 날 모두 예약 수집 → `repository_dispatch` **1회** → 배포 success, 수동 재전송 0. 라이브 `api_generated` == API `generated`(9/19 `09:17:44`). 프론트 스냅숏 검사 **재시도 0회** — 백엔드의 「신호 전 대기」(`654dc70`)가 먹었고 CDN 엣지 차이는 아직 한 번도 안 났다 |
 | **T0b** | 사용자 | ✅ **2026-09-17 결정: public.** 근거 `DECISIONS.md` 2026-09-17 (2). R8은 별도로 C안 확정(백엔드 BE10) — 공개 여부와 무관해졌다 |
 | **T1pre** | 기획 | ✅ **2026-09-19 완료.** `design/_data.py`(공개 URL 로더) + 빌더 22개 34줄 교체, `build_tags.py` 동결. **22개 전부 실제 URL로 실행 성공** — 새로 구워진 목업 23장은 스냅숏이라 되돌렸다. 로컬 파일 의존 0 |
-| **T1a** | 사용자 | 구형 Pages **끄기** (Settings → Pages → None). 옛 사이트가 github.io 주소로 계속 뜨면 검색엔진에 **중복 콘텐츠**다 |
-| **T1b** | 기획 | 구형에서 **코드·데이터·남의 문서 삭제 커밋**: `collector/ data/ docs/ site/ tests/ fixtures/ requirements.txt v.txt .github/workflows/` · `BACKEND.md FRONTEND.md BACKLOG.md`(새 저장소에 정본이 있다 — 사본은 갈린다). **이력은 남는다**. 기획 문서·`design/`만 남긴다 |
-| **T1c** | 기획 | `.gitattributes` 정규화 커밋(T4a에서 미룬 것) — **T1b와 섞지 않고 따로** |
+| **T1a** | 사용자 | ✅ **2026-09-19 완료.** Pages API 404 · `ryu-tomi.github.io/promo-ticket-site/` → 404 |
+| **T| **T1b** | 기획 | ✅ **2026-09-19 완료.** 172파일 삭제: `collector/ data/ docs/ site/ tests/ fixtures/ requirements.txt .github/workflows/ BACKEND.md FRONTEND.md BACKLOG.md`. **남긴 것**: 기획 문서 13개 · `design/` · 세션 도구(`.claude/`·`.github/skills`·`.github/hooks` — 제품 코드 아님). `v.txt`는 **지우지 않고** `design/far_density_measure.txt`로 옮겼다 — 목록에 넣을 땐 안 열어봤는데, 열어보니 제품 코드가 아니라 9/1~2 기획의 핀 밀도 측정 기록이었다 |T1c** | 기획 | `.gitattributes` 정규화 커밋(T4a에서 미룬 것) — **T1b와 섞지 않고 따로** |
 | T1 | 사용자 | `promo-ticket-site` → `galmal-plan` rename. **공개 유지**(T0b) |
 | T2 | 기획 | `CLAUDE.md`를 3레포 판으로 재작성. 🔴 **사본을 만들지 않는다** — 아래 |
 
