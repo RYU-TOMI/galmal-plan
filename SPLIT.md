@@ -1276,6 +1276,10 @@ git rev-parse HEAD:data/prices.db
 
 **DoD**: galmal.kr 정상 + https + 소유확인 유지. **다운타임이 있는 유일한 단계다.**
 
+> **표가 뭉개졌던 사고 (2026-09-19)** — T1a·T1b 두 행을 한 스크립트로 고치면서 **T1a를 먼저 바꾼 뒤,
+> 바꾸기 전에 잡아 둔 문자 위치로 T1b를 잘라 넣었다.** T1a 행 길이가 달라져 위치가 밀렸고, T1c 행이 통째로 먹혔다.
+> 에러 없이 커밋됐고, 다음 편집이 그 행을 못 찾아서야 드러났다. → **문자열을 고친 뒤엔 위치를 다시 잰다**(또는 뒤에서부터 고친다).
+
 #### ✅ M5 완료 — 2026-09-17 (기획 독립 검증)
 
 | 단계 | 결과 |
@@ -1374,7 +1378,8 @@ git rev-parse HEAD:data/prices.db
 | **T0b** | 사용자 | ✅ **2026-09-17 결정: public.** 근거 `DECISIONS.md` 2026-09-17 (2). R8은 별도로 C안 확정(백엔드 BE10) — 공개 여부와 무관해졌다 |
 | **T1pre** | 기획 | ✅ **2026-09-19 완료.** `design/_data.py`(공개 URL 로더) + 빌더 22개 34줄 교체, `build_tags.py` 동결. **22개 전부 실제 URL로 실행 성공** — 새로 구워진 목업 23장은 스냅숏이라 되돌렸다. 로컬 파일 의존 0 |
 | **T1a** | 사용자 | ✅ **2026-09-19 완료.** Pages API 404 · `ryu-tomi.github.io/promo-ticket-site/` → 404 |
-| **T| **T1b** | 기획 | ✅ **2026-09-19 완료.** 172파일 삭제: `collector/ data/ docs/ site/ tests/ fixtures/ requirements.txt .github/workflows/ BACKEND.md FRONTEND.md BACKLOG.md`. **남긴 것**: 기획 문서 13개 · `design/` · 세션 도구(`.claude/`·`.github/skills`·`.github/hooks` — 제품 코드 아님). `v.txt`는 **지우지 않고** `design/far_density_measure.txt`로 옮겼다 — 목록에 넣을 땐 안 열어봤는데, 열어보니 제품 코드가 아니라 9/1~2 기획의 핀 밀도 측정 기록이었다 |T1c** | 기획 | `.gitattributes` 정규화 커밋(T4a에서 미룬 것) — **T1b와 섞지 않고 따로** |
+| **T1b** | 기획 | ✅ **2026-09-19 완료.** 172파일 삭제: `collector/ data/ docs/ site/ tests/ fixtures/ requirements.txt .github/workflows/ BACKEND.md FRONTEND.md BACKLOG.md`. **남긴 것**: 기획 문서 13개 · `design/` · 세션 도구(`.claude/`·`.github/skills`·`.github/hooks` — 제품 코드 아님). `v.txt`는 **지우지 않고** `design/far_density_measure.txt`로 옮겼다 — 목록에 넣을 땐 안 열어봤는데, 열어보니 제품 코드가 아니라 9/1~2 기획의 핀 밀도 측정 기록이었다 |T1c** | 기획 | `.gitattributes` 정규화 커밋(T4a에서 미룬 것) — **T1b와 섞지 않고 따로** |
+| **T1c** | 기획 | ✅ **2026-09-19 완료.** `.gitattributes`(`* text=auto eol=lf` + 바이너리 5종, `9c7dc9f`). `git add --renormalize .` 결과 **바뀐 파일 0** — blob이 이미 전부 LF였다는 9/16 실측과 맞는다. 고치는 게 아니라 잠그는 커밋 |
 | T1 | 사용자 | `promo-ticket-site` → `galmal-plan` rename. **공개 유지**(T0b) |
 | T2 | 기획 | `CLAUDE.md`를 3레포 판으로 재작성. 🔴 **사본을 만들지 않는다** — 아래 |
 
