@@ -1,0 +1,9 @@
+# 줄바꿈은 LF로 잠근다 (SPLIT.md M6 T1c, 2026-09-19).
+# 커밋된 blob은 이미 전부 LF였다 — 이 파일은 고치려는 게 아니라 좋은 상태를 잠그는 것이다.
+# core.autocrlf=true + 규칙 파일 부재 상태에선 LF로 쓰는 도구 하나가 끼면 파일이 섞여 헛diff가 났다(BACKEND 94b1924).
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.ico binary
+*.pdf binary
+*.db binary
