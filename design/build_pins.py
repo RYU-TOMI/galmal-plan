@@ -14,7 +14,9 @@ sys.path.insert(0, BASE)
 from _app import CSS
 from _fmt import money
 
-D = json.load(io.open(os.path.join(BASE, "..", "docs", "v1", "deals.json"), encoding="utf-8"))
+import sys as _sys, os as _os; _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import _data  # 제품 데이터는 공개 URL로 받는다 (SPLIT M6 T1pre)
+D = _data.deals()
 SEL = sorted([d for d in D["deals"] if d["o"] == "SEL"], key=lambda x: x["price"])
 ORG = D["origins"]["SEL"]
 
@@ -237,7 +239,7 @@ html = ("<!doctype html><html lang=ko><head><meta charset=utf-8>"
         "5px 반투명이 실제로 충분히 조용한지는 <b>눈으로 봐야</b> 안다. "
         "위 목업은 같은 CSS를 쓰지만 무대가 실제(1000&times;680)보다 작아 "
         "<b>실제로는 더 성기게</b> 보인다.</p>"
-        "<p class=foot>생성 <b>design/build_pins.py</b> &middot; 데이터 <b>docs/v1/deals.json</b> "
+        "<p class=foot>생성 <b>design/build_pins.py</b> &middot; 데이터 <b>api.galmal.kr/v1/deals.json</b> "
         "&middot; 단계 설계 <b>stages.html</b> &middot; 스펙 <b>../SPEC.md</b> &sect;CH1</p>"
         "</div></body></html>")
 

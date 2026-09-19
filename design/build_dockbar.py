@@ -14,7 +14,9 @@ sys.path.insert(0, BASE)
 from _app import CSS, BOXES, DOCK_NAME, DOCK_H, MOODS_N
 from _scene import make_scene, covered, app
 
-D = json.load(io.open(os.path.join(BASE, "..", "docs", "v1", "deals.json"), encoding="utf-8"))
+import sys as _sys, os as _os; _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import _data  # 제품 데이터는 공개 URL로 받는다 (SPLIT M6 T1pre)
+D = _data.deals()
 ctx = make_scene(D)
 ALL, STAGE = ctx["ALL"], ctx["STAGE"]
 
@@ -105,7 +107,7 @@ html = ("<!doctype html><html lang=ko><head><meta charset=utf-8>"
         "<p class=note>분위기별 딜 수(실측): "
         + " &middot; ".join("<b>%s</b> %d곳" % (k, v) for k, v in MOODS_N.items()) + "</p>"
         "<p class=foot>생성 <b>design/build_dockbar.py</b> &middot; 셸 <b>design/_scene.py</b> &middot; "
-        "데이터 <b>docs/v1/deals.json</b> &middot; 위치 비교 <b>dock.html</b> &middot; "
+        "데이터 <b>api.galmal.kr/v1/deals.json</b> &middot; 위치 비교 <b>dock.html</b> &middot; "
         "확정 홈 <b>home.html</b></p>"
         "</div></body></html>")
 

@@ -14,7 +14,9 @@ sys.path.insert(0, BASE)
 from _app import CSS, MOODS_N
 from _fmt import TOP, SUB, money, tier
 
-D = json.load(io.open(os.path.join(BASE, "..", "docs", "v1", "deals.json"), encoding="utf-8"))
+import sys as _sys, os as _os; _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import _data  # 제품 데이터는 공개 URL로 받는다 (SPLIT M6 T1pre)
+D = _data.deals()
 deals = D["deals"]
 SEL = sorted([d for d in deals if d["o"] == "SEL"], key=lambda x: x["price"])
 
@@ -229,7 +231,7 @@ html = ("<!doctype html><html lang=ko><head><meta charset=utf-8>"
         "</ul>"
         "<p class=note>&#9888; <b>이 세션엔 브라우저가 없어 실제 렌더를 못 본다.</b> "
         "겹치거나 어색한 곳이 있으면 알려주면 고친다.</p>"
-        "<p class=foot>생성 <b>design/build_search.py</b> &middot; 데이터 <b>docs/v1/deals.json</b> &middot; "
+        "<p class=foot>생성 <b>design/build_search.py</b> &middot; 데이터 <b>api.galmal.kr/v1/deals.json</b> &middot; "
         "위치·크기 비교 <b>dockbar.html</b> &middot; 확정 홈 <b>home.html</b> &middot; "
         "스펙 <b>../SPEC.md</b></p>"
         "</div></body></html>")

@@ -136,6 +136,8 @@ NEW = {
 DROP = {"CGK"}
 
 # ---- 현행 dests.py 읽기 (이름·국가·haul, 그리고 옛 태그) ----
+raise SystemExit("동결 — collector/dests.py 소스를 텍스트로 파싱하던 빌더다. "
+                 "R8 C안(백엔드 BE10) 뒤 공개 URL로 옮긴다. SPLIT.md M6 T1pre")
 src = (ROOT / "collector/dests.py").read_text(encoding="utf-8")
 body = src[src.index("DEST = {"):]
 CUR = {}

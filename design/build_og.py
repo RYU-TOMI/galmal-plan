@@ -21,8 +21,10 @@ import json, io, os, sys, math, subprocess, shutil
 BASE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, BASE)
 
-D = json.load(io.open(os.path.join(BASE, "..", "docs", "v1", "deals.json"), encoding="utf-8"))
-W = json.load(io.open(os.path.join(BASE, "..", "docs", "data", "world.geojson"), encoding="utf-8"))
+import sys as _sys, os as _os; _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import _data  # 제품 데이터는 공개 URL로 받는다 (SPLIT M6 T1pre)
+D = _data.deals()
+W = json.loads(_data.site_text("data/world.geojson"))
 SEL = [d for d in D["deals"] if d["o"] == "SEL"]
 ORG = D["origins"]["SEL"]
 
