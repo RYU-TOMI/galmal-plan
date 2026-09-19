@@ -581,3 +581,51 @@ P7대로면 프론트가 만들어야 한다. **v1에서는 안 옮긴다.**
 - 구독 `mailto:` — **문구는 프론트가, 규약은 `meta.json`의 `subscribe`를 그대로 쓴다.**
   주소·제목·노선 표기를 프론트가 지어내면 구독이 「전 노선」으로 잘못 걸린다(위 §1 참조)
 - `dateModified`(JSON-LD) — `generated`의 UTC 날짜. 빌드 시각이 아니라 **데이터 생성 시각**이다
+
+---
+
+## 5) `GET /v1/vocab.json` — 참조 데이터 (2026-09-19 신설, 필드 **추가**라 안전)
+
+**왜**: 계약 목록의 정본을 백엔드 `contract/v1/`로 옮긴 뒤(R8), **프론트에 손 사본이 남았다** — 어떤 테스트도 보지 않는다.
+```
+discover.js TAG_TOP · home.py 분위기 칩     상위 태그 6
+discover.js WHEN_CHIPS · home.py 날짜 칩    when 고정값 5
+site/route.py REGION_NAME                   지역 표시명 9   ← v1이 코드만 주기 때문
+```
+백엔드가 태그 하나를 바꾸면 칩은 옛 이름으로 남고 **필터가 조용히 0건**이 된다. 이 응답은 그 목록을 **URL로 건네** 사본을 없앤다.
+
+**모양** — 정본 [`contract/v1/vocab.json`](https://github.com/RYU-TOMI/galmal-backend/blob/main/contract/v1/vocab.json)을 **그대로** 봉투에 넣고, 지역 표시명 하나만 더한다:
+```json
+{
+  "schema": "v1", "generated": "…",
+  "tags":   { "top": ["해변", …6], "sub": {"리조트": "해변", …18} },
+  "when":   { "fixed": ["이번 주말", "다음 주말", "이번 주", "이번 달", "다음 달"],
+             "patterns": [{"regex": "…", "rule": "…", "example": "…"}, …3] },
+  "region": ["jp", "cn", …9],
+  "region_name": { "jp": "일본", … },
+  "haul": ["short", "mid", "long"],
+  "tier": ["major", "minor"],
+  "hub":  ["SEL", "PUS", "TAE", "CJU"]
+}
+```
+- `$comment` 키는 뺀다(파일 속 설명이다). **그 외엔 `vocab.json`과 같아야 한다** — 생산자 테스트가 대조한다.
+- `region_name`의 정본은 [`collector/dests.py`](https://github.com/RYU-TOMI/galmal-backend/blob/main/collector/dests.py) `REGION_NAME`. 키 집합 == `region`(이미 양방향 대조 중).
+- **순서의 뜻**: `tags.top` = 필터 칩 순서 · `when.fixed` = 판정 순서이자 칩 순서. `region`의 순서는 **뜻이 없다** —
+  표시 순서가 필요하면 프론트가 정한다(그 목록은 사본이 아니라 순서 규칙이므로 아래 포괄 검사로 잠근다).
+- **스냅숏 규칙에 들어간다**: `generated == meta.generated`(§공통 규칙). 프론트 T6d의 대조 대상이 39 → **40개**가 된다.
+- **발행 전용**이다 — 이 응답으로 어휘를 **정하지** 않는다. 어휘 변경은 여전히 기획 결정 → 백엔드 `contract/` 수정.
+
+**소비자 규칙 (프론트)**
+- 손 사본 5개를 **이 응답으로 바꾼다.** 빌드가 이미 v1 전부를 받으므로 새 네트워크 경로는 없다.
+- **어휘를 키로 쓰는 프론트 전용 매핑은 남기되, 빠지면 빌드가 실패하게 한다**(포괄 검사). 조용한 폴백을 없애는 게 목적이다:
+  | 매핑 | 지금 빠지면 | 검사 |
+  |---|---|---|
+  | `TAG_GRAD` | 기본 색으로 폴백 | 모든 목적지가 색을 얻는다(`tags.top` 전부가 키에 있다 — 하위는 상위를 동반하므로 충분한지 프론트가 확인) |
+  | `HAUL2STAGE` | `|| "far"`로 폴백 | `haul` 전부가 키에 있다 |
+  | 지역 표시 순서(있다면) | 목록에서 빠짐 | `region` 전부가 목록에 있다 |
+  `when`의 「그 이후」 분기(`WHEN_CHIPS.indexOf(c.when) < 0`)는 `when.fixed`를 쓰면 **저절로 맞는다**.
+- `fixtures/v1/`에 `vocab.json`이 없다 — **라이브에서 받아 적는다**(손으로 쓰지 않는다). 기준선 픽스처 규칙 그대로.
+
+**범위 밖**: 도시별 배정(`DEST`)·좌표는 내보내지 않는다 — 딜에 이미 필요한 만큼 실려 있다.
+기획 `design/build_tags.py`(배정표 목업)는 동결을 유지한다.
+
