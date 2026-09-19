@@ -1380,7 +1380,7 @@ git rev-parse HEAD:data/prices.db
 | **T1a** | 사용자 | ✅ **2026-09-19 완료.** Pages API 404 · `ryu-tomi.github.io/promo-ticket-site/` → 404 |
 | **T1b** | 기획 | ✅ **2026-09-19 완료.** 172파일 삭제: `collector/ data/ docs/ site/ tests/ fixtures/ requirements.txt .github/workflows/ BACKEND.md FRONTEND.md BACKLOG.md`. **남긴 것**: 기획 문서 13개 · `design/` · 세션 도구(`.claude/`·`.github/skills`·`.github/hooks` — 제품 코드 아님). `v.txt`는 **지우지 않고** `design/far_density_measure.txt`로 옮겼다 — 목록에 넣을 땐 안 열어봤는데, 열어보니 제품 코드가 아니라 9/1~2 기획의 핀 밀도 측정 기록이었다 |T1c** | 기획 | `.gitattributes` 정규화 커밋(T4a에서 미룬 것) — **T1b와 섞지 않고 따로** |
 | **T1c** | 기획 | ✅ **2026-09-19 완료.** `.gitattributes`(`* text=auto eol=lf` + 바이너리 5종, `9c7dc9f`). `git add --renormalize .` 결과 **바뀐 파일 0** — blob이 이미 전부 LF였다는 9/16 실측과 맞는다. 고치는 게 아니라 잠그는 커밋 |
-| T1 | 사용자 | `promo-ticket-site` → `galmal-plan` rename. **공개 유지**(T0b) |
+| T1 | 사용자 | ✅ **2026-09-19 완료.** `galmal-plan`(공개). 로컬 원격도 새 이름으로(`git remote set-url`) |
 | T2 | 기획 | ✅ **2026-09-19 완료.** 공통 규칙 → `galmal-plan/SESSIONS.md` 한 벌. 각 저장소 `CLAUDE.md` = 그 저장소 규칙 + `@../galmal-plan/SESSIONS.md`. ⚠️ 가져오기 경로는 **T4(형제 폴더 배치) 뒤에** 풀린다 — 그 전엔 각 `CLAUDE.md`가 「직접 읽어라」로 안내 |
 
 > **T2의 함정 — `CLAUDE.md`도 공용 문서 사본이다** (프론트 지적, 2026-09-17).
@@ -1392,8 +1392,8 @@ git rev-parse HEAD:data/prices.db
 > (안 되면 차선: 공통 파일을 짧게 유지하고 각 `CLAUDE.md`가 「먼저 `../galmal-plan/SESSIONS.md`를 읽어라」로 가리킨다).
 > CI는 `CLAUDE.md`를 읽지 않으므로 R8과 달리 **로컬 경로 의존이 문제되지 않는다.**
 > ✅ 참고: 프론트 저장소의 `CONTRACT/COPY/TAGS` 사본은 `f85d16d`로 **삭제 완료.** 백엔드 사본은 테스트가 읽어 `0467a14`로 **동기화**(R8 근본 해결 전 임시).
-| T3 | 기획 | `PROJECT.md` 운영 정보 갱신, **이 문서 삭제** |
-| **T4** | 사용자+기획 | ✅ **①~④ 2026-09-19 완료** — 사용자가 `.env`를 새 백엔드로 복사(309B)하고 두 세션을 닫았다. 기획이 옛 worktree를 `_legacy-*`로 비키고(`worktree repair`), 새 클론을 `galmal-backend`·`galmal-frontend`로 옮겼다. `../galmal-plan/SESSIONS.md`가 두 저장소에서 풀린다. 새 백엔드는 `.env`를 무시·미추적(확인). **⑤⑥ 남음.** — **로컬 폴더 정리** — 순서가 전부다(백엔드 지적, 2026-09-19):<br>① 🔴 **`.env`를 새 백엔드 폴더로 옮긴다**(사용자가 직접 — 시크릿 파일이라 세션이 복사하지 않는다). 지금 `.env`는 **옛 worktree `galmal-backend/`와 `promo-ticket-site/`에만** 있고 새 클론엔 없다. GitHub 시크릿은 **쓰기 전용이라 다시 꺼낼 수 없어** `.env`가 유일하게 읽을 수 있는 사본이다. 새 `galmal-backend` 저장소는 `.gitignore:3`에서 `.env`를 무시한다(확인함)<br>② 백엔드·프론트 세션을 닫는다(셸이 폴더를 잡는다)<br>③ 옛 worktree `galmal-backend`·`galmal-frontend` → `_legacy-*`로 비킨다(**지우지 않는다**) → `git worktree repair`<br>④ `galmal/backend`·`galmal/frontend` → `galmal-backend`·`galmal-frontend` (형제 배치 — `@../galmal-plan/SESSIONS.md` 가져오기가 풀린다)<br>⑤ 새 폴더에서 세션을 다시 열고, 백엔드는 **`.env`로 재빌드 → 딜 수 == 제휴 링크 수** 확인<br>⑥ 확인이 끝나면 `_legacy-*`는 사용자가 지운다 |
+| T3 | 기획 | ✅ **2026-09-19 완료.** `PROJECT.md`를 3저장소 지도로 다시 썼다(규칙은 `SESSIONS.md`로 — 복사하지 않음). **이 문서는 다음 커밋에서 삭제한다** |
+| **T4** | 사용자+기획 | ✅ **①~④ 2026-09-19 완료** — 사용자가 `.env`를 새 백엔드로 복사(309B)하고 두 세션을 닫았다. 기획이 옛 worktree를 `_legacy-*`로 비키고(`worktree repair`), 새 클론을 `galmal-backend`·`galmal-frontend`로 옮겼다. `../galmal-plan/SESSIONS.md`가 두 저장소에서 풀린다. 새 백엔드는 `.env`를 무시·미추적(확인). **⑤ 통과** — 백엔드가 새 폴더 `.env`로 재빌드: 딜 137 == 제휴 링크 137, 생성물 되돌림·커밋 없음. **⑥(`_legacy-*` 삭제)은 사용자.** — **로컬 폴더 정리** — 순서가 전부다(백엔드 지적, 2026-09-19):<br>① 🔴 **`.env`를 새 백엔드 폴더로 옮긴다**(사용자가 직접 — 시크릿 파일이라 세션이 복사하지 않는다). 지금 `.env`는 **옛 worktree `galmal-backend/`와 `promo-ticket-site/`에만** 있고 새 클론엔 없다. GitHub 시크릿은 **쓰기 전용이라 다시 꺼낼 수 없어** `.env`가 유일하게 읽을 수 있는 사본이다. 새 `galmal-backend` 저장소는 `.gitignore:3`에서 `.env`를 무시한다(확인함)<br>② 백엔드·프론트 세션을 닫는다(셸이 폴더를 잡는다)<br>③ 옛 worktree `galmal-backend`·`galmal-frontend` → `_legacy-*`로 비킨다(**지우지 않는다**) → `git worktree repair`<br>④ `galmal/backend`·`galmal/frontend` → `galmal-backend`·`galmal-frontend` (형제 배치 — `@../galmal-plan/SESSIONS.md` 가져오기가 풀린다)<br>⑤ 새 폴더에서 세션을 다시 열고, 백엔드는 **`.env`로 재빌드 → 딜 수 == 제휴 링크 수** 확인<br>⑥ 확인이 끝나면 `_legacy-*`는 사용자가 지운다 |
 
 ---
 
@@ -1574,3 +1574,13 @@ M1이 승인을 기다리는 동안 프론트가 놀까 봐 CH6를 제안했다.
 
 **프론트는 놀지 않는다 — 할 일이 M2다.** M1을 기다리지 않고 착수할 수 있는 M2 태스크가 있다
 (아래 §M2 「M1 전에 할 수 있는 것」). 계약이 확정됐으므로 픽스처로 먼저 짤 수 있다.
+
+---
+
+## 🏁 이전 종료 — 2026-09-19
+
+M0(2026-09-08) → M6(2026-09-19), 12일. 한 저장소가 셋이 됐다: `galmal-backend`(v1 API) · `galmal-frontend`(화면) · `galmal-plan`(문서).
+라이브는 한 번도 틀린 데이터를 서빙하지 않았다 — 가장 가까웠던 건 M5 6번의 dispatch 경합(자동 경로가 어제 값으로 구움)이었고
+수동 재전송으로 복구한 뒤 `654dc70`(보내기 전 대기) + T6d(받은 뒤 대조)로 막았다. 첫 이틀 예약 실행은 재시도 0회.
+
+이 문서는 여기서 끝나고 삭제된다. 교훈은 `PLAN.md` 함정 6~11, 결정은 `DECISIONS.md` 2026-09-08 ~ 09-17에 있다.
