@@ -1381,7 +1381,7 @@ git rev-parse HEAD:data/prices.db
 | **T1b** | 기획 | ✅ **2026-09-19 완료.** 172파일 삭제: `collector/ data/ docs/ site/ tests/ fixtures/ requirements.txt .github/workflows/ BACKEND.md FRONTEND.md BACKLOG.md`. **남긴 것**: 기획 문서 13개 · `design/` · 세션 도구(`.claude/`·`.github/skills`·`.github/hooks` — 제품 코드 아님). `v.txt`는 **지우지 않고** `design/far_density_measure.txt`로 옮겼다 — 목록에 넣을 땐 안 열어봤는데, 열어보니 제품 코드가 아니라 9/1~2 기획의 핀 밀도 측정 기록이었다 |T1c** | 기획 | `.gitattributes` 정규화 커밋(T4a에서 미룬 것) — **T1b와 섞지 않고 따로** |
 | **T1c** | 기획 | ✅ **2026-09-19 완료.** `.gitattributes`(`* text=auto eol=lf` + 바이너리 5종, `9c7dc9f`). `git add --renormalize .` 결과 **바뀐 파일 0** — blob이 이미 전부 LF였다는 9/16 실측과 맞는다. 고치는 게 아니라 잠그는 커밋 |
 | T1 | 사용자 | `promo-ticket-site` → `galmal-plan` rename. **공개 유지**(T0b) |
-| T2 | 기획 | `CLAUDE.md`를 3레포 판으로 재작성. 🔴 **사본을 만들지 않는다** — 아래 |
+| T2 | 기획 | ✅ **2026-09-19 완료.** 공통 규칙 → `galmal-plan/SESSIONS.md` 한 벌. 각 저장소 `CLAUDE.md` = 그 저장소 규칙 + `@../galmal-plan/SESSIONS.md`. ⚠️ 가져오기 경로는 **T4(형제 폴더 배치) 뒤에** 풀린다 — 그 전엔 각 `CLAUDE.md`가 「직접 읽어라」로 안내 |
 
 > **T2의 함정 — `CLAUDE.md`도 공용 문서 사본이다** (프론트 지적, 2026-09-17).
 > 지금 세 저장소에 같은 `CLAUDE.md`가 딸려 가 있다. R8(`CONTRACT.md` 사본이 첫날 2KB 갈림)과 **같은 병**인데,
