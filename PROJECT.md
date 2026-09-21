@@ -30,7 +30,7 @@
   수집 → 판정 → 메일 수집·파싱 → 알림 발송 → publish.py(docs/v1) → 커밋 → Pages(api.galmal.kr)
   → API가 새 값을 서빙하는지 확인 → repository_dispatch(client_payload.generated)
 galmal-frontend deploy.yml
-  v1 40개(meta·index·deals·vocab + 노선 36)를 한 스냅숏으로 받는다(섞이면 배포 안 함) → site/build.py → Pages(galmal.kr) + build.json
+  v1 47개(meta·index·deals·vocab + 노선 43)를 한 스냅숏으로 받는다(섞이면 배포 안 함) → site/build.py → Pages(galmal.kr) + build.json
 다음 날 백엔드 상태 점검: API 신선도 · 사이트 build.json 일치 · 구독 주소
 ```
 
@@ -42,7 +42,7 @@ galmal-frontend deploy.yml
 - 메인 화면 = **인터랙티브 세계지도** (아래 로드맵 참조).
 
 ## 데이터 파이프라인 (2계층) — `galmal-backend`
-1. **노선 상세(depth)**: `fetch_prices.py` — 36개 노선을 v3 API로 날짜별 깊게 수집 → `offers` 테이블.
+1. **노선 상세(depth)**: `fetch_prices.py` — 43개 노선을 v3 API로 날짜별 깊게 수집 → `offers` 테이블.
    특가 판정(`detect_deals.py`)·노선 상세 페이지·30일 히스토리 차트용.
 2. **광역 발견(breadth)**: `fetch_breadth.py` — 한국 전 공항(ICN/GMP/PUS/TAE/CJU)을 v2 API로
    공항당 1회 호출, 목적지당 최저가 → `broad_offers` 테이블. "어디 갈까" 발견 피드용.
