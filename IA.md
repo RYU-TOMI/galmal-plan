@@ -46,10 +46,10 @@ graph LR
 |---|---|---|---|
 | 홈 | `/` | | |
 | 노선 | `/routes/{출발IATA}-{도착IATA}.html` | `/routes/ICN-DAD.html` | `config.ROUTES` (백엔드) |
-| 절대 URL | `BASE_URL` 상수 | `https://ryu-tomi.github.io/promo-ticket-site` | `theme.py` |
+| 절대 URL | `BASE_URL` 상수 | `https://galmal.kr` | 프론트 `site/shell.py` |
 
 - 노선 코드는 **실제 공항 코드**(`ICN`·`GMP`)다. 홈의 `SEL`(서울 통합 가상 허브)과 다르다 — `CONTRACT.md` 참조.
-- 커스텀 도메인(`galmal.kr`) 도입 시 `BASE_URL` 한 곳만 바꾸면 된다. (백로그)
+- 도메인은 `BASE_URL` 한 곳에서만 정한다(2026-09 `galmal.kr` 도입 때 그 한 곳만 바꿨다). 백엔드는 사이트 주소를 모른다 — `CONTRACT.md` §경계.
 
 ## 4. 네비게이션 모델 — 현재 상태와 구멍
 

@@ -33,10 +33,10 @@
 
 ## `design/` 목업
 - 빌더(`design/build_*.py`)는 제품에 **공개 URL로** 기댄다 — `design/_data.py`가 `api.galmal.kr/v1` · `galmal.kr`에서 받는다.
-  **저장소 안 파일 경로로 제품 데이터를 읽지 않는다**(M6 T1pre).
+  **저장소 안 파일 경로로 제품 데이터를 읽지 않는다**(2026-09-19~).
 - 이미 만든 목업 HTML은 **그날 결정의 스냅숏**이다. 본문에 그날 수치가 적혀 있어 새 데이터로 다시 굽지 않는다.
   빌더를 검증하려고 돌렸으면 산출물은 되돌린다.
-- `build_tags.py`는 동결 — 참조 데이터가 v1으로 발행되면 URL로 옮겨 푼다.
+- `build_tags.py`는 동결 — 어휘는 `/v1/vocab.json`으로 나오지만 **도시별 배정(`DEST`)은 v1 범위 밖**이라 받을 URL이 없다(`CONTRACT.md` §5).
 
 ## git
 - 크론이 없어 충돌이 드물다. 작업 전 `git fetch && git merge origin/main`, 작게 자주 커밋해 main에 반영한다.
