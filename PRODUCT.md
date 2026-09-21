@@ -414,8 +414,8 @@ GitHub Pages가 `*.github.io → 커스텀 도메인` 리다이렉트를 자동�
 
 ## Evidence on Hand
 
-- 실제 가동 중인 파이프라인·데이터: `data/prices.db`(offers/broad_offers/mail_deals 등),
-  노선 26 + 광역 목적지 ~90(dests.py). 사이트: https://ryu-tomi.github.io/promo-ticket-site/
+- 실제 가동 중인 파이프라인·데이터: 백엔드 저장소의 `data/prices.db`(offers/broad_offers/mail_deals 등),
+  노선 페이지 43(2026-09-21) + 광역 목적지 ~90(`dests.py`). 사이트: https://galmal.kr · API: https://api.galmal.kr/v1/
 - 항공사 프로모션 메일 실수신·LLM 파싱 결과 축적 중.
 - 아직 없는 것(날조 금지): 방문자·구독자 실적(현재 0), 매출, 사용자 후기, 제휴 승인(Trip.com).
 - ✅ **2026-09-02: `TP_MARKER` 등록 완료.** 내일 07:10 KST 크론부터 **Aviasales 링크에 마커가 붙어

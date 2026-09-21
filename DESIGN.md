@@ -12,7 +12,7 @@
 > | 왜 그렇게 정했나 | `DECISIONS.md` |
 > | 제품 본질 | `PRODUCT.md` |
 >
-> 코드 토큰은 `docs/assets/discover.css`(홈)와 `collector/theme.py`(노선 페이지).
+> 코드 토큰은 프론트 저장소의 `public/assets/discover.css`(홈)와 `site/shell.py`(노선 페이지).
 > **불일치가 생기면 구현값이 정본이다** — 실제 화면에서 조정된 값이 더 옳다.
 
 ## 원칙
@@ -142,7 +142,7 @@
 - **Natural Earth 50m** + DP 단순화 (`docs/data/world.geojson`, 182 features, ~161KB).
 - **왜 50m인가**: 110m에는 **제주·오키나와·괌·발리·푸켓 같은 섬이 아예 없어서 핀이 바다에 뜬다.**
   (2026-08-22 확인: 현재 파일은 이미 50m본이다. 이전 문서의 "110m 축소본 — 50m 준비 필요" 서술은 **오기였고 삭제**했다.)
-- 렌더: `d3-geo`의 `geoEquirectangular` + `geoPath`. 벤더링 `docs/assets/d3-geo.min.js` + `d3-array.min.js`
+- 렌더: `d3-geo`의 `geoEquirectangular` + `geoPath`. 벤더링 — 프론트 `public/assets/d3-geo.min.js` + `d3-array.min.js`
   (전역 `d3`, **로드 순서 중요**). 런타임 CDN 의존 0.
 
 ### 색·선
