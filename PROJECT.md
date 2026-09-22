@@ -25,8 +25,10 @@
 
 ## 하루의 흐름
 ```
-20:10 UTC(05:10 KST) 예약 — 2026-09-20~, 실제 시작은 GitHub 지연만큼 늦다 · galmal-backend collect.yml
-  (1회 관측 2026-09-19: 시작 22:18Z = 지연 2시간 8분 → 사이트 갱신 07:19 KST. 한 번 잰 값이라 범위가 아니다)
+하루 두 번 예약 — 2026-09-22~ · galmal-backend collect.yml
+  주 실행 14:10 UTC(23:10 KST) · 예비 18:10 UTC(03:10 KST, 그날 발행이 이미 있으면 즉시 끝난다 — 주 실행이 큐에서 버려진 날만 일한다)
+  실제 시작은 GitHub 큐 지연만큼 늦다(커밋 80건 실측 중앙값: 7월 58분 · 8월 41분 · 9월 121분 — 시간대를 옮겨도 안 줄었다).
+  새 슬롯의 실제 시작 시각은 아직 관측 0회. 사이트 갱신은 KST 새벽 2시 무렵이 될 것으로 본다(관측 뒤 고친다)
   수집 → 판정 → 메일 수집·파싱 → 알림 발송 → publish.py(docs/v1) → 커밋 → Pages(api.galmal.kr)
   → API가 새 값을 서빙하는지 확인 → repository_dispatch(client_payload.generated)
 galmal-frontend deploy.yml
