@@ -61,7 +61,7 @@ galmal-plan      목업 빌더(design/)도 같은 공개 URL 을 읽는 손님 �
 | [`DESIGN.md`](DESIGN.md) | 시각 언어 — 색 · 타이포 · 컴포넌트 · 지도 스타일 |
 | [`COPY.md`](COPY.md) | 화면 문자열 전수와 보이스 규칙 — 없는 문자열은 지어내지 않습니다 |
 | [`CONTRACT.md`](CONTRACT.md) · [`TAGS.md`](TAGS.md) | 프론트↔백엔드 계약과 태그 어휘의 **이유와 원칙** |
-| [`DECISIONS.md`](DECISIONS.md) | **왜 그렇게 정했나, 무엇을 기각했나.** 뒤집은 결정도 지우지 않고 뒤집힌 이유와 함께 남깁니다 |
+| [`DECISIONS.md`](DECISIONS.md) · [`decisions/`](decisions/) | **왜 그렇게 정했나, 무엇을 기각했나**(색인 + 달별 본문). 뒤집은 결정도 지우지 않고 뒤집힌 이유와 함께 남깁니다 |
 | [`PLAN.md`](PLAN.md) | 기획 작업 방식과 **함정 기록** — 실제로 틀린 적이 있는 확인 방법들 |
 | [`SESSIONS.md`](SESSIONS.md) | 세 저장소 공통 작업 규칙(한 벌 — 각 저장소 `CLAUDE.md`가 가져옵니다) |
 
