@@ -20,6 +20,7 @@
 | `CONTRACT.md` | 프론트↔백엔드 계약의 **이유와 원칙**. 필드·어휘 목록의 정본은 `galmal-backend/contract/v1/` |
 | `TAGS.md` | 태그 어휘·배정의 **원칙**. 배정 정본은 `galmal-backend/collector/dests.py` |
 | `DECISIONS.md` | **왜 그렇게 정했나 + 기각된 대안**의 **색인**. 본문은 `decisions/YYYY-MM.md` — 새 결정은 거기 끝에 붙이고 색인에 한 줄. 폐기된 길을 다시 파기 전에 확인 |
+| `TODAY.md` | **오늘의 판** — 사용자가 할 것 · 세션별 지금 · 배포 · 결정 · 세션 간 대화 요지. 메시지 하나 처리할 때마다 갱신, 갱신 시각 필수 |
 | `PLAN.md` | 기획 작업 방식 · 챕터 · **함정 기록** |
 | `SESSIONS.md` | 세 세션 공통 규칙(한 벌) |
 
