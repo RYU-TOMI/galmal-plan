@@ -71,17 +71,67 @@ def info(titles):
     return out
 
 
+BEACH = ("몰디브","보홀","푸켓","괌","사이판","발리","세부","보라카이","오키나와","나트랑","푸꾸옥","싼야","나디","코타키나발루","호놀룰루","제주","다낭")
+BAD2 = re.compile(r"painting|drawing|print|engraving|ukiyo|woodblock|sketch|illustration|engine|motor|interior|museum|"
+                  r"artwork|lithograph|watercolor|montage|collage|book|page|scan|manuscript|bombing|air raid|war|"
+                  r"1[0-8]\d\d|19[0-7]\d|rooftop|garden|roof", re.I)
+
+
+def cat_members(cat, n=40):
+    r = api({"action": "query", "list": "categorymembers", "cmtitle": "Category:" + cat, "cmnamespace": 6,
+             "cmtype": "file", "cmlimit": n})
+    return [x["title"] for x in r.get("query", {}).get("categorymembers", [])]
+
+
+def wiki_lead(en):
+    """en.wikipedia 문서의 대표 사진 파일명 — 사람이 고른 사진이라 잡음이 적다."""
+    url = "https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode(
+        {"action": "query", "prop": "pageimages", "piprop": "name", "titles": en, "redirects": 1, "format": "json", "formatversion": "2"})
+    req = urllib.request.Request(url, headers=UA)
+    with urllib.request.urlopen(req, timeout=40) as r:
+        j = json.load(r)
+    for pg in j.get("query", {}).get("pages", []):
+        n = pg.get("pageimage")
+        if n: return "File:" + n
+    return None
+
+
+def good(rows):
+    out = [r for r in rows if OK_LIC.match(r["license"]) and r["mime"] in ("image/jpeg", "image/png")
+           and r["w"] >= 1200 and r["w"] > r["h"] * 1.15 and not BAD.search(r["title"]) and not BAD2.search(r["title"])
+           and not BAD2.search(r["desc"]) and r["thumb"]]
+    def rank(r):  # 오래된 흑백(PD)이 위로 오는 걸 막는다 — 최신 CC 를 앞에, PD 는 맨 뒤
+        Lc = r["license"].upper()
+        return (2 if Lc.startswith("PUBLIC") else 0 if ("4.0" in Lc or Lc.startswith("CC0")) else 1, -min(r["w"], 4000))
+    out.sort(key=rank)
+    return out
+
+
 def pick(ko, en):
-    cands = []
-    for q in (f'"{en}" skyline', f'"{en}" cityscape', f'"{en}" beach' if any(k in ko for k in ("몰디브","보홀","푸켓","괌","사이판","발리","세부","보라카이","오키나와","나트랑","푸꾸옥","싼야","나디","코타키나발루","호놀룰루","제주","다낭")) else f'"{en}" panorama'):
-        for t in search(q):
-            if t not in [c for c in cands]: cands.append(t)
-        if len(cands) >= 20: break
-    rows = info(cands[:20])
-    good = [r for r in rows if OK_LIC.match(r["license"]) and r["mime"] in ("image/jpeg", "image/png")
-            and r["w"] >= 1200 and r["w"] > r["h"] * 1.15 and not BAD.search(r["title"]) and r["thumb"]]
-    good.sort(key=lambda r: (0 if r["license"].upper().startswith(("CC0", "PUBLIC")) else 1, -min(r["w"], 4000)))
-    return good[:3]
+    city = en.replace(" City", "").replace(" Fiji", "").replace(" Island", "")
+    pool = []
+    cats = [f"Skylines of {city}", f"Cityscapes of {city}", f"Panoramas of {city}", f"Views of {city}", f"Aerial photographs of {city}"]
+    if any(k in ko for k in BEACH): cats = [f"Beaches of {city}", f"Beaches in {city}", f"Coasts of {city}"] + cats
+    for c in cats:
+        try: pool += [t for t in cat_members(c) if t not in pool]
+        except Exception: pass
+        if len(pool) >= 40: break
+    rows = []
+    for i in range(0, min(len(pool), 40), 20): rows += info(pool[i:i+20])
+    g = good(rows)
+    try:
+        lead = wiki_lead(en)
+        if lead:
+            lr = good(info([lead]))
+            if lr and lr[0]["title"] not in [x["title"] for x in g]: g = lr + g   # 대표 사진을 맨 앞에
+    except Exception: pass
+    if len(g) < 3:
+        cands = []
+        for q in (f'"{city}" skyline', f'"{city}" cityscape', f'"{city}" beach' if any(k in ko for k in BEACH) else f'"{city}" panorama'):
+            try: cands += [t for t in search(q) if t not in cands and t not in pool]
+            except Exception: pass
+        g += [r for r in good(info(cands[:20])) if r["title"] not in [x["title"] for x in g]]
+    return g[:3]
 
 
 def main():
