@@ -1,0 +1,3389 @@
+{
+ "generated": "2026-09-28T03:18:50+09:00",
+ "source": "Wikimedia Commons",
+ "cities": {
+  "가고시마": {
+   "codes": [
+    "KOJ"
+   ],
+   "en": "Kagoshima",
+   "chosen": {
+    "title": "File:Kagoshima cityscape 2013-03-17.jpg",
+    "w": 4896,
+    "h": 3672,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Kagoshima_cityscape_2013-03-17.jpg/960px-Kagoshima_cityscape_2013-03-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kagoshima_cityscape_2013-03-17.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Dick Thomas Johnson",
+    "desc": "Cityscape of Kagoshima City, with Kagoshima Bay in the background."
+   },
+   "alternates": [
+    {
+     "title": "File:2013-03-22 Cityscape of Kagoshima.jpg",
+     "w": 10982,
+     "h": 3011,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/2013-03-22_Cityscape_of_Kagoshima.jpg/960px-2013-03-22_Cityscape_of_Kagoshima.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2013-03-22_Cityscape_of_Kagoshima.jpg",
+     "license": "CC BY-SA 2.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+     "author": "A_CUVE",
+     "desc": "鹿児島パノラマ（曇天）"
+    },
+    {
+     "title": "File:Kagoshima Cityscape and trees 15.jpg",
+     "w": 4032,
+     "h": 3024,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Kagoshima_Cityscape_and_trees_15.jpg/960px-Kagoshima_Cityscape_and_trees_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Kagoshima_Cityscape_and_trees_15.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Immanuelle",
+     "desc": "Japan photo to be renamed"
+    }
+   ]
+  },
+  "가오슝": {
+   "codes": [
+    "KHH"
+   ],
+   "en": "Kaohsiung",
+   "chosen": {
+    "title": "File:Kaohsiung skyline from Pier 2 Art District.jpg",
+    "w": 4752,
+    "h": 3168,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Kaohsiung_skyline_from_Pier_2_Art_District.jpg/960px-Kaohsiung_skyline_from_Pier_2_Art_District.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kaohsiung_skyline_from_Pier_2_Art_District.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Jirka Matousek",
+    "desc": "Skyline of Kaohsiung harbor from Pier 2 Art District, Kaohsiung, Taiwan in 2018"
+   },
+   "alternates": [
+    {
+     "title": "File:Mid-night cityscape of downtown Kaohsiung 02.jpg",
+     "w": 4032,
+     "h": 3024,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Mid-night_cityscape_of_downtown_Kaohsiung_02.jpg/960px-Mid-night_cityscape_of_downtown_Kaohsiung_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Mid-night_cityscape_of_downtown_Kaohsiung_02.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Tbatb",
+     "desc": "​高雄市區半夜都市景觀。"
+    },
+    {
+     "title": "File:Mid-night cityscape of downtown Kaohsiung 06.jpg",
+     "w": 4032,
+     "h": 3024,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Mid-night_cityscape_of_downtown_Kaohsiung_06.jpg/960px-Mid-night_cityscape_of_downtown_Kaohsiung_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Mid-night_cityscape_of_downtown_Kaohsiung_06.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Tbatb",
+     "desc": "​高雄市區半夜都市景觀。"
+    }
+   ]
+  },
+  "고마쓰": {
+   "codes": [
+    "KMQ"
+   ],
+   "en": "Kanazawa",
+   "chosen": {
+    "title": "File:Avond panorama op de acht gezichten op Kanazawa in de provincie Musashi Buyo Kanazawa hassho yakei (titel op object) Sneeuw, maan en bloemen (serietitel) Setsugekka (serietitel), RP-P-1956-802.jpg",
+    "w": 11458,
+    "h": 5768,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Avond_panorama_op_de_acht_gezichten_op_Kanazawa_in_de_provincie_Musashi_Buyo_Kanazawa_hassho_yakei_%28titel_op_object%29_Sneeuw%2C_maan_en_bloemen_%28serietitel%29_Setsugekka_%28serietitel%29%2C_RP-P-1956-802.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Avond_panorama_op_de_acht_gezichten_op_Kanazawa_in_de_provincie_Musashi_Buyo_Kanazawa_hassho_yakei_(titel_op_object)_Sneeuw,_maan_en_bloemen_(serietitel)_Setsugekka_(serietitel),_RP-P-1956-802.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Rijksmuseum",
+    "desc": "IdentificatieTitel(s): Avond panorama op de acht gezichten op Kanazawa in de provincie Musashi. Buyo Kanazawa hassho yakei (titel op object)"
+   },
+   "alternates": [
+    {
+     "title": "File:Utagawa (Ando) Hiroshige (1797-1858), Panorama van de acht beroemde Dorps- en stadsgezichten bij Kanazawa bij volle maan (1857).jpg",
+     "w": 2383,
+     "h": 1218,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Utagawa_%28Ando%29_Hiroshige_%281797-1858%29%2C_Panorama_van_de_acht_beroemde_Dorps-_en_stadsgezichten_bij_Kanazawa_bij_volle_maan_%281857%29.jpg/960px-Utagawa_%28Ando%29_Hiroshige_%281797-1858%29%2C_Panorama_van_de_acht_beroemde_Dorps-_en_stadsgezichten_bij_Kanazawa_bij_volle_maan_%281857%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Utagawa_(Ando)_Hiroshige_(1797-1858),_Panorama_van_de_acht_beroemde_Dorps-_en_stadsgezichten_bij_Kanazawa_bij_volle_maan_(1857).jpg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Utagawa Hiroshige",
+     "desc": "Utagawa (Ando) Hiroshige (1797-1858), Panorama of the 8 famous views of towns and villages near Kanazawa. Collection of Japanese prints of C"
+    },
+    {
+     "title": "File:Ishikawa Seibu-pano.jpg",
+     "w": 7673,
+     "h": 2139,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Ishikawa_Seibu-pano.jpg/960px-Ishikawa_Seibu-pano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ishikawa_Seibu-pano.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Kanko3131",
+     "desc": "The panoramic photograph of Ishikawa Athletics Stadium , J2 League , Zweigen Kanazawa vs Kyoto Sanga F.C., 4 June, 2016."
+    }
+   ]
+  },
+  "괌": {
+   "codes": [
+    "GUM"
+   ],
+   "en": "Guam",
+   "chosen": {
+    "title": "File:Uppertumon.jpg",
+    "w": 2048,
+    "h": 1360,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Uppertumon.jpg/960px-Uppertumon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Uppertumon.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Zverzver (talk)",
+    "desc": "Skyline of Upper Tumon, Guam"
+   },
+   "alternates": [
+    {
+     "title": "File:Help written with palm leaves on Pikelot beach - April 8, 2024.jpg",
+     "w": 1280,
+     "h": 720,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Help_written_with_palm_leaves_on_Pikelot_beach_-_April_8%2C_2024.jpg/960px-Help_written_with_palm_leaves_on_Pikelot_beach_-_April_8%2C_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Help_written_with_palm_leaves_on_Pikelot_beach_-_April_8,_2024.jpg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "US Coastguard",
+     "desc": "The crew of a Hawaii-based HC-130J Hercules aircraft makes contact with three mariners stranded on Pikelot Atoll, Yap State, Federated State"
+    },
+    {
+     "title": "File:Tumon (27224502924).jpg",
+     "w": 4928,
+     "h": 3264,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Tumon_%2827224502924%29.jpg/960px-Tumon_%2827224502924%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Tumon_(27224502924).jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "author": "yuki5287 from Fukuoka city, Japan",
+     "desc": "IMGP1702"
+    }
+   ]
+  },
+  "광저우": {
+   "codes": [
+    "CAN"
+   ],
+   "en": "Guangzhou",
+   "chosen": {
+    "title": "File:Qingshan District in Wuhan, China.jpg",
+    "w": 4032,
+    "h": 3024,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Qingshan_District_in_Wuhan%2C_China.jpg/960px-Qingshan_District_in_Wuhan%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Qingshan_District_in_Wuhan,_China.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "IDontHaveSkype",
+    "desc": "Skyline of the Qingshan District of Wuhan, Hubei China, as viewed from a train on a high-speed railway line connecting Beijing and Guangzhou"
+   },
+   "alternates": [
+    {
+     "title": "File:Guangzhou East at dusk.jpg",
+     "w": 1280,
+     "h": 960,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Guangzhou_East_at_dusk.jpg/960px-Guangzhou_East_at_dusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Guangzhou_East_at_dusk.jpg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Ivancurtisivancurtis",
+     "desc": "Guangzhou East at dusk"
+    },
+    {
+     "title": "File:122 - Toronto - Septembre 2009.jpg",
+     "w": 16700,
+     "h": 4478,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/122_-_Toronto_-_Septembre_2009.jpg/960px-122_-_Toronto_-_Septembre_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:122_-_Toronto_-_Septembre_2009.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Martin St-Amant (S23678)",
+     "desc": "Panorama of Toronto."
+    }
+   ]
+  },
+  "구마모토": {
+   "codes": [
+    "KMJ"
+   ],
+   "en": "Kumamoto",
+   "chosen": {
+    "title": "File:Kumamon on the wall (14987894668).jpg",
+    "w": 4272,
+    "h": 2848,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Kumamon_on_the_wall_%2814987894668%29.jpg/960px-Kumamon_on_the_wall_%2814987894668%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kumamon_on_the_wall_(14987894668).jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "foooomio",
+    "desc": "Kumamon on the wall"
+   },
+   "alternates": [
+    {
+     "title": "File:Aso Skyline driving (52133247353).jpg",
+     "w": 6000,
+     "h": 4000,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Aso_Skyline_driving_%2852133247353%29.jpg/960px-Aso_Skyline_driving_%2852133247353%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Aso_Skyline_driving_(52133247353).jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "author": "Raita Futo from Tokyo, Japan",
+     "desc": "阿蘇スカイラインドライブ"
+    },
+    {
+     "title": "File:Aso rice fields panorama (52133462789).jpg",
+     "w": 8371,
+     "h": 3702,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Aso_rice_fields_panorama_%2852133462789%29.jpg/960px-Aso_rice_fields_panorama_%2852133462789%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Aso_rice_fields_panorama_(52133462789).jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "author": "Raita Futo from Tokyo, Japan",
+     "desc": "阿蘇山の田んぼパノラマ"
+    }
+   ]
+  },
+  "나고야": {
+   "codes": [
+    "NGO"
+   ],
+   "en": "Nagoya",
+   "chosen": {
+    "title": "File:Nissan KPGC110 Skyline Hard Top 2000 GT-R (24091414573).jpg",
+    "w": 4608,
+    "h": 3072,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Nissan_KPGC110_Skyline_Hard_Top_2000_GT-R_%2824091414573%29.jpg/960px-Nissan_KPGC110_Skyline_Hard_Top_2000_GT-R_%2824091414573%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Nissan_KPGC110_Skyline_Hard_Top_2000_GT-R_(24091414573).jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "先従隗始",
+    "desc": "c/n KPGC110-000140. Made in 1973. This is 2-door hardtop, Hard Top 2000 GT-R version. On display at Gulf Nagoya Nostalgic Car Festival 2024,"
+   },
+   "alternates": [
+    {
+     "title": "File:Nissan KPGC110 Skyline Hard Top 2000 GT-R (24091414572).jpg",
+     "w": 4608,
+     "h": 3072,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Nissan_KPGC110_Skyline_Hard_Top_2000_GT-R_%2824091414572%29.jpg/960px-Nissan_KPGC110_Skyline_Hard_Top_2000_GT-R_%2824091414572%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Nissan_KPGC110_Skyline_Hard_Top_2000_GT-R_(24091414572).jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "先従隗始",
+     "desc": "c/n KPGC110-000140. Made in 1973. This is 2-door hardtop, Hard Top 2000 GT-R version. On display at Gulf Nagoya Nostalgic Car Festival 2024,"
+    },
+    {
+     "title": "File:Nissan KPGC110 Skyline Hard Top 2000 GT-R (24091414571).jpg",
+     "w": 4292,
+     "h": 2862,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Nissan_KPGC110_Skyline_Hard_Top_2000_GT-R_%2824091414571%29.jpg/960px-Nissan_KPGC110_Skyline_Hard_Top_2000_GT-R_%2824091414571%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Nissan_KPGC110_Skyline_Hard_Top_2000_GT-R_(24091414571).jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "先従隗始",
+     "desc": "c/n KPGC110-000140. Made in 1973. This is 2-door hardtop, Hard Top 2000 GT-R version. On display at Gulf Nagoya Nostalgic Car Festival 2024,"
+    }
+   ]
+  },
+  "나디": {
+   "codes": [
+    "NAN"
+   ],
+   "en": "Nadi Fiji",
+   "chosen": {
+    "title": "File:Moana Ocean Fiji.jpg",
+    "w": 3449,
+    "h": 1215,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Moana_Ocean_Fiji.jpg/960px-Moana_Ocean_Fiji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Moana_Ocean_Fiji.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Stemoc",
+    "desc": "Moana Beach in Nadi, Panoramic view"
+   },
+   "alternates": [
+    {
+     "title": "File:Moana Beach.jpg",
+     "w": 2048,
+     "h": 1220,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Moana_Beach.jpg/960px-Moana_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Moana_Beach.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Stemoc",
+     "desc": "The View of a beach in Nadi."
+    },
+    {
+     "title": "File:Fire Warrior (105666079).jpeg",
+     "w": 2048,
+     "h": 1365,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Fire_Warrior_%28105666079%29.jpeg/960px-Fire_Warrior_%28105666079%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Fire_Warrior_(105666079).jpeg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Mj Blanchet",
+     "desc": "500px provided description: Nightly entertainment at the Smugglers' Cove Beach Resort [#Show ,#Beach ,#Black and white ,#Fire ,#Night ,#Danc"
+    }
+   ]
+  },
+  "나트랑": {
+   "codes": [
+    "NHA"
+   ],
+   "en": "Nha Trang",
+   "chosen": {
+    "title": "File:Pont à Nha Trang.JPG",
+    "w": 1600,
+    "h": 1072,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Pont_%C3%A0_Nha_Trang.JPG/960px-Pont_%C3%A0_Nha_Trang.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pont_%C3%A0_Nha_Trang.JPG",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Dinkum",
+    "desc": "Port et pont Ha Ra à Nha Trang"
+   },
+   "alternates": [
+    {
+     "title": "File:Nhatrang Beach at night.jpg",
+     "w": 4288,
+     "h": 2848,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Nhatrang_Beach_at_night.jpg/960px-Nhatrang_Beach_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Nhatrang_Beach_at_night.jpg",
+     "license": "CC BY-SA 2.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+     "author": "startracker",
+     "desc": "Bãi biển Nha Trang về đêm"
+    },
+    {
+     "title": "File:View of Nha Trang 2.jpg",
+     "w": 4032,
+     "h": 3024,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/View_of_Nha_Trang_2.jpg/960px-View_of_Nha_Trang_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:View_of_Nha_Trang_2.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Christophe95",
+     "desc": "View of Nha Trang from the Long Son Pagoda hill."
+    }
+   ]
+  },
+  "뉴욕": {
+   "codes": [
+    "JFK",
+    "NYC"
+   ],
+   "en": "New York City",
+   "chosen": {
+    "title": "File:ARNOLD LAKHOVSKY 1918 - Fontanka. Petersburg.jpg",
+    "w": 4134,
+    "h": 3054,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/ARNOLD_LAKHOVSKY_1918_-_Fontanka._Petersburg.jpg/960px-ARNOLD_LAKHOVSKY_1918_-_Fontanka._Petersburg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:ARNOLD_LAKHOVSKY_1918_-_Fontanka._Petersburg.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Arnold Lakhovsky",
+    "desc": "ARNOLD LAKHOVSKY 1918 - Fontanka. Petersburg / oil on cardboard, 49.0 × 66.1 cm. Private collection, Russia."
+   },
+   "alternates": [
+    {
+     "title": "File:NYC Top of the Rock Pano.jpg",
+     "w": 4889,
+     "h": 1111,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/NYC_Top_of_the_Rock_Pano.jpg/960px-NYC_Top_of_the_Rock_Pano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:NYC_Top_of_the_Rock_Pano.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Daniel Schwen",
+     "desc": "Panoramic image looking south from the upper deck of the 'Top of the Rock' observation deck on Rockefeller Center. Lower deck is visible on "
+    },
+    {
+     "title": "File:Pont de Brooklyn de nuit - Octobre 2008 edit.jpg",
+     "w": 14175,
+     "h": 3936,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Pont_de_Brooklyn_de_nuit_-_Octobre_2008_edit.jpg/960px-Pont_de_Brooklyn_de_nuit_-_Octobre_2008_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Pont_de_Brooklyn_de_nuit_-_Octobre_2008_edit.jpg",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "author": "Martin St-Amant (S23678)",
+     "desc": "Night Panorama of Brooklyn Bridge and Financial sector of Manhattan. Three panoramas at different exposures have been assembled with Enfuse"
+    }
+   ]
+  },
+  "다낭": {
+   "codes": [
+    "DAD"
+   ],
+   "en": "Da Nang",
+   "chosen": {
+    "title": "File:Bright Da Nang skyline (Unsplash).jpg",
+    "w": 7227,
+    "h": 4064,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Bright_Da_Nang_skyline_%28Unsplash%29.jpg/960px-Bright_Da_Nang_skyline_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bright_Da_Nang_skyline_(Unsplash).jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "NGO TUNG thanhtungo",
+    "desc": "Da Nang, Vietnam"
+   },
+   "alternates": [
+    {
+     "title": "File:My Khe Beach 9.jpg",
+     "w": 5184,
+     "h": 3888,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/My_Khe_Beach_9.jpg/960px-My_Khe_Beach_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:My_Khe_Beach_9.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Christophe95",
+     "desc": "The My Khe Beach in Da Nang with the Son Tra Mountain in the background."
+    },
+    {
+     "title": "File:My Khe Beach 16.jpg",
+     "w": 4032,
+     "h": 3024,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/My_Khe_Beach_16.jpg/960px-My_Khe_Beach_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:My_Khe_Beach_16.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Christophe95",
+     "desc": "The My Khe Beach in Da Nang."
+    }
+   ]
+  },
+  "다롄": {
+   "codes": [
+    "DLC"
+   ],
+   "en": "Dalian",
+   "chosen": {
+    "title": "File:Panorama Dalian (view from the hill).JPG",
+    "w": 4032,
+    "h": 3024,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Panorama_Dalian_%28view_from_the_hill%29.JPG/960px-Panorama_Dalian_%28view_from_the_hill%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Panorama_Dalian_(view_from_the_hill).JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Sergeisemenoff",
+    "desc": "Panorama Dalian (view from the hill)"
+   },
+   "alternates": [
+    {
+     "title": "File:Dalian China Lighthouse-in-Dalian-Bay-01.jpg",
+     "w": 4272,
+     "h": 2848,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Dalian_China_Lighthouse-in-Dalian-Bay-01.jpg/960px-Dalian_China_Lighthouse-in-Dalian-Bay-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Dalian_China_Lighthouse-in-Dalian-Bay-01.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "CEphoto, Uwe Aranas",
+     "desc": "Dalian, Liaoning, China: Lighthouse in Dalian Bay"
+    },
+    {
+     "title": "File:DalianSkyline.JPG",
+     "w": 5184,
+     "h": 3456,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/DalianSkyline.JPG/960px-DalianSkyline.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:DalianSkyline.JPG",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0",
+     "author": "JesseW900",
+     "desc": "Dalian Skyline, Dalian, China"
+    }
+   ]
+  },
+  "델리": {
+   "codes": [
+    "DEL"
+   ],
+   "en": "New Delhi",
+   "chosen": {
+    "title": "File:Friends (166167645).jpeg",
+    "w": 2048,
+    "h": 1365,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Friends_%28166167645%29.jpeg/960px-Friends_%28166167645%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Friends_(166167645).jpeg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Hans Vivek",
+    "desc": "500px provided description: Daily chatter amongst friends. [#park ,#trees ,#city ,#beauty ,#street ,#flower ,#travel ,#floral ,#blue ,#light"
+   },
+   "alternates": [
+    {
+     "title": "File:The Streets (162579349).jpeg",
+     "w": 2048,
+     "h": 1365,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Streets_%28162579349%29.jpeg/960px-The_Streets_%28162579349%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:The_Streets_(162579349).jpeg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "Hans Vivek",
+     "desc": "500px provided description: Second picture in the Red Pipe series from my favorite Khan Market here in New Delhi, India. [#sky ,#city ,#peop"
+    },
+    {
+     "title": "File:Top of Rumi Darwaza from the top of Bara Imambara of Lucknow - Flickr - Dr. Santulan Mahanta.jpg",
+     "w": 4896,
+     "h": 3672,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Top_of_Rumi_Darwaza_from_the_top_of_Bara_Imambara_of_Lucknow_-_Flickr_-_Dr._Santulan_Mahanta.jpg/960px-Top_of_Rumi_Darwaza_from_the_top_of_Bara_Imambara_of_Lucknow_-_Flickr_-_Dr._Santulan_Mahanta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Top_of_Rumi_Darwaza_from_the_top_of_Bara_Imambara_of_Lucknow_-_Flickr_-_Dr._Santulan_Mahanta.jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "author": "Santulan Mahanta from Golaghat (GLGT), Guwahati (GHY), Lucknow (LKO), New Delhi ",
+     "desc": ".[The Rumi Darwaza (Hindi: रूमी दरवाज़ा, Urdu: رومی دروازه, and sometimes known as the Turkish Gate), in Lucknow, Uttar Pradesh, India, is a"
+    }
+   ]
+  },
+  "도쿄": {
+   "codes": [
+    "NRT",
+    "TYO"
+   ],
+   "en": "Tokyo",
+   "chosen": {
+    "title": "File:Yoyogi cityscape 3.jpg",
+    "w": 4032,
+    "h": 3024,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Yoyogi_cityscape_3.jpg/960px-Yoyogi_cityscape_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Yoyogi_cityscape_3.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Syced",
+    "desc": "Yoyogi cityscape"
+   },
+   "alternates": [
+    {
+     "title": "File:2007 Nissan V36 Skyline Coupe.JPG",
+     "w": 1599,
+     "h": 786,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/2007_Nissan_V36_Skyline_Coupe.JPG/960px-2007_Nissan_V36_Skyline_Coupe.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2007_Nissan_V36_Skyline_Coupe.JPG",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Hatsukari715",
+     "desc": "2007 Nissan V36 Skyline Coupe photographed in Nissan Gallery (Chuo, Tokyo)"
+    },
+    {
+     "title": "File:Shinjuku Skyline (40791984045).jpg",
+     "w": 4608,
+     "h": 2592,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Shinjuku_Skyline_%2840791984045%29.jpg/960px-Shinjuku_Skyline_%2840791984045%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Shinjuku_Skyline_(40791984045).jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "author": "Ajay Suresh from New York, NY, USA",
+     "desc": "From Tokyo Metropolitan Building"
+    }
+   ]
+  },
+  "도하": {
+   "codes": [
+    "DOH"
+   ],
+   "en": "Doha",
+   "chosen": {
+    "title": "File:Doha Cityscape.jpg",
+    "w": 6000,
+    "h": 2691,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Doha_Cityscape.jpg/960px-Doha_Cityscape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Doha_Cityscape.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Sanjiban ghosh",
+    "desc": "Doha cityscape in the evening with the boat light trails"
+   },
+   "alternates": [
+    {
+     "title": "File:Umbrellas at Caudan Waterfront Mall.JPG",
+     "w": 4798,
+     "h": 3009,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Umbrellas_at_Caudan_Waterfront_Mall.JPG/960px-Umbrellas_at_Caudan_Waterfront_Mall.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Umbrellas_at_Caudan_Waterfront_Mall.JPG",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Martin Falbisoner",
+     "desc": "Colorful umbrellas at Caudan Waterfront Mall, Port Louis, Mauritius"
+    },
+    {
+     "title": "File:Doha West Bay skyline by night (cropped).jpg",
+     "w": 5311,
+     "h": 2732,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Doha_West_Bay_skyline_by_night_%28cropped%29.jpg/960px-Doha_West_Bay_skyline_by_night_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Doha_West_Bay_skyline_by_night_(cropped).jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Nmnogueira",
+     "desc": "Doha West Bay skyline by night"
+    }
+   ]
+  },
+  "두바이": {
+   "codes": [
+    "DXB"
+   ],
+   "en": "Dubai",
+   "chosen": {
+    "title": "File:Dubai skyline unsplash.jpg",
+    "w": 5760,
+    "h": 3840,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Dubai_skyline_unsplash.jpg/960px-Dubai_skyline_unsplash.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dubai_skyline_unsplash.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Robert Bock",
+    "desc": "​迪拜夜晚天际线"
+   },
+   "alternates": [
+    {
+     "title": "File:Dubai Marina Panorama.jpg",
+     "w": 7188,
+     "h": 3543,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Dubai_Marina_Panorama.jpg/960px-Dubai_Marina_Panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Dubai_Marina_Panorama.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "©2013 @ferd1graphy",
+     "desc": "180° Rectilinear Panorama of Dubai Marina in a Broad Daylight"
+    },
+    {
+     "title": "File:Sharjah skyline.jpg",
+     "w": 5920,
+     "h": 1215,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Sharjah_skyline.jpg/960px-Sharjah_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Sharjah_skyline.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Challiyan",
+     "desc": "skyline view of Sharjah from Mamzar beach Dubai"
+    }
+   ]
+  },
+  "런던": {
+   "codes": [
+    "LHR",
+    "LON"
+   ],
+   "en": "London",
+   "chosen": {
+    "title": "File:Orilla Norte del Támesis desde Tate Modern, Londres, Inglaterra, 2014-08-11, DD 118.JPG",
+    "w": 5403,
+    "h": 3099,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Orilla_Norte_del_T%C3%A1mesis_desde_Tate_Modern%2C_Londres%2C_Inglaterra%2C_2014-08-11%2C_DD_118.JPG/960px-Orilla_Norte_del_T%C3%A1mesis_desde_Tate_Modern%2C_Londres%2C_Inglaterra%2C_2014-08-11%2C_DD_118.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Orilla_Norte_del_T%C3%A1mesis_desde_Tate_Modern,_Londres,_Inglaterra,_2014-08-11,_DD_118.JPG",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Diego Delso",
+    "desc": "St Paul's Cathedral in the North Bank of the Thames from Tate Modern, London, England\n\n\nThis is a photo of listed building number 1079157."
+   },
+   "alternates": [
+    {
+     "title": "File:London Skyline from Waterloo Bridge, London, UK - Diliff.jpg",
+     "w": 4500,
+     "h": 2213,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/London_Skyline_from_Waterloo_Bridge%2C_London%2C_UK_-_Diliff.jpg/960px-London_Skyline_from_Waterloo_Bridge%2C_London%2C_UK_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:London_Skyline_from_Waterloo_Bridge,_London,_UK_-_Diliff.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Diliff",
+     "desc": "The skyline of London viewed along the Thames from Waterloo Bridge in London, England."
+    },
+    {
+     "title": "File:City of London skyline from London City Hall - Sept 2015 - Crop Aligned.jpg",
+     "w": 8442,
+     "h": 4668,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/City_of_London_skyline_from_London_City_Hall_-_Sept_2015_-_Crop_Aligned.jpg/960px-City_of_London_skyline_from_London_City_Hall_-_Sept_2015_-_Crop_Aligned.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:City_of_London_skyline_from_London_City_Hall_-_Sept_2015_-_Crop_Aligned.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "User:Colin and Kim Hansen",
+     "desc": "The City of London viewed from the balcony at City Hall."
+    }
+   ]
+  },
+  "로마": {
+   "codes": [
+    "FCO",
+    "ROM"
+   ],
+   "en": "Rome",
+   "chosen": {
+    "title": "File:Anthonis van den Wijngaerde (1565) Alcalá de Henares.png",
+    "w": 4944,
+    "h": 1930,
+    "mime": "image/png",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Anthonis_van_den_Wijngaerde_%281565%29_Alcal%C3%A1_de_Henares.png/960px-Anthonis_van_den_Wijngaerde_%281565%29_Alcal%C3%A1_de_Henares.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Anthonis_van_den_Wijngaerde_(1565)_Alcal%C3%A1_de_Henares.png",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Anton van den Wyngaerde",
+    "desc": "Dibujo de una vista general de Alcalá de Henares, realizado por Anthonis van den Wijngaerde en 1565. Dimensiones: 42,33 cm por 16,83 cm. La "
+   },
+   "alternates": [
+    {
+     "title": "File:Cotral Neoplan Skyliner (0107).jpg",
+     "w": 4032,
+     "h": 2016,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Cotral_Neoplan_Skyliner_%280107%29.jpg/960px-Cotral_Neoplan_Skyliner_%280107%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cotral_Neoplan_Skyliner_(0107).jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Kaga tau",
+     "desc": "Cotral Neoplan Skyliner near Ponte Mammolo metro station in Rome"
+    },
+    {
+     "title": "File:Dove il fiume Aniene si getta nel Tevere.jpg",
+     "w": 4098,
+     "h": 2843,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Dove_il_fiume_Aniene_si_getta_nel_Tevere.jpg/960px-Dove_il_fiume_Aniene_si_getta_nel_Tevere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Dove_il_fiume_Aniene_si_getta_nel_Tevere.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Albarubescens",
+     "desc": "riserva naturale Valle dell'Aniene (Q3936744) Dove l'Aniene si getta nel Tevere, Roma"
+    }
+   ]
+  },
+  "로스앤젤레스": {
+   "codes": [
+    "LAX"
+   ],
+   "en": "Los Angeles",
+   "chosen": {
+    "title": "File:Los Angeles Skyline; August 30, 2022.jpg",
+    "w": 1234,
+    "h": 925,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Los_Angeles_Skyline%3B_August_30%2C_2022.jpg/960px-Los_Angeles_Skyline%3B_August_30%2C_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Los_Angeles_Skyline;_August_30,_2022.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "ItzAPotato2009",
+    "desc": "Photo of Los Angeles Skyline taken from in-flight."
+   },
+   "alternates": [
+    {
+     "title": "File:Long Beach CA Photo Don Ramey Logan.jpg",
+     "w": 4288,
+     "h": 2848,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Long_Beach_CA_Photo_Don_Ramey_Logan.jpg/960px-Long_Beach_CA_Photo_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Long_Beach_CA_Photo_Don_Ramey_Logan.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Don Ramey Logan",
+     "desc": "Aerial photograph of Long Beach — in Los Angeles County, California.\nCredits\nPhotographer: Don_Ramey_Logan\nPlease provide photographer credi"
+    },
+    {
+     "title": "File:Terminal Island Photo Don Ramey Logan.jpg",
+     "w": 4288,
+     "h": 2848,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Terminal_Island_Photo_Don_Ramey_Logan.jpg/960px-Terminal_Island_Photo_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Terminal_Island_Photo_Don_Ramey_Logan.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Don Ramey Logan",
+     "desc": "Terminal Island Photo Don Ramey Logan"
+    }
+   ]
+  },
+  "마닐라": {
+   "codes": [
+    "MNL"
+   ],
+   "en": "Manila",
+   "chosen": {
+    "title": "File:Marina Bay Sands, Singapore 1.jpg",
+    "w": 4234,
+    "h": 2762,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Marina_Bay_Sands%2C_Singapore_1.jpg/960px-Marina_Bay_Sands%2C_Singapore_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Marina_Bay_Sands,_Singapore_1.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Ray in Manila",
+    "desc": "Marina Bay Sands is an integrated resort fronting Marina Bay in Singapore. At its opening in 2010, it was billed as the world's most expensi"
+   },
+   "alternates": [
+    {
+     "title": "File:Makati Skyline August 2020.jpg",
+     "w": 7323,
+     "h": 1490,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Makati_Skyline_August_2020.jpg/960px-Makati_Skyline_August_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Makati_Skyline_August_2020.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "PHCuber",
+     "desc": "File is a photo of a skyline of Makati City, taken on August 2020"
+    }
+   ]
+  },
+  "마쓰야마": {
+   "codes": [
+    "MYJ"
+   ],
+   "en": "Matsuyama",
+   "chosen": {
+    "title": "File:Matsuyama Castle Panorama 2.jpg",
+    "w": 5933,
+    "h": 2368,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Matsuyama_Castle_Panorama_2.jpg/960px-Matsuyama_Castle_Panorama_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Matsuyama_Castle_Panorama_2.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Urashimataro",
+    "desc": "Matsuyama Castle in Matsuyama, Ehime"
+   },
+   "alternates": [
+    {
+     "title": "File:Matsuyama castle Iyo Panorama.jpg",
+     "w": 11586,
+     "h": 4018,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Matsuyama_castle_Iyo_Panorama.jpg/960px-Matsuyama_castle_Iyo_Panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Matsuyama_castle_Iyo_Panorama.jpg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Urashimataro",
+     "desc": "Matsuyama Castle in Matsuyama, Ehime"
+    },
+    {
+     "title": "File:Matsuyama Kofun, Funkyu-1 360-degree.jpg",
+     "w": 6080,
+     "h": 3040,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Matsuyama_Kofun%2C_Funkyu-1_360-degree.jpg/960px-Matsuyama_Kofun%2C_Funkyu-1_360-degree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Matsuyama_Kofun,_Funkyu-1_360-degree.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "AsPJT",
+     "desc": "IMG_20230205_115540_00_658.insp"
+    }
+   ]
+  },
+  "마카오": {
+   "codes": [
+    "MFM"
+   ],
+   "en": "Macau",
+   "chosen": {
+    "title": "File:Lago Nam Van, Macao, 2013-08-08, DD 04.jpg",
+    "w": 5505,
+    "h": 2577,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Lago_Nam_Van%2C_Macao%2C_2013-08-08%2C_DD_04.jpg/960px-Lago_Nam_Van%2C_Macao%2C_2013-08-08%2C_DD_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lago_Nam_Van,_Macao,_2013-08-08,_DD_04.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Diego Delso",
+    "desc": "Lake Nam Van, Macau"
+   },
+   "alternates": [
+    {
+     "title": "File:Centro de Ciencia, Macao, 2013-08-08, DD 09.jpg",
+     "w": 5363,
+     "h": 3575,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Centro_de_Ciencia%2C_Macao%2C_2013-08-08%2C_DD_09.jpg/960px-Centro_de_Ciencia%2C_Macao%2C_2013-08-08%2C_DD_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Centro_de_Ciencia,_Macao,_2013-08-08,_DD_09.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Diego Delso",
+     "desc": "Macau Science Center, designed by I.M.Pei"
+    },
+    {
+     "title": "File:Vista de los casinos desde el Centro de Ciencia, Macao, 2013-08-08, DD 01.jpg",
+     "w": 5058,
+     "h": 2498,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Vista_de_los_casinos_desde_el_Centro_de_Ciencia%2C_Macao%2C_2013-08-08%2C_DD_01.jpg/960px-Vista_de_los_casinos_desde_el_Centro_de_Ciencia%2C_Macao%2C_2013-08-08%2C_DD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Vista_de_los_casinos_desde_el_Centro_de_Ciencia,_Macao,_2013-08-08,_DD_01.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Diego Delso",
+     "desc": "View of the casinos from Science Center, Macau"
+    }
+   ]
+  },
+  "멜버른": {
+   "codes": [
+    "MEL"
+   ],
+   "en": "Melbourne",
+   "chosen": {
+    "title": "File:Melbourne Skyline from Rialto Crop - Nov 2008.jpg",
+    "w": 8527,
+    "h": 2744,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Melbourne_Skyline_from_Rialto_Crop_-_Nov_2008.jpg/960px-Melbourne_Skyline_from_Rialto_Crop_-_Nov_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Melbourne_Skyline_from_Rialto_Crop_-_Nov_2008.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Diliff",
+    "desc": "The Melbourne skyline as viewed from the Rialto Observatory on Collins St. This panorama spans facing north (left side) east (centre) to sou"
+   },
+   "alternates": [
+    {
+     "title": "File:Melbourne Skyline from Rialto - Nov 2008 (cropped).jpg",
+     "w": 4965,
+     "h": 3195,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Melbourne_Skyline_from_Rialto_-_Nov_2008_%28cropped%29.jpg/960px-Melbourne_Skyline_from_Rialto_-_Nov_2008_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Melbourne_Skyline_from_Rialto_-_Nov_2008_(cropped).jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Diliff",
+     "desc": "The Melbourne skyline as viewed from the Rialto Observatory on Collins St. This panorama spans facing north (left side) east (centre) to sou"
+    },
+    {
+     "title": "File:Melbourne (AU), Melbourne City Centre -- 2019 -- 1493-7.jpg",
+     "w": 6697,
+     "h": 4465,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Melbourne_%28AU%29%2C_Melbourne_City_Centre_--_2019_--_1493-7.jpg/960px-Melbourne_%28AU%29%2C_Melbourne_City_Centre_--_2019_--_1493-7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Melbourne_(AU),_Melbourne_City_Centre_--_2019_--_1493-7.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Dietmar Rabich",
+     "desc": "Melbourne City Centre, Melbourne, Victoria, Australia"
+    }
+   ]
+  },
+  "몰디브": {
+   "codes": [
+    "MLE"
+   ],
+   "en": "Maldives",
+   "chosen": {
+    "title": "File:A Photo Is Taken of Male, Maldives (4876174130).jpg",
+    "w": 4000,
+    "h": 3000,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/A_Photo_Is_Taken_of_Male%2C_Maldives_%284876174130%29.jpg/960px-A_Photo_Is_Taken_of_Male%2C_Maldives_%284876174130%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:A_Photo_Is_Taken_of_Male,_Maldives_(4876174130).jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "U.S. Department of State from United States",
+    "desc": "A photo is taken of Male, Maldives, on July 22, 2010. [State Department photo/ Public Domain]"
+   },
+   "alternates": [
+    {
+     "title": "File:Velidhoo Skyline 2005.JPG",
+     "w": 2266,
+     "h": 774,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Velidhoo_Skyline_2005.JPG/960px-Velidhoo_Skyline_2005.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Velidhoo_Skyline_2005.JPG",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Steevie",
+     "desc": "Skyline von Velidooh"
+    },
+    {
+     "title": "File:Male skyline.jpg",
+     "w": 1572,
+     "h": 1028,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Male_skyline.jpg/960px-Male_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Male_skyline.jpg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Smiskin at English Wikipedia",
+     "desc": "Close up of Malé skyline - taken by me in July 2005 from a boat."
+    }
+   ]
+  },
+  "뮌헨": {
+   "codes": [
+    "MUC"
+   ],
+   "en": "Munich",
+   "chosen": {
+    "title": "File:Allianz arena daylight Richard Bartz.jpg",
+    "w": 5000,
+    "h": 2061,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Allianz_arena_daylight_Richard_Bartz.jpg/960px-Allianz_arena_daylight_Richard_Bartz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Allianz_arena_daylight_Richard_Bartz.jpg",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "author": "Richard Bartz, Munich aka Makro Freak",
+    "desc": "The Allianz Arena is a football stadium in the north of Munich, Germany.\nThe two professional Munich football clubs FC Bayern München and TS"
+   },
+   "alternates": [
+    {
+     "title": "File:Chinon from above.JPG",
+     "w": 4298,
+     "h": 2865,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Chinon_from_above.JPG/960px-Chinon_from_above.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Chinon_from_above.JPG",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Martin Falbisoner",
+     "desc": "Chinon, Indre-et-Loire, France, as seen from above"
+    },
+    {
+     "title": "File:Olympiastadion at dusk.JPG",
+     "w": 4238,
+     "h": 3192,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Olympiastadion_at_dusk.JPG/960px-Olympiastadion_at_dusk.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Olympiastadion_at_dusk.JPG",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Martin Falbisoner",
+     "desc": "Olympiastadion, Munich, at dusk"
+    }
+   ]
+  },
+  "바르셀로나": {
+   "codes": [
+    "BCN"
+   ],
+   "en": "Barcelona",
+   "chosen": {
+    "title": "File:Skyline Barcelona, December 2025.jpg",
+    "w": 20019,
+    "h": 2269,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Skyline_Barcelona%2C_December_2025.jpg/960px-Skyline_Barcelona%2C_December_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Skyline_Barcelona,_December_2025.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Hstoops",
+    "desc": "Skyline Barcelona, December 2025"
+   },
+   "alternates": [
+    {
+     "title": "File:Barcelona Cityscape Panorama - Jan 2007 edit.jpg",
+     "w": 16561,
+     "h": 2000,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Barcelona_Cityscape_Panorama_-_Jan_2007_edit.jpg/960px-Barcelona_Cityscape_Panorama_-_Jan_2007_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Barcelona_Cityscape_Panorama_-_Jan_2007_edit.jpg",
+     "license": "CC BY 2.5",
+     "license_url": "https://creativecommons.org/licenses/by/2.5",
+     "author": "Barcelona_Cityscape_Panorama_-_Jan_2007.jpg: Diliff",
+     "desc": "A 2 x 14 segment panorama of the city of Barcelona from Montjuïc. Taken with a Canon 5D and 70-200mm f/2.8L lens."
+    },
+    {
+     "title": "File:13-08-08-hongkong-by-RalfR-Panorama2.jpg",
+     "w": 8816,
+     "h": 4621,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/13-08-08-hongkong-by-RalfR-Panorama2.jpg/960px-13-08-08-hongkong-by-RalfR-Panorama2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:13-08-08-hongkong-by-RalfR-Panorama2.jpg",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "author": "Ralf Roletschek",
+     "desc": "Hong Kong: View from Tsim Sha Tsui, Kowloon to Hongkong Island"
+    }
+   ]
+  },
+  "발리": {
+   "codes": [
+    "DPS"
+   ],
+   "en": "Bali",
+   "chosen": {
+    "title": "File:Merauke skyline.jpg",
+    "w": 1525,
+    "h": 970,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Merauke_skyline.jpg/960px-Merauke_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Merauke_skyline.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Compiled by Nyanardsan, photos from Government of Merauke Regency &amp; Cabinet ",
+    "desc": "Merauke landmarks &amp; skyline. From top-left clockwise, Sabang-Merauke Monument, Libra Monument at night, Indonesia Time Capsule Monument,"
+   },
+   "alternates": [
+    {
+     "title": "File:Marokko1982-128 hg.jpg",
+     "w": 4042,
+     "h": 2403,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Marokko1982-128_hg.jpg/960px-Marokko1982-128_hg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Marokko1982-128_hg.jpg",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "author": "H. Grobe",
+     "desc": "Morocco"
+    },
+    {
+     "title": "File:Vihorlat 23.JPG",
+     "w": 4608,
+     "h": 3456,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Vihorlat_23.JPG/960px-Vihorlat_23.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Vihorlat_23.JPG",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Milan Bališin",
+     "desc": "View of the night Vihorlat (in the middle) from town Humenné"
+    }
+   ]
+  },
+  "방콕": {
+   "codes": [
+    "BKK"
+   ],
+   "en": "Bangkok",
+   "chosen": {
+    "title": "File:Bangkok Night Wikimedia Commons.jpg",
+    "w": 7585,
+    "h": 2217,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Bangkok_Night_Wikimedia_Commons.jpg/960px-Bangkok_Night_Wikimedia_Commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bangkok_Night_Wikimedia_Commons.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Benh LIEU SONG",
+    "desc": "Bangkok at night, seen from top of Banyan Tree Hotel."
+   },
+   "alternates": [
+    {
+     "title": "File:Bangkok Skyline (MK).jpg",
+     "w": 18923,
+     "h": 3635,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Bangkok_Skyline_%28MK%29.jpg/960px-Bangkok_Skyline_%28MK%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bangkok_Skyline_(MK).jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Mathias Krumbholz",
+     "desc": "Skyline of Bangkok seen from the Wat Arun"
+    },
+    {
+     "title": "File:Bangkok skyline 2018.jpg",
+     "w": 4032,
+     "h": 1960,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Bangkok_skyline_2018.jpg/960px-Bangkok_skyline_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Bangkok_skyline_2018.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "srihariyv",
+     "desc": "To stay is to exit, to travel is to live. Amazing Pink skies and Tall buildings of Bangkok."
+    }
+   ]
+  },
+  "밴쿠버": {
+   "codes": [
+    "YVR"
+   ],
+   "en": "Vancouver",
+   "chosen": {
+    "title": "File:Vancouver dusk pano.jpg",
+    "w": 9833,
+    "h": 1000,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Vancouver_dusk_pano.jpg/960px-Vancouver_dusk_pano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Vancouver_dusk_pano.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Mfield, Matthew Field, http://www.photography.mattfield.com",
+    "desc": "Vancouver, BC viewed from the south with mountains behind. Blended exposure version.\n20 stitched images (original @ 50000x4000px)"
+   },
+   "alternates": [
+    {
+     "title": "File:Vancouver from Queen Elizabeth Park.jpg",
+     "w": 4608,
+     "h": 3072,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Vancouver_from_Queen_Elizabeth_Park.jpg/960px-Vancouver_from_Queen_Elizabeth_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Vancouver_from_Queen_Elizabeth_Park.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Xicotencatl",
+     "desc": "View of Downtown Vancouver from Queen Elizabeth Park"
+    },
+    {
+     "title": "File:Concord Pacific Master Plan Area.jpg",
+     "w": 4356,
+     "h": 2450,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Concord_Pacific_Master_Plan_Area.jpg/960px-Concord_Pacific_Master_Plan_Area.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Concord_Pacific_Master_Plan_Area.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "David G. Gordon",
+     "desc": "Area of the master plan for Yaletown that was worked on after the 86 expo by Arthur Erickson, Barry Downs, etc."
+    }
+   ]
+  },
+  "베이징": {
+   "codes": [
+    "BJS"
+   ],
+   "en": "Beijing",
+   "chosen": {
+    "title": "File:Atlas Van der Hagen-KW1049B13 035 1-PEKING.jpeg",
+    "w": 5500,
+    "h": 3616,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Atlas_Van_der_Hagen-KW1049B13_035_1-PEKING.jpeg/960px-Atlas_Van_der_Hagen-KW1049B13_035_1-PEKING.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B13_035_1-PEKING.jpeg",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Johan Nieuhof / Jacob van Meurs",
+    "desc": "The richly illustrated travel journal of Johan Nieuhof, a worldtraveller from Amsterdam was published in 1655. Nieuhoff accompanied from 165"
+   },
+   "alternates": [
+    {
+     "title": "File:Qingshan District in Wuhan, China.jpg",
+     "w": 4032,
+     "h": 3024,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Qingshan_District_in_Wuhan%2C_China.jpg/960px-Qingshan_District_in_Wuhan%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Qingshan_District_in_Wuhan,_China.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "IDontHaveSkype",
+     "desc": "Skyline of the Qingshan District of Wuhan, Hubei China, as viewed from a train on a high-speed railway line connecting Beijing and Guangzhou"
+    },
+    {
+     "title": "File:Beijing sunset.JPG",
+     "w": 3008,
+     "h": 2000,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Beijing_sunset.JPG/960px-Beijing_sunset.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Beijing_sunset.JPG",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Scottmeltzer",
+     "desc": "Sunset on the Badaling mountains outside Beijing."
+    }
+   ]
+  },
+  "보홀": {
+   "codes": [
+    "TAG"
+   ],
+   "en": "Bohol",
+   "chosen": {
+    "title": "File:Dumaluan Beach after a typhoon.jpg",
+    "w": 4096,
+    "h": 3072,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Dumaluan_Beach_after_a_typhoon.jpg/960px-Dumaluan_Beach_after_a_typhoon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dumaluan_Beach_after_a_typhoon.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Deepak-nsk",
+    "desc": "Dumaluan Beach after a typhoon, Panglao Island, Philippines"
+   },
+   "alternates": [
+    {
+     "title": "File:Tagbilaran Bay.jpg",
+     "w": 1600,
+     "h": 1200,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Tagbilaran_Bay.jpg/960px-Tagbilaran_Bay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Tagbilaran_Bay.jpg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "pinay06",
+     "desc": "Tagbilaran Bay, Bohol, Philippines"
+    },
+    {
+     "title": "File:Tagbilaran City, Bohol, Philippines Sea Port.jpg",
+     "w": 4139,
+     "h": 1202,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Tagbilaran_City%2C_Bohol%2C_Philippines_Sea_Port.jpg/960px-Tagbilaran_City%2C_Bohol%2C_Philippines_Sea_Port.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Tagbilaran_City,_Bohol,_Philippines_Sea_Port.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "EricDelPh",
+     "desc": "Sea port of Tagbilaran City"
+    }
+   ]
+  },
+  "브리즈번": {
+   "codes": [
+    "BNE"
+   ],
+   "en": "Brisbane",
+   "chosen": {
+    "title": "File:Brisbane skyline from Kangaroo Point.jpg",
+    "w": 8160,
+    "h": 4568,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Brisbane_skyline_from_Kangaroo_Point.jpg/960px-Brisbane_skyline_from_Kangaroo_Point.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Brisbane_skyline_from_Kangaroo_Point.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "King Eliot",
+    "desc": "Brisbane skyline from Kangaroo Point"
+   },
+   "alternates": [
+    {
+     "title": "File:Brisbane CBD from Southbank in July 2024.jpg",
+     "w": 3865,
+     "h": 2597,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Brisbane_CBD_from_Southbank_in_July_2024.jpg/960px-Brisbane_CBD_from_Southbank_in_July_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Brisbane_CBD_from_Southbank_in_July_2024.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "King Eliot",
+     "desc": "Brisbane CBD from Southbank in July 2024"
+    },
+    {
+     "title": "File:Spring in the City (Harper's Weekly, Vol. II) MET DP875161.jpg",
+     "w": 3682,
+     "h": 2583,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Spring_in_the_City_%28Harper%27s_Weekly%2C_Vol._II%29_MET_DP875161.jpg/960px-Spring_in_the_City_%28Harper%27s_Weekly%2C_Vol._II%29_MET_DP875161.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Spring_in_the_City_(Harper%27s_Weekly,_Vol._II)_MET_DP875161.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "Winslow Homer",
+     "desc": "Print; Prints"
+    }
+   ]
+  },
+  "비엔티안": {
+   "codes": [
+    "VTE"
+   ],
+   "en": "Vientiane",
+   "chosen": {
+    "title": "File:Vientiane - Mekong - Panorama 0001.jpg",
+    "w": 11519,
+    "h": 1745,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Vientiane_-_Mekong_-_Panorama_0001.jpg/960px-Vientiane_-_Mekong_-_Panorama_0001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Vientiane_-_Mekong_-_Panorama_0001.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Stefan Fussan",
+    "desc": "The river of Mekong in Vientiane, Laos"
+   },
+   "alternates": [
+    {
+     "title": "File:Pha That Luang Sunrise Panorama BLS.jpg",
+     "w": 16373,
+     "h": 5879,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Pha_That_Luang_Sunrise_Panorama_BLS.jpg/960px-Pha_That_Luang_Sunrise_Panorama_BLS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Pha_That_Luang_Sunrise_Panorama_BLS.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Benh LIEU SONG (Flickr)",
+     "desc": "The sun rises over Pha That Luang, Laos' national symbol, in Vientiane."
+    },
+    {
+     "title": "File:Vang Vieng-Panorama-02-gje.jpg",
+     "w": 9172,
+     "h": 1929,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Vang_Vieng-Panorama-02-gje.jpg/960px-Vang_Vieng-Panorama-02-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Vang_Vieng-Panorama-02-gje.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Gerd Eichmann",
+     "desc": "Panoramic of Vang Vieng in Vientiane province in Laos."
+    }
+   ]
+  },
+  "빈": {
+   "codes": [
+    "VIE"
+   ],
+   "en": "Vienna",
+   "chosen": {
+    "title": "File:Vienna Austria Skyline Aerial, October 2024.jpg",
+    "w": 11057,
+    "h": 3110,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Vienna_Austria_Skyline_Aerial%2C_October_2024.jpg/960px-Vienna_Austria_Skyline_Aerial%2C_October_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Vienna_Austria_Skyline_Aerial,_October_2024.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Spicypepper999",
+    "desc": "Aerial photo of the Vienna, Austria skyline"
+   },
+   "alternates": [
+    {
+     "title": "File:Schönbrunn Palace, Vienna - Rudolf von Alt.jpg",
+     "w": 2242,
+     "h": 1239,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Sch%C3%B6nbrunn_Palace%2C_Vienna_-_Rudolf_von_Alt.jpg/960px-Sch%C3%B6nbrunn_Palace%2C_Vienna_-_Rudolf_von_Alt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Sch%C3%B6nbrunn_Palace,_Vienna_-_Rudolf_von_Alt.jpg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Rudolf von Alt",
+     "desc": "Schönbrunn Palace, Vienna by Rudolf von Alt"
+    },
+    {
+     "title": "File:Graben, Vienna - Rudolf von Alt.jpg",
+     "w": 1300,
+     "h": 1027,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Graben%2C_Vienna_-_Rudolf_von_Alt.jpg/960px-Graben%2C_Vienna_-_Rudolf_von_Alt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Graben,_Vienna_-_Rudolf_von_Alt.jpg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Rudolf von Alt",
+     "desc": "Graben, Vienna (1838), by Rudolf von Alt"
+    }
+   ]
+  },
+  "사이판": {
+   "codes": [
+    "SPN"
+   ],
+   "en": "Saipan",
+   "chosen": {
+    "title": "File:Tanapag Beach 1.JPG",
+    "w": 2048,
+    "h": 1536,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Tanapag_Beach_1.JPG/960px-Tanapag_Beach_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tanapag_Beach_1.JPG",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Abasaa",
+    "desc": "Tanapag Beach"
+   },
+   "alternates": [
+    {
+     "title": "File:Tanapag Beach 2.JPG",
+     "w": 2048,
+     "h": 1536,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Tanapag_Beach_2.JPG/960px-Tanapag_Beach_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Tanapag_Beach_2.JPG",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Abasaa",
+     "desc": "Tanapag Beach"
+    },
+    {
+     "title": "File:Micro Beach (530316786).jpg",
+     "w": 3264,
+     "h": 2448,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Micro_Beach_%28530316786%29.jpg/960px-Micro_Beach_%28530316786%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Micro_Beach_(530316786).jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "author": "tata_aka_T from Tokyo, JAPAN",
+     "desc": "Micro Beach, Saipan"
+    }
+   ]
+  },
+  "삿포로": {
+   "codes": [
+    "CTS",
+    "SPK"
+   ],
+   "en": "Sapporo",
+   "chosen": {
+    "title": "File:Sapporo from Mt Eniwa.png",
+    "w": 4288,
+    "h": 3216,
+    "mime": "image/png",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Sapporo_from_Mt_Eniwa.png/960px-Sapporo_from_Mt_Eniwa.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Sapporo_from_Mt_Eniwa.png",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Prosperosity",
+    "desc": "A view of Sapporo, taken from Mt. Eniwa. Visible are Mount Ichankoppe (centre) in Banjiri, Eniwa, Komaoka Incineration Plant (centre) in Min"
+   },
+   "alternates": [
+    {
+     "title": "File:R34 - SKYLINE. (4142712845).jpg",
+     "w": 4752,
+     "h": 3168,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/R34_-_SKYLINE._%284142712845%29.jpg/960px-R34_-_SKYLINE._%284142712845%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:R34_-_SKYLINE._(4142712845).jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "author": "MIKI Yoshihito from Sapporo City,Hokkaido., JAPAN",
+     "desc": "R34 - SKYLINE."
+    },
+    {
+     "title": "File:Night cityscape from JR Tower (south side).jpg",
+     "w": 6000,
+     "h": 3375,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Night_cityscape_from_JR_Tower_%28south_side%29.jpg/960px-Night_cityscape_from_JR_Tower_%28south_side%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Night_cityscape_from_JR_Tower_(south_side).jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "掬茶",
+     "desc": "JRタワー展望室T38からの夜景"
+    }
+   ]
+  },
+  "상하이": {
+   "codes": [
+    "SHA"
+   ],
+   "en": "Shanghai",
+   "chosen": {
+    "title": "File:Pudong Skyline from The Bund 20260417.jpg",
+    "w": 8192,
+    "h": 3645,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Pudong_Skyline_from_The_Bund_20260417.jpg/960px-Pudong_Skyline_from_The_Bund_20260417.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pudong_Skyline_from_The_Bund_20260417.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "DvTor8303",
+    "desc": "Photo of skyline of Pudong taken on 17.04.2026 from The Bund"
+   },
+   "alternates": [
+    {
+     "title": "File:Shanghai skyline waterfront pudong 5166168 69 70.jpg",
+     "w": 3655,
+     "h": 2741,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Shanghai_skyline_waterfront_pudong_5166168_69_70.jpg/960px-Shanghai_skyline_waterfront_pudong_5166168_69_70.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Shanghai_skyline_waterfront_pudong_5166168_69_70.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "Ermell",
+     "desc": "View towards the Shanghai skyline and waterfront in Pudong with the new Shanghai tower."
+    },
+    {
+     "title": "File:Shanghai Skyline 2012.jpg",
+     "w": 3264,
+     "h": 2448,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Shanghai_Skyline_2012.jpg/960px-Shanghai_Skyline_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Shanghai_Skyline_2012.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "Yourusernamewillbepublic2",
+     "desc": "Shanghai Skyline 2012"
+    }
+   ]
+  },
+  "샌프란시스코": {
+   "codes": [
+    "SFO"
+   ],
+   "en": "San Francisco",
+   "chosen": {
+    "title": "File:San Francisco with approaching fog.jpg",
+    "w": 4983,
+    "h": 1223,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/San_Francisco_with_approaching_fog.jpg/960px-San_Francisco_with_approaching_fog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Francisco_with_approaching_fog.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Brocken Inaglory",
+    "desc": "San Francisco with approaching fog."
+   },
+   "alternates": [
+    {
+     "title": "File:San Francisco Panorama from Twin Peaks 2013.jpg",
+     "w": 26069,
+     "h": 3038,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/San_Francisco_Panorama_from_Twin_Peaks_2013.jpg/960px-San_Francisco_Panorama_from_Twin_Peaks_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:San_Francisco_Panorama_from_Twin_Peaks_2013.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Tuxyso",
+     "desc": "180° panoramic view over San Francisco photographed from Twin Peaks"
+    },
+    {
+     "title": "File:San Francisco City Hall as seen from 100 Van Ness at dusk (wide).jpg",
+     "w": 14152,
+     "h": 3992,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/San_Francisco_City_Hall_as_seen_from_100_Van_Ness_at_dusk_%28wide%29.jpg/960px-San_Francisco_City_Hall_as_seen_from_100_Van_Ness_at_dusk_%28wide%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:San_Francisco_City_Hall_as_seen_from_100_Van_Ness_at_dusk_(wide).jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Dllu",
+     "desc": "San Francisco City Hall as seen from 100 Van Ness Avenue at dusk."
+    }
+   ]
+  },
+  "샤먼": {
+   "codes": [
+    "XMN"
+   ],
+   "en": "Xiamen",
+   "chosen": {
+    "title": "File:WV banner Fujian Southern Coast Xiamen panorama.jpg",
+    "w": 2450,
+    "h": 350,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/WV_banner_Fujian_Southern_Coast_Xiamen_panorama.jpg/960px-WV_banner_Fujian_Southern_Coast_Xiamen_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:WV_banner_Fujian_Southern_Coast_Xiamen_panorama.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Onteien",
+    "desc": "Wikivoyage banner for Fujian Southern Coast. Cropped from this PD-licensed picture:https://commons.wikimedia.org/wiki/File%3AGly2.jpg"
+   },
+   "alternates": [
+    {
+     "title": "File:Xiamen night Skyline from Gulangyu.JPG",
+     "w": 4928,
+     "h": 3264,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Xiamen_night_Skyline_from_Gulangyu.JPG/960px-Xiamen_night_Skyline_from_Gulangyu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Xiamen_night_Skyline_from_Gulangyu.JPG",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Popolon",
+     "desc": "Xiamen night Skyline taken from Gulangyu"
+    },
+    {
+     "title": "File:Proud Xiamen - panoramio.jpg",
+     "w": 4240,
+     "h": 3174,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Proud_Xiamen_-_panoramio.jpg/960px-Proud_Xiamen_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Proud_Xiamen_-_panoramio.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "XiaoyangZ",
+     "desc": "Proud Xiamen"
+    }
+   ]
+  },
+  "선전": {
+   "codes": [
+    "SZX"
+   ],
+   "en": "Shenzhen",
+   "chosen": {
+    "title": "File:View-Of-HQB-Shenzhen-Lychee-Park.jpg",
+    "w": 2560,
+    "h": 1920,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/View-Of-HQB-Shenzhen-Lychee-Park.jpg/960px-View-Of-HQB-Shenzhen-Lychee-Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:View-Of-HQB-Shenzhen-Lychee-Park.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "No machine-readable author provided. Edtastic assumed (based on copyright claims",
+    "desc": "View of Hua Qiang Bei road (Futian District) in Shenzhen, China. Taken from inside Lychee park facing west at sunset. The tallest building i"
+   },
+   "alternates": [
+    {
+     "title": "File:Shenzhen huizhanzhongxin.jpg",
+     "w": 2560,
+     "h": 1740,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Shenzhen_huizhanzhongxin.jpg/960px-Shenzhen_huizhanzhongxin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Shenzhen_huizhanzhongxin.jpg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Hawyih",
+     "desc": "Shenzhen Convention and Exhibition Center"
+    },
+    {
+     "title": "File:Shenzhenshi.jpg",
+     "w": 2560,
+     "h": 1786,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Shenzhenshi.jpg/960px-Shenzhenshi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Shenzhenshi.jpg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Hawyih",
+     "desc": "深圳市，远处为大海"
+    }
+   ]
+  },
+  "세부": {
+   "codes": [
+    "CEB"
+   ],
+   "en": "Cebu",
+   "chosen": {
+    "title": "File:Cebu city skyline 2025.jpg",
+    "w": 4080,
+    "h": 3060,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Cebu_city_skyline_2025.jpg/960px-Cebu_city_skyline_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Cebu_city_skyline_2025.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "DisRaptor18",
+    "desc": "Cebu city skyline taken from The Cebu Exchange"
+   },
+   "alternates": [
+    {
+     "title": "File:Panorama-Cebu-City.jpg",
+     "w": 1600,
+     "h": 875,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Panorama-Cebu-City.jpg/960px-Panorama-Cebu-City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Panorama-Cebu-City.jpg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Peter Binter",
+     "desc": "Panorama von Cebu-Stadt, fotografiert vom Golden Peak Tower Richtung Mactan"
+    },
+    {
+     "title": "File:Skyline of Cebu City.jpg",
+     "w": 1424,
+     "h": 448,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Skyline_of_Cebu_City.jpg/960px-Skyline_of_Cebu_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Cebu_City.jpg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "P199",
+     "desc": "Skyline of Cebu City, Cebu, Philippines"
+    }
+   ]
+  },
+  "시드니": {
+   "codes": [
+    "SYD"
+   ],
+   "en": "Sydney",
+   "chosen": {
+    "title": "File:Matanaka - Granary, Privy & Schoolhouse.jpg",
+    "w": 3900,
+    "h": 2613,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Matanaka_-_Granary%2C_Privy_%26_Schoolhouse.jpg/960px-Matanaka_-_Granary%2C_Privy_%26_Schoolhouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Matanaka_-_Granary,_Privy_%26_Schoolhouse.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Karora",
+    "desc": "This granary, privy and schoolhouse at Matanaka are New Zealand's oldest surviving farm buildings.  These buildings are registered Category "
+   },
+   "alternates": [
+    {
+     "title": "File:Sydney CBD Golden Hour.jpg",
+     "w": 1300,
+     "h": 975,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Sydney_CBD_Golden_Hour.jpg/960px-Sydney_CBD_Golden_Hour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Sydney_CBD_Golden_Hour.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "Sarcastichearts",
+     "desc": "This is a picture taken of the Sydney CBD skyline approaching sunset. The buildings are lit up by golden hour. The picture itself was taken "
+    },
+    {
+     "title": "File:Sydney (AU), Darling Harbour, King Street Wharf -- 2019 -- 2076-83.jpg",
+     "w": 14891,
+     "h": 6076,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Sydney_%28AU%29%2C_Darling_Harbour%2C_King_Street_Wharf_--_2019_--_2076-83.jpg/960px-Sydney_%28AU%29%2C_Darling_Harbour%2C_King_Street_Wharf_--_2019_--_2076-83.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_Darling_Harbour,_King_Street_Wharf_--_2019_--_2076-83.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Dietmar Rabich",
+     "desc": "King Street Wharf at Darling Harbour, Sydney, New South Wales, AustraliaDarling Harbour in Sydney is located on the eastern edge of the city"
+    }
+   ]
+  },
+  "시애틀": {
+   "codes": [
+    "SEA"
+   ],
+   "en": "Seattle",
+   "chosen": {
+    "title": "File:High rise view of Capitol Hill at night, looking east from Pine and 9th.jpg",
+    "w": 7358,
+    "h": 4898,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/High_rise_view_of_Capitol_Hill_at_night%2C_looking_east_from_Pine_and_9th.jpg/960px-High_rise_view_of_Capitol_Hill_at_night%2C_looking_east_from_Pine_and_9th.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:High_rise_view_of_Capitol_Hill_at_night,_looking_east_from_Pine_and_9th.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Dllu",
+    "desc": "Night photo of Capitol Hill, Seattle as seen from the top floor of Premiere on Pine, a high rise residential building. In the distance on th"
+   },
+   "alternates": [
+    {
+     "title": "File:Vista de Seattle, Washington, Estados Unidos, 2017-09-02, DD 07-08 HDR.jpg",
+     "w": 6367,
+     "h": 3439,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Vista_de_Seattle%2C_Washington%2C_Estados_Unidos%2C_2017-09-02%2C_DD_07-08_HDR.jpg/960px-Vista_de_Seattle%2C_Washington%2C_Estados_Unidos%2C_2017-09-02%2C_DD_07-08_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Vista_de_Seattle,_Washington,_Estados_Unidos,_2017-09-02,_DD_07-08_HDR.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Diego Delso",
+     "desc": "Cityscape of Seattle just after sunset, seen from the skyscraper Columbia Center at 701 5th Avenue, Seattle, Washington, USA."
+    },
+    {
+     "title": "File:Seattle Skyline 2019-1117.jpg",
+     "w": 5184,
+     "h": 2916,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Seattle_Skyline_2019-1117.jpg/960px-Seattle_Skyline_2019-1117.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Seattle_Skyline_2019-1117.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "James Conkis",
+     "desc": "Seattle Skyline, Seattle, WA."
+    }
+   ]
+  },
+  "싱가포르": {
+   "codes": [
+    "SIN"
+   ],
+   "en": "Singapore",
+   "chosen": {
+    "title": "File:Singapore (SG), Marina Bay -- 2019 -- 4561-9.jpg",
+    "w": 15880,
+    "h": 3527,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Singapore_%28SG%29%2C_Marina_Bay_--_2019_--_4561-9.jpg/960px-Singapore_%28SG%29%2C_Marina_Bay_--_2019_--_4561-9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Singapore_(SG),_Marina_Bay_--_2019_--_4561-9.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Dietmar Rabich",
+    "desc": "Marina Bay, Singapore"
+   },
+   "alternates": [
+    {
+     "title": "File:Singapore (SG), Marina Bay, Night View -- 2019 -- 4573-81.jpg",
+     "w": 15310,
+     "h": 3629,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Singapore_%28SG%29%2C_Marina_Bay%2C_Night_View_--_2019_--_4573-81.jpg/960px-Singapore_%28SG%29%2C_Marina_Bay%2C_Night_View_--_2019_--_4573-81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Singapore_(SG),_Marina_Bay,_Night_View_--_2019_--_4573-81.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Dietmar Rabich",
+     "desc": "Marina Bay, Singapore"
+    },
+    {
+     "title": "File:Singapore (SG), Marina Bay, Night View -- 2019 -- 4682.jpg",
+     "w": 6720,
+     "h": 3780,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Singapore_%28SG%29%2C_Marina_Bay%2C_Night_View_--_2019_--_4682.jpg/960px-Singapore_%28SG%29%2C_Marina_Bay%2C_Night_View_--_2019_--_4682.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Singapore_(SG),_Marina_Bay,_Night_View_--_2019_--_4682.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Dietmar Rabich",
+     "desc": "Marina Bay, Singapore"
+    }
+   ]
+  },
+  "싼야": {
+   "codes": [
+    "SYX"
+   ],
+   "en": "Sanya",
+   "chosen": {
+    "title": "File:Townscape in Yoyogi 3.jpg",
+    "w": 4032,
+    "h": 3024,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Townscape_in_Yoyogi_3.jpg/960px-Townscape_in_Yoyogi_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Townscape_in_Yoyogi_3.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Syced",
+    "desc": "Townscape in Yoyogi"
+   },
+   "alternates": [
+    {
+     "title": "File:Sanya Bay 01.jpg",
+     "w": 5184,
+     "h": 3456,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Sanya_Bay_01.jpg/960px-Sanya_Bay_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Sanya_Bay_01.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Zhangmoon618",
+     "desc": "​三亚湾沿岸。"
+    },
+    {
+     "title": "File:Sanya Beach Night - panoramio.jpg",
+     "w": 5370,
+     "h": 2266,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Sanya_Beach_Night_-_panoramio.jpg/960px-Sanya_Beach_Night_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Sanya_Beach_Night_-_panoramio.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "fading",
+     "desc": "Sanya Beach Night"
+    }
+   ]
+  },
+  "암스테르담": {
+   "codes": [
+    "AMS"
+   ],
+   "en": "Amsterdam",
+   "chosen": {
+    "title": "File:Stadsgezicht Rijksmuseum SK-A-1404.jpeg",
+    "w": 5758,
+    "h": 3850,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Stadsgezicht_Rijksmuseum_SK-A-1404.jpeg/960px-Stadsgezicht_Rijksmuseum_SK-A-1404.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Stadsgezicht_Rijksmuseum_SK-A-1404.jpeg",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Jacob Maris",
+    "desc": "Stadsgezicht. Gezicht in de haven van een Hollandse stad met schuiten afgemeerd aan de kades, boven het water meeuwen."
+   },
+   "alternates": [
+    {
+     "title": "File:Distant view of Amsterdam Skyline at night.jpg",
+     "w": 4032,
+     "h": 2268,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Distant_view_of_Amsterdam_Skyline_at_night.jpg/960px-Distant_view_of_Amsterdam_Skyline_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Distant_view_of_Amsterdam_Skyline_at_night.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "Peterupton99",
+     "desc": "A Distant view of an Amsterdam Skyline at night"
+    },
+    {
+     "title": "File:Stadsgezicht Rijksmuseum SK-A-2455.jpeg",
+     "w": 3888,
+     "h": 2096,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Stadsgezicht_Rijksmuseum_SK-A-2455.jpeg/960px-Stadsgezicht_Rijksmuseum_SK-A-2455.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Stadsgezicht_Rijksmuseum_SK-A-2455.jpeg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Jacob Maris",
+     "desc": "Stadsgezicht. Gezicht op de waterkant van een grote Hollandse stad. Op de voorgrond het water, daarachter de gebouwen aan de kade en aangeme"
+    }
+   ]
+  },
+  "양곤": {
+   "codes": [
+    "RGN"
+   ],
+   "en": "Yangon",
+   "chosen": {
+    "title": "File:2016 Rangun, Ulica Anawratha (02).jpg",
+    "w": 4474,
+    "h": 3171,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/2016_Rangun%2C_Ulica_Anawratha_%2802%29.jpg/960px-2016_Rangun%2C_Ulica_Anawratha_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2016_Rangun,_Ulica_Anawratha_(02).jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Marcin Konsek",
+    "desc": "Anawratha Road. Yangon, Myanmar."
+   },
+   "alternates": [
+    {
+     "title": "File:Kyimyindaing.jpg",
+     "w": 4032,
+     "h": 3024,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Kyimyindaing.jpg/960px-Kyimyindaing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Kyimyindaing.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Ericwinny",
+     "desc": "Kyimyindaing Skyline"
+    },
+    {
+     "title": "File:Ahlone.jpg",
+     "w": 4032,
+     "h": 3024,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Ahlone.jpg/960px-Ahlone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ahlone.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Ericwinny",
+     "desc": "Ahlone skyline"
+    }
+   ]
+  },
+  "오사카": {
+   "codes": [
+    "KIX",
+    "OSA"
+   ],
+   "en": "Osaka",
+   "chosen": {
+    "title": "File:Umeda Skyline 20260510 132243.jpg",
+    "w": 8192,
+    "h": 6144,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Umeda_Skyline_20260510_132243.jpg/960px-Umeda_Skyline_20260510_132243.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Umeda_Skyline_20260510_132243.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Loggieloggie",
+    "desc": "A view of the skyline of Umeda from Shinkitano, Yodogawa Ward on 10 May 2026."
+   },
+   "alternates": [
+    {
+     "title": "File:Rokko Tenrandai Night View.jpg",
+     "w": 27439,
+     "h": 4116,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Rokko_Tenrandai_Night_View.jpg/960px-Rokko_Tenrandai_Night_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Rokko_Tenrandai_Night_View.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Laitr Keiows",
+     "desc": "Panoramic Night View of Kansai urban area from Tenrandai Platform of Mt. Rokko"
+    },
+    {
+     "title": "File:Cityscape of Osaka, Japan, during night; October 2016.jpg",
+     "w": 4065,
+     "h": 2004,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Cityscape_of_Osaka%2C_Japan%2C_during_night%3B_October_2016.jpg/960px-Cityscape_of_Osaka%2C_Japan%2C_during_night%3B_October_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cityscape_of_Osaka,_Japan,_during_night;_October_2016.jpg",
+     "license": "CC BY-SA 2.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+     "author": "Pedro Szekely from Los Angeles, USA",
+     "desc": "Cityscape of Osaka, Japan during night."
+    }
+   ]
+  },
+  "오클랜드": {
+   "codes": [
+    "AKL"
+   ],
+   "en": "Auckland",
+   "chosen": {
+    "title": "File:Skyline - Auckland, NZ - DSC07092.jpg",
+    "w": 5361,
+    "h": 3383,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Skyline_-_Auckland%2C_NZ_-_DSC07092.jpg/960px-Skyline_-_Auckland%2C_NZ_-_DSC07092.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Skyline_-_Auckland,_NZ_-_DSC07092.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Daderot",
+    "desc": "Skyline - Auckland, New Zealand."
+   },
+   "alternates": [
+    {
+     "title": "File:Auckland skyline PA01.jpg",
+     "w": 5712,
+     "h": 3486,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Auckland_skyline_PA01.jpg/960px-Auckland_skyline_PA01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Auckland_skyline_PA01.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "Paora",
+     "desc": "Auckland city skyline, viewed from Augustus Terrace, Parnell, photographed on 25 December 2025"
+    },
+    {
+     "title": "File:AucklandPano MC.jpg",
+     "w": 15000,
+     "h": 2271,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/AucklandPano_MC.jpg/960px-AucklandPano_MC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:AucklandPano_MC.jpg",
+     "license": "CC BY 2.5",
+     "license_url": "https://creativecommons.org/licenses/by/2.5",
+     "author": "Christian Mehlführer, User:Chmehl",
+     "desc": "The Skyline of Auckland City, in the foreground a part of Mt. Eden is visible, left in the background is the Auckland Harbour Bridge. Panora"
+    }
+   ]
+  },
+  "오키나와": {
+   "codes": [
+    "OKA"
+   ],
+   "en": "Okinawa",
+   "chosen": {
+    "title": "File:Tudumari-no-hama Iriomote Island Japan01bs4440.jpg",
+    "w": 4440,
+    "h": 2960,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Tudumari-no-hama_Iriomote_Island_Japan01bs4440.jpg/960px-Tudumari-no-hama_Iriomote_Island_Japan01bs4440.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tudumari-no-hama_Iriomote_Island_Japan01bs4440.jpg",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "author": "663highland",
+    "desc": "Tudumari-no-hama ( Tsukigahama Beach ) in Iriomote Island, Taketomi Town, Okinawa Prefecture, Japan."
+   },
+   "alternates": [
+    {
+     "title": "File:Cityscape of Tomigusuku 202010 02.jpg",
+     "w": 6000,
+     "h": 4000,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Cityscape_of_Tomigusuku_202010_02.jpg/960px-Cityscape_of_Tomigusuku_202010_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cityscape_of_Tomigusuku_202010_02.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Kugel~commonswiki",
+     "desc": "Cityscape of Tomigusuku, Okinawa Prefecture, Japan"
+    },
+    {
+     "title": "File:Cityscape of Naha and Tomigusuku 202010.jpg",
+     "w": 6000,
+     "h": 4000,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Cityscape_of_Naha_and_Tomigusuku_202010.jpg/960px-Cityscape_of_Naha_and_Tomigusuku_202010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cityscape_of_Naha_and_Tomigusuku_202010.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Kugel~commonswiki",
+     "desc": "Cityscape of Naha (behind the image) and Tomigusuku (in the front of the image), Okinawa Prefecture, Japan"
+    }
+   ]
+  },
+  "울란바토르": {
+   "codes": [
+    "UBN"
+   ],
+   "en": "Ulaanbaatar",
+   "chosen": {
+    "title": "File:View of Ulaanbaatar 02.jpg",
+    "w": 3894,
+    "h": 2235,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/View_of_Ulaanbaatar_02.jpg/960px-View_of_Ulaanbaatar_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:View_of_Ulaanbaatar_02.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Bernard Gagnon",
+    "desc": "View of Ulaanbaatar, Mongolia"
+   },
+   "alternates": [
+    {
+     "title": "File:View of Ulaanbaatar 03.jpg",
+     "w": 3664,
+     "h": 2228,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/View_of_Ulaanbaatar_03.jpg/960px-View_of_Ulaanbaatar_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:View_of_Ulaanbaatar_03.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "Bernard Gagnon",
+     "desc": "View of Ulaanbaatar from Zaisan Memorial, Mongolia"
+    },
+    {
+     "title": "File:View of Ulaanbaatar 01.jpg",
+     "w": 3592,
+     "h": 2188,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/View_of_Ulaanbaatar_01.jpg/960px-View_of_Ulaanbaatar_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:View_of_Ulaanbaatar_01.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "Bernard Gagnon",
+     "desc": "View of Ulaanbaatar, Mongolia"
+    }
+   ]
+  },
+  "이스탄불": {
+   "codes": [
+    "IST"
+   ],
+   "en": "Istanbul",
+   "chosen": {
+    "title": "File:Controluce Eminönü Istanbul.jpg",
+    "w": 3700,
+    "h": 1796,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Controluce_Emin%C3%B6n%C3%BC_Istanbul.jpg/960px-Controluce_Emin%C3%B6n%C3%BC_Istanbul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Controluce_Emin%C3%B6n%C3%BC_Istanbul.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Matteo Pezzano",
+    "desc": "Olio su tela 30x60 cm. - 2024"
+   },
+   "alternates": [
+    {
+     "title": "File:Historical peninsula and modern skyline of Istanbul.jpg",
+     "w": 3301,
+     "h": 1595,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Historical_peninsula_and_modern_skyline_of_Istanbul.jpg/960px-Historical_peninsula_and_modern_skyline_of_Istanbul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Historical_peninsula_and_modern_skyline_of_Istanbul.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "Hunanuk",
+     "desc": "Aerial view of the historical peninsula and modern skyline of Istanbul"
+    },
+    {
+     "title": "File:Edo Panorama old Tokyo color photochrom.jpg",
+     "w": 2962,
+     "h": 450,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Edo_Panorama_old_Tokyo_color_photochrom.jpg/960px-Edo_Panorama_old_Tokyo_color_photochrom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Edo_Panorama_old_Tokyo_color_photochrom.jpg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Felice Beato",
+     "desc": "A colored Photochrom print version of a panorama of Edo (now Tokyo) showing daimyo residences, Japan. Original Beato's title: Panorama of Ye"
+    }
+   ]
+  },
+  "자카르타": {
+   "codes": [
+    "JKT"
+   ],
+   "en": "Jakarta",
+   "chosen": {
+    "title": "File:View of the Island and the City of Batavia Belonging to the Dutch, for the India Company WDL2900.jpg",
+    "w": 4900,
+    "h": 3438,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/View_of_the_Island_and_the_City_of_Batavia_Belonging_to_the_Dutch%2C_for_the_India_Company_WDL2900.jpg/960px-View_of_the_Island_and_the_City_of_Batavia_Belonging_to_the_Dutch%2C_for_the_India_Company_WDL2900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:View_of_the_Island_and_the_City_of_Batavia_Belonging_to_the_Dutch,_for_the_India_Company_WDL2900.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Ryne, I. van",
+    "desc": "This hand-colored engraving of the Dutch colonial capital of Batavia (present-day Jakarta) was created by Jan Van Ryne in 1754. Van Ryne was"
+   },
+   "alternates": [
+    {
+     "title": "File:Kembangan, Jakarta Barat.jpg",
+     "w": 4128,
+     "h": 3096,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Kembangan%2C_Jakarta_Barat.jpg/960px-Kembangan%2C_Jakarta_Barat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Kembangan,_Jakarta_Barat.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Saipul bakrie",
+     "desc": "sunset di jakarta"
+    },
+    {
+     "title": "File:South Jakarta buildings skyline.jpg",
+     "w": 9248,
+     "h": 6936,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/South_Jakarta_buildings_skyline.jpg/960px-South_Jakarta_buildings_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:South_Jakarta_buildings_skyline.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Vitaium",
+     "desc": "This is the picture of South Jakarta city building complex skyline at sunset"
+    }
+   ]
+  },
+  "제주": {
+   "codes": [
+    "CJU"
+   ],
+   "en": "Jeju Island",
+   "chosen": {
+    "title": "File:Beaches of Jeju - JejuBeaches2458.jpg",
+    "w": 5184,
+    "h": 3456,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Beaches_of_Jeju_-_JejuBeaches2458.jpg/960px-Beaches_of_Jeju_-_JejuBeaches2458.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Beaches_of_Jeju_-_JejuBeaches2458.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "lumoplank",
+    "desc": "Two people stand on a volcanic rock and sand beach on Jeju Island."
+   },
+   "alternates": [
+    {
+     "title": "File:Gwakji Beach in Jeju Island, 2022.jpg",
+     "w": 3697,
+     "h": 2773,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Gwakji_Beach_in_Jeju_Island%2C_2022.jpg/960px-Gwakji_Beach_in_Jeju_Island%2C_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Gwakji_Beach_in_Jeju_Island,_2022.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "Jeong seolah",
+     "desc": "Guakjiri beach in jeju island"
+    },
+    {
+     "title": "File:September Asia Jeju Island Corea Chinese Sea - Master Asia Photography 2012 - panoramio (11).jpg",
+     "w": 4112,
+     "h": 3112,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/September_Asia_Jeju_Island_Corea_Chinese_Sea_-_Master_Asia_Photography_2012_-_panoramio_%2811%29.jpg/960px-September_Asia_Jeju_Island_Corea_Chinese_Sea_-_Master_Asia_Photography_2012_-_panoramio_%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:September_Asia_Jeju_Island_Corea_Chinese_Sea_-_Master_Asia_Photography_2012_-_panoramio_(11).jpg",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "author": "pictures Jettcom",
+     "desc": "September Asia Jeju Island Corea Chinese Sea - Master Asia Photography 2012"
+    }
+   ]
+  },
+  "취리히": {
+   "codes": [
+    "ZRH"
+   ],
+   "en": "Zurich",
+   "chosen": {
+    "title": "File:Fallätsche 20200114.jpg",
+    "w": 9338,
+    "h": 6397,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Fall%C3%A4tsche_20200114.jpg/960px-Fall%C3%A4tsche_20200114.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Fall%C3%A4tsche_20200114.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Daniel Kraft",
+    "desc": "Fallätsche is an erosion and nature area near Zurich.  The picture shows it from the Sihl valley."
+   },
+   "alternates": [
+    {
+     "title": "File:Sihlhochstrasse panosphere 20200221.jpg",
+     "w": 12636,
+     "h": 6318,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Sihlhochstrasse_panosphere_20200221.jpg/960px-Sihlhochstrasse_panosphere_20200221.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Sihlhochstrasse_panosphere_20200221.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Daniel Kraft",
+     "desc": "The Sihlhochstrasse is part of the Swiss motorway A3, and was meant to be continued over the river Sihl and connected in the centre of Zuric"
+    },
+    {
+     "title": "File:Adliswil Reformierte Kirche panosphere 20200608.jpg",
+     "w": 12704,
+     "h": 6352,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Adliswil_Reformierte_Kirche_panosphere_20200608.jpg/960px-Adliswil_Reformierte_Kirche_panosphere_20200608.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Adliswil_Reformierte_Kirche_panosphere_20200608.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Daniel Kraft",
+     "desc": "Spherical panorama in front of the protestant church (Reformierte Kirche) in Adliswil, Switzerland.  Adliswil itself and the Albis (with Fel"
+    }
+   ]
+  },
+  "치앙마이": {
+   "codes": [
+    "CNX"
+   ],
+   "en": "Chiang Mai",
+   "chosen": {
+    "title": "File:Chiang mai pano 2010 0128.jpg",
+    "w": 7969,
+    "h": 1442,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Chiang_mai_pano_2010_0128.jpg/960px-Chiang_mai_pano_2010_0128.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Chiang_mai_pano_2010_0128.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Takeaway",
+    "desc": "Panorama of the city of Chiang Mai, part of the surrounding valley and the mountains east of the city of Chiang Mai. The photo was made from"
+   },
+   "alternates": [
+    {
+     "title": "File:Panorama of Doi Suthep 2010.jpg",
+     "w": 14537,
+     "h": 2919,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Panorama_of_Doi_Suthep_2010.jpg/960px-Panorama_of_Doi_Suthep_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Panorama_of_Doi_Suthep_2010.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "FredTC",
+     "desc": "View of the mountain Doi Suthep. 180° panorama, made from the Hillside 4 condo building in Chiang Mai, Thailand, 2010."
+    },
+    {
+     "title": "File:Pano CM 2010 0928a3-1.jpg",
+     "w": 9436,
+     "h": 1717,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Pano_CM_2010_0928a3-1.jpg/960px-Pano_CM_2010_0928a3-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Pano_CM_2010_0928a3-1.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Takeaway",
+     "desc": "Panorama of Chiang Mai during the rainy season when the skies are more clear and the surroundings more luscious green. The image was taken f"
+    }
+   ]
+  },
+  "칭다오": {
+   "codes": [
+    "TAO"
+   ],
+   "en": "Qingdao",
+   "chosen": {
+    "title": "File:Qingdao - Drone view city with skyline (Unsplash).jpg",
+    "w": 3776,
+    "h": 2520,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Qingdao_-_Drone_view_city_with_skyline_%28Unsplash%29.jpg/960px-Qingdao_-_Drone_view_city_with_skyline_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Qingdao_-_Drone_view_city_with_skyline_(Unsplash).jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "CHO EUNSEONG being_es",
+    "desc": "CHO EUNSEONG 2014"
+   },
+   "alternates": [
+    {
+     "title": "File:Qingdao 06.JPG",
+     "w": 3328,
+     "h": 1872,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Qingdao_06.JPG/960px-Qingdao_06.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Qingdao_06.JPG",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Brücke-Osteuropa",
+     "desc": "Building of the city government in the new centre of Qingdao"
+    },
+    {
+     "title": "File:Qingdao (DDG 113) sailing past USS Midway 060918-N-7526R-068 0TXAT.jpg",
+     "w": 1920,
+     "h": 1200,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Qingdao_%28DDG_113%29_sailing_past_USS_Midway_060918-N-7526R-068_0TXAT.jpg/960px-Qingdao_%28DDG_113%29_sailing_past_USS_Midway_060918-N-7526R-068_0TXAT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Qingdao_(DDG_113)_sailing_past_USS_Midway_060918-N-7526R-068_0TXAT.jpg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Mass Communication Specialist 3rd Class Marc Rockwell-Pate, USN",
+     "desc": "Chinese navy destroyer Qingdao (DDG 113) steams past the aircraft carrier museum USS Midway (CV 41) as it approaches Naval Station San Diego"
+    }
+   ]
+  },
+  "카트만두": {
+   "codes": [
+    "KTM"
+   ],
+   "en": "Kathmandu",
+   "chosen": {
+    "title": "File:Kagbeni Village Pano-IMG 0801-Pano.jpg",
+    "w": 13416,
+    "h": 3955,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Kagbeni_Village_Pano-IMG_0801-Pano.jpg/960px-Kagbeni_Village_Pano-IMG_0801-Pano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kagbeni_Village_Pano-IMG_0801-Pano.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Bijay Chaurasia",
+    "desc": "Kagbeni Village Pano"
+   },
+   "alternates": [
+    {
+     "title": "File:Meeting point of Sunkoshi and Tama Koshi River from Beni Ghat-IMG0620-Pano.jpg",
+     "w": 14585,
+     "h": 4845,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Meeting_point_of_Sunkoshi_and_Tama_Koshi_River_from_Beni_Ghat-IMG0620-Pano.jpg/960px-Meeting_point_of_Sunkoshi_and_Tama_Koshi_River_from_Beni_Ghat-IMG0620-Pano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Meeting_point_of_Sunkoshi_and_Tama_Koshi_River_from_Beni_Ghat-IMG0620-Pano.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Bijay Chaurasia",
+     "desc": "Meeting point of Sunkoshi and Tama Koshi River from Beni Ghat"
+    },
+    {
+     "title": "File:Panorama from poonhill-2019-BJ.jpg",
+     "w": 14735,
+     "h": 4748,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Panorama_from_poonhill-2019-BJ.jpg/960px-Panorama_from_poonhill-2019-BJ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Panorama_from_poonhill-2019-BJ.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Bijay Chaurasia",
+     "desc": "Panaromic View of beautiful himalayas like Gurja Peak (7193 m), Dhaulagiri IV (7661 m), Dhaulagiri V (7618 m), Dhaulagiri III (7715 m), Dhau"
+    }
+   ]
+  },
+  "칼리보(보라카이)": {
+   "codes": [
+    "KLO"
+   ],
+   "en": "Boracay",
+   "chosen": {
+    "title": "File:Boracay Boat and Tourists.jpg",
+    "w": 3600,
+    "h": 2400,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Boracay_Boat_and_Tourists.jpg/960px-Boracay_Boat_and_Tourists.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Boracay_Boat_and_Tourists.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Joey Razon for Philippine News Agency",
+    "desc": "Aside from the white sand beaches and blue waters surrounding Boracay which attract local and foreign tourists,  the famous island in the pr"
+   },
+   "alternates": [
+    {
+     "title": "File:WhiteBeach-Boracay.jpg",
+     "w": 2048,
+     "h": 1536,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/WhiteBeach-Boracay.jpg/960px-WhiteBeach-Boracay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:WhiteBeach-Boracay.jpg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Marcos Broc",
+     "desc": "Playa de White Beach en la isla filipina de Borácay. Al fondo, la costa de Caticlán, en la isla de Panay"
+    },
+    {
+     "title": "File:The beach in Boracay.JPG",
+     "w": 4752,
+     "h": 3168,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/The_beach_in_Boracay.JPG/960px-The_beach_in_Boracay.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:The_beach_in_Boracay.JPG",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "EGARCIA123",
+     "desc": "Enjoying the weather"
+    }
+   ]
+  },
+  "코타키나발루": {
+   "codes": [
+    "BKI"
+   ],
+   "en": "Kota Kinabalu",
+   "chosen": {
+    "title": "File:Beach in Kota Kinabalu.jpg",
+    "w": 6240,
+    "h": 4160,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Beach_in_Kota_Kinabalu.jpg/960px-Beach_in_Kota_Kinabalu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Beach_in_Kota_Kinabalu.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Ahmad Ali Karim",
+    "desc": "A person running at a beach in Kota Kinabalu."
+   },
+   "alternates": [
+    {
+     "title": "File:Tanjung Aru Beach Stalls.jpg",
+     "w": 4288,
+     "h": 2848,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Tanjung_Aru_Beach_Stalls.jpg/960px-Tanjung_Aru_Beach_Stalls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Tanjung_Aru_Beach_Stalls.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Dcubillas",
+     "desc": "Photo taken in the Tanjung Aru Beach hawker center, near Kota Kinabalu in Sabah, Malaysia. Stalls selling mainly roasted peanuts, boiled cor"
+    },
+    {
+     "title": "File:Tanjung Aru Beach and the Islands.jpg",
+     "w": 4288,
+     "h": 2848,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Tanjung_Aru_Beach_and_the_Islands.jpg/960px-Tanjung_Aru_Beach_and_the_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Tanjung_Aru_Beach_and_the_Islands.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Dcubillas",
+     "desc": "Tanjung Aru Beach near Kota Kinabalu in Sabah, Malaysia. The islands of Sulug, Manukan and Mamutik (in front of Manukan) can be seen in the "
+    }
+   ]
+  },
+  "콜롬보": {
+   "codes": [
+    "CMB"
+   ],
+   "en": "Colombo",
+   "chosen": {
+    "title": "File:A view of Colombo's dramatic skyline at dusk.jpg",
+    "w": 5769,
+    "h": 3846,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/A_view_of_Colombo%27s_dramatic_skyline_at_dusk.jpg/960px-A_view_of_Colombo%27s_dramatic_skyline_at_dusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:A_view_of_Colombo%27s_dramatic_skyline_at_dusk.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Thilina Alagiyawanna",
+    "desc": "A view of Colombo's dramatic skyline at dusk, featuring the Shangrila apartments and the WTC Twin Towers in the background"
+   },
+   "alternates": [
+    {
+     "title": "File:Colombo city skyline.png",
+     "w": 1440,
+     "h": 1080,
+     "mime": "image/png",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Colombo_city_skyline.png/960px-Colombo_city_skyline.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Colombo_city_skyline.png",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "Gihanud2001",
+     "desc": "colombo skyline mid day"
+    },
+    {
+     "title": "File:Colombo city skyline at night.png",
+     "w": 1440,
+     "h": 1080,
+     "mime": "image/png",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Colombo_city_skyline_at_night.png/960px-Colombo_city_skyline_at_night.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Colombo_city_skyline_at_night.png",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "Gihanud2001",
+     "desc": "Colombo city"
+    }
+   ]
+  },
+  "쿠알라룸푸르": {
+   "codes": [
+    "KUL"
+   ],
+   "en": "Kuala Lumpur",
+   "chosen": {
+    "title": "File:Kuala Lumpur Skyline at dusk 1.jpg",
+    "w": 1920,
+    "h": 1109,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Kuala_Lumpur_Skyline_at_dusk_1.jpg/960px-Kuala_Lumpur_Skyline_at_dusk_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kuala_Lumpur_Skyline_at_dusk_1.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Walkerssk",
+    "desc": "Kuala Lumpur Skyline at dusk"
+   },
+   "alternates": [
+    {
+     "title": "File:Kual Lumpa(Malasia) skyline 2023.png",
+     "w": 1512,
+     "h": 1252,
+     "mime": "image/png",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Kual_Lumpa%28Malasia%29_skyline_2023.png/960px-Kual_Lumpa%28Malasia%29_skyline_2023.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Kual_Lumpa(Malasia)_skyline_2023.png",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "D A R C 12345",
+     "desc": "(Malasia)"
+    },
+    {
+     "title": "File:Saloma link and KL cityscape (49525938062).jpg",
+     "w": 6142,
+     "h": 4097,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Saloma_link_and_KL_cityscape_%2849525938062%29.jpg/960px-Saloma_link_and_KL_cityscape_%2849525938062%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Saloma_link_and_KL_cityscape_(49525938062).jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "author": "Sheikh  Izham from Malaysia",
+     "desc": "Saloma link and KL cityscape"
+    }
+   ]
+  },
+  "타이베이": {
+   "codes": [
+    "TPE"
+   ],
+   "en": "Taipei",
+   "chosen": {
+    "title": "File:New Taipei City Skyline Night View Landscape.jpg",
+    "w": 4170,
+    "h": 2606,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/New_Taipei_City_Skyline_Night_View_Landscape.jpg/960px-New_Taipei_City_Skyline_Night_View_Landscape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:New_Taipei_City_Skyline_Night_View_Landscape.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Heeheemalu",
+    "desc": "​新北市天際線夜景"
+   },
+   "alternates": [
+    {
+     "title": "File:Banqiao skyline.jpg",
+     "w": 6957,
+     "h": 2345,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Banqiao_skyline.jpg/960px-Banqiao_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Banqiao_skyline.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Heeheemalu",
+     "desc": "Banqiao District, New Taipei City, Taiwan skyline with many skyscrapers"
+    },
+    {
+     "title": "File:Taipei Skyline 2015.jpg",
+     "w": 4789,
+     "h": 2974,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Taipei_Skyline_2015.jpg/960px-Taipei_Skyline_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Taipei_Skyline_2015.jpg",
+     "license": "CC BY-SA 2.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+     "author": "ynes95",
+     "desc": "Taipei, Taiwan skyline at night in October 2015"
+    }
+   ]
+  },
+  "타이중": {
+   "codes": [
+    "RMQ"
+   ],
+   "en": "Taichung",
+   "chosen": {
+    "title": "File:Taichung Skyline 2008.jpg",
+    "w": 1600,
+    "h": 1071,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Taichung_Skyline_2008.jpg/960px-Taichung_Skyline_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Taichung_Skyline_2008.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "misco",
+    "desc": "Skyline of Taichung city, Taiwan in 2008"
+   },
+   "alternates": [
+    {
+     "title": "File:Taichung skyline 2015.jpg",
+     "w": 5184,
+     "h": 3456,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Taichung_skyline_2015.jpg/960px-Taichung_skyline_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Taichung_skyline_2015.jpg",
+     "license": "CC BY-SA 2.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+     "author": "Liao Zi",
+     "desc": "Skyline of Maple Garden, Taichung, Taiwan in 2015. The right-most skyscraper in the picture is Pao Huei Solitaire."
+    },
+    {
+     "title": "File:Taichung skyline 2008.jpg",
+     "w": 5035,
+     "h": 3339,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Taichung_skyline_2008.jpg/960px-Taichung_skyline_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Taichung_skyline_2008.jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "author": "【Ｊ】",
+     "desc": "Skyline of Taichung city, Taiwan in 2008"
+    }
+   ]
+  },
+  "토론토": {
+   "codes": [
+    "YTO"
+   ],
+   "en": "Toronto",
+   "chosen": {
+    "title": "File:Toronto Cityscape (50929377332).png",
+    "w": 2142,
+    "h": 696,
+    "mime": "image/png",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Toronto_Cityscape_%2850929377332%29.png/960px-Toronto_Cityscape_%2850929377332%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Toronto_Cityscape_(50929377332).png",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Thomas Fisher Rare Book Library, UofT",
+    "desc": "Call number: MSS 05044 \nTitle: Toronto\nDate: [1854-1856]\nLocation: Lake Ontario\nDescription: Drawing of a panoramic view of Toronto from Lak"
+   },
+   "alternates": [
+    {
+     "title": "File:Toronto - ON - Skyline bei Nacht.jpg",
+     "w": 4006,
+     "h": 2808,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Toronto_-_ON_-_Skyline_bei_Nacht.jpg/960px-Toronto_-_ON_-_Skyline_bei_Nacht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Toronto_-_ON_-_Skyline_bei_Nacht.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Wladyslaw (talk)",
+     "desc": "Skyline of Toronto"
+    },
+    {
+     "title": "File:122 - Toronto - Septembre 2009.jpg",
+     "w": 16700,
+     "h": 4478,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/122_-_Toronto_-_Septembre_2009.jpg/960px-122_-_Toronto_-_Septembre_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:122_-_Toronto_-_Septembre_2009.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Martin St-Amant (S23678)",
+     "desc": "Panorama of Toronto."
+    }
+   ]
+  },
+  "파리": {
+   "codes": [
+    "CDG",
+    "PAR"
+   ],
+   "en": "Paris",
+   "chosen": {
+    "title": "File:Stadsgezicht Rijksmuseum SK-A-1404.jpeg",
+    "w": 5758,
+    "h": 3850,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Stadsgezicht_Rijksmuseum_SK-A-1404.jpeg/960px-Stadsgezicht_Rijksmuseum_SK-A-1404.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Stadsgezicht_Rijksmuseum_SK-A-1404.jpeg",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Jacob Maris",
+    "desc": "Stadsgezicht. Gezicht in de haven van een Hollandse stad met schuiten afgemeerd aan de kades, boven het water meeuwen."
+   },
+   "alternates": [
+    {
+     "title": "File:ARNOLD LAKHOVSKY 1918 - Fontanka. Petersburg.jpg",
+     "w": 4134,
+     "h": 3054,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/ARNOLD_LAKHOVSKY_1918_-_Fontanka._Petersburg.jpg/960px-ARNOLD_LAKHOVSKY_1918_-_Fontanka._Petersburg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:ARNOLD_LAKHOVSKY_1918_-_Fontanka._Petersburg.jpg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Arnold Lakhovsky",
+     "desc": "ARNOLD LAKHOVSKY 1918 - Fontanka. Petersburg / oil on cardboard, 49.0 × 66.1 cm. Private collection, Russia."
+    },
+    {
+     "title": "File:Stadsgezicht Rijksmuseum SK-A-2455.jpeg",
+     "w": 3888,
+     "h": 2096,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Stadsgezicht_Rijksmuseum_SK-A-2455.jpeg/960px-Stadsgezicht_Rijksmuseum_SK-A-2455.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Stadsgezicht_Rijksmuseum_SK-A-2455.jpeg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Jacob Maris",
+     "desc": "Stadsgezicht. Gezicht op de waterkant van een grote Hollandse stad. Op de voorgrond het water, daarachter de gebouwen aan de kade en aangeme"
+    }
+   ]
+  },
+  "푸꾸옥": {
+   "codes": [
+    "PQC"
+   ],
+   "en": "Phu Quoc",
+   "chosen": {
+    "title": "File:1 Phu Quoc beach Saigon Phu Quoc Resort and Spa.jpg",
+    "w": 4080,
+    "h": 3072,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/1_Phu_Quoc_beach_Saigon_Phu_Quoc_Resort_and_Spa.jpg/960px-1_Phu_Quoc_beach_Saigon_Phu_Quoc_Resort_and_Spa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:1_Phu_Quoc_beach_Saigon_Phu_Quoc_Resort_and_Spa.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Elmschrat",
+    "desc": "Phu Quoc beach Saigon Phu Quoc Resort and Spa"
+   },
+   "alternates": [
+    {
+     "title": "File:Phu Quoc beach Saigon Phu Quoc Resort and Spa.jpg",
+     "w": 4080,
+     "h": 3072,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Phu_Quoc_beach_Saigon_Phu_Quoc_Resort_and_Spa.jpg/960px-Phu_Quoc_beach_Saigon_Phu_Quoc_Resort_and_Spa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Phu_Quoc_beach_Saigon_Phu_Quoc_Resort_and_Spa.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "Elmschrat",
+     "desc": "Phu Quoc beach Saigon Phu Quoc Resort and Spa"
+    },
+    {
+     "title": "File:1 Phu Quoc sunset.jpg",
+     "w": 4080,
+     "h": 3072,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/1_Phu_Quoc_sunset.jpg/960px-1_Phu_Quoc_sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:1_Phu_Quoc_sunset.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "Elmschrat",
+     "desc": "sunset at Phu Quoc beach Saigon Phu Quoc Resort and Spa"
+    }
+   ]
+  },
+  "푸켓": {
+   "codes": [
+    "HKT"
+   ],
+   "en": "Phuket",
+   "chosen": {
+    "title": "File:Portsmouth Waterfront.jpg",
+    "w": 1678,
+    "h": 451,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Portsmouth_Waterfront.jpg/960px-Portsmouth_Waterfront.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Portsmouth_Waterfront.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Bangkok Bloke from Bangkok, Thailand",
+    "desc": "Includes Portsmouth's two tallest structures: Spinnaker Tower and East Side Plaza"
+   },
+   "alternates": [
+    {
+     "title": "File:Banana beach Phuket 2017 - 03.jpg",
+     "w": 4961,
+     "h": 3307,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Banana_beach_Phuket_2017_-_03.jpg/960px-Banana_beach_Phuket_2017_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Banana_beach_Phuket_2017_-_03.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "This photo was taken by Anton Zelenov.\nPlease credit this with : Photo : Anton Z",
+     "desc": "Sunrize over Banana beach, Phuket, Thailand early in the morning."
+    },
+    {
+     "title": "File:Banana beach Phuket 2017 - 01.jpg",
+     "w": 4252,
+     "h": 2835,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Banana_beach_Phuket_2017_-_01.jpg/960px-Banana_beach_Phuket_2017_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Banana_beach_Phuket_2017_-_01.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "This photo was taken by Anton Zelenov.\nPlease credit this with : Photo : Anton Z",
+     "desc": "Sunrize over Banana beach, Phuket, Thailand early in the morning."
+    }
+   ]
+  },
+  "프라하": {
+   "codes": [
+    "PRG"
+   ],
+   "en": "Prague",
+   "chosen": {
+    "title": "File:Prague skyline view.jpg",
+    "w": 2200,
+    "h": 1467,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Prague_skyline_view.jpg/960px-Prague_skyline_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Prague_skyline_view.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "MurderousPass",
+    "desc": "Bridges in Prague, Czechia"
+   },
+   "alternates": [
+    {
+     "title": "File:Prague Panorama - Oct 2010.jpg",
+     "w": 16840,
+     "h": 3576,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Prague_Panorama_-_Oct_2010.jpg/960px-Prague_Panorama_-_Oct_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Prague_Panorama_-_Oct_2010.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Diliff",
+     "desc": "A panoramic view of Prague as viewed from Petřín Lookout Tower. The view is approximately 180 degrees, from north on the left to south on th"
+    },
+    {
+     "title": "File:Prague skyline at dawn.jpg",
+     "w": 4326,
+     "h": 2618,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Prague_skyline_at_dawn.jpg/960px-Prague_skyline_at_dawn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Prague_skyline_at_dawn.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Petar Milošević",
+     "desc": "Prague skyline at dawn. View from Charles bridge to the East."
+    }
+   ]
+  },
+  "프랑크푸르트": {
+   "codes": [
+    "FRA"
+   ],
+   "en": "Frankfurt",
+   "chosen": {
+    "title": "File:Dieburg Kupferstich.jpg",
+    "w": 2500,
+    "h": 1719,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Dieburg_Kupferstich.jpg/960px-Dieburg_Kupferstich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dieburg_Kupferstich.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "B. Roque",
+    "desc": "Dieburg, Kupferstich von B. Roque"
+   },
+   "alternates": [
+    {
+     "title": "File:Cityscape Frankfurt 2009 panorama.jpg",
+     "w": 9783,
+     "h": 1385,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Cityscape_Frankfurt_2009_panorama.jpg/960px-Cityscape_Frankfurt_2009_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cityscape_Frankfurt_2009_panorama.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Thomas Wolf (Der Wolf im Wald)",
+     "desc": "Cityscape of Frankfurt am Main, Germany"
+    },
+    {
+     "title": "File:Cityscape Frankfurt 2010.jpg",
+     "w": 6478,
+     "h": 1867,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Cityscape_Frankfurt_2010.jpg/960px-Cityscape_Frankfurt_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cityscape_Frankfurt_2010.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Thomas Wolf (Der Wolf im Wald)",
+     "desc": "Cityscape of Frankfurt am Main, Germany"
+    }
+   ]
+  },
+  "하노이": {
+   "codes": [
+    "HAN"
+   ],
+   "en": "Hanoi",
+   "chosen": {
+    "title": "File:Hanoi skyline with Ba Vi Mountain.jpg",
+    "w": 2048,
+    "h": 1093,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Hanoi_skyline_with_Ba_Vi_Mountain.jpg/960px-Hanoi_skyline_with_Ba_Vi_Mountain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Hanoi_skyline_with_Ba_Vi_Mountain.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Quangnlnhe182394",
+    "desc": "Hanoi skyline with Ba Vi Mountain"
+   },
+   "alternates": [
+    {
+     "title": "File:Sunset over Hanoi After the Rain.jpg",
+     "w": 13087,
+     "h": 4455,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Sunset_over_Hanoi_After_the_Rain.jpg/960px-Sunset_over_Hanoi_After_the_Rain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Sunset_over_Hanoi_After_the_Rain.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Christopher Crouzet",
+     "desc": "Sunset over Hanoi, Vietnam, after a short but strong storm."
+    },
+    {
+     "title": "File:Hanoi Skyline - NKS.jpg",
+     "w": 5959,
+     "h": 3352,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Hanoi_Skyline_-_NKS.jpg/960px-Hanoi_Skyline_-_NKS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Hanoi_Skyline_-_NKS.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "NKSTTSSHNVN",
+     "desc": "Toàn cảnh hà Nội với hai toàn nhà Keangnam 72 và Lotte Tower - 2021"
+    }
+   ]
+  },
+  "항저우": {
+   "codes": [
+    "HGH"
+   ],
+   "en": "Hangzhou",
+   "chosen": {
+    "title": "File:Hangzhou Skyline on West Lake.jpg",
+    "w": 8302,
+    "h": 3299,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Hangzhou_Skyline_on_West_Lake.jpg/960px-Hangzhou_Skyline_on_West_Lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Hangzhou_Skyline_on_West_Lake.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Yinweichen",
+    "desc": "Skyline of Downtown, Hangzhou from across West Lake"
+   },
+   "alternates": [
+    {
+     "title": "File:Hangzhou Skyline against the West Lake.png",
+     "w": 6000,
+     "h": 3376,
+     "mime": "image/png",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Hangzhou_Skyline_against_the_West_Lake.png/960px-Hangzhou_Skyline_against_the_West_Lake.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Hangzhou_Skyline_against_the_West_Lake.png",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Y Chen",
+     "desc": "Hangzhou Skyline against the West Lake, taken on Beishan Rd, Xihu Dist."
+    },
+    {
+     "title": "File:Skyline of the Western Part of Hangzhou.jpg",
+     "w": 4096,
+     "h": 3072,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Skyline_of_the_Western_Part_of_Hangzhou.jpg/960px-Skyline_of_the_Western_Part_of_Hangzhou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Skyline_of_the_Western_Part_of_Hangzhou.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "User:CatOnMars",
+     "desc": "​杭州城西，左上角为西溪湿地"
+    }
+   ]
+  },
+  "호놀룰루": {
+   "codes": [
+    "HNL"
+   ],
+   "en": "Honolulu",
+   "chosen": {
+    "title": "File:Honolulu cityscape (cropped).jpg",
+    "w": 4650,
+    "h": 2278,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Honolulu_cityscape_%28cropped%29.jpg/960px-Honolulu_cityscape_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Honolulu_cityscape_(cropped).jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Christian Joudrey",
+    "desc": "Honolulu"
+   },
+   "alternates": [
+    {
+     "title": "File:Skyline opening day.jpg",
+     "w": 4032,
+     "h": 3024,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Skyline_opening_day.jpg/960px-Skyline_opening_day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Skyline_opening_day.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "eli fessler",
+     "desc": "Passengers aboard Skyline on opening day."
+    },
+    {
+     "title": "File:Skyline viaduct 1.jpg",
+     "w": 4032,
+     "h": 3024,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Skyline_viaduct_1.jpg/960px-Skyline_viaduct_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Skyline_viaduct_1.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "RickyCourtney",
+     "desc": "Skyline viaduct through a plantation."
+    }
+   ]
+  },
+  "호치민": {
+   "codes": [
+    "SGN"
+   ],
+   "en": "Ho Chi Minh City",
+   "chosen": {
+    "title": "File:Rooftops by Igor Ovsyannykov.jpg",
+    "w": 2048,
+    "h": 1353,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Rooftops_by_Igor_Ovsyannykov.jpg/960px-Rooftops_by_Igor_Ovsyannykov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Rooftops_by_Igor_Ovsyannykov.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Igor Ovsyannykov",
+    "desc": "View of Ho Chi Minh City with Nhà Thờ Huyện Sỹ (Nhà Thờ Chợ Đũi) / Huyen Sy Church (Cho Doi Church)."
+   },
+   "alternates": [
+    {
+     "title": "File:Ho Chi Minh City Skyline at Night.jpg",
+     "w": 1366,
+     "h": 720,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg/960px-Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City_Skyline_at_Night.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "Tran Van Ngoc",
+     "desc": "The image captures the vibrant and illuminated skyline of Ho Chi Minh City (formerly known as Saigon) at night. Prominent skyscrapers from l"
+    },
+    {
+     "title": "File:Vista de Ciudad Ho Chi Minh desde Bitexco Financial Tower, Vietnam, 2013-08-14, DD 13.JPG",
+     "w": 5042,
+     "h": 3361,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Vista_de_Ciudad_Ho_Chi_Minh_desde_Bitexco_Financial_Tower%2C_Vietnam%2C_2013-08-14%2C_DD_13.JPG/960px-Vista_de_Ciudad_Ho_Chi_Minh_desde_Bitexco_Financial_Tower%2C_Vietnam%2C_2013-08-14%2C_DD_13.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Vista_de_Ciudad_Ho_Chi_Minh_desde_Bitexco_Financial_Tower,_Vietnam,_2013-08-14,_DD_13.JPG",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Diego Delso",
+     "desc": "View of Ho Chi Minh City from Bitexco Financial Tower, Vietnam"
+    }
+   ]
+  },
+  "홍콩": {
+   "codes": [
+    "HKG"
+   ],
+   "en": "Hong Kong",
+   "chosen": {
+    "title": "File:International Commerce Centre on Victoria Harbour.jpg",
+    "w": 3500,
+    "h": 2045,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/International_Commerce_Centre_on_Victoria_Harbour.jpg/960px-International_Commerce_Centre_on_Victoria_Harbour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:International_Commerce_Centre_on_Victoria_Harbour.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Wilfredor",
+    "desc": "Hong Kong Victoria Harbour. International Commerce Centre (ICC)"
+   },
+   "alternates": [
+    {
+     "title": "File:Hong Kong skyscrapers in a night of typhoon.jpg",
+     "w": 2300,
+     "h": 1528,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Hong_Kong_skyscrapers_in_a_night_of_typhoon.jpg/960px-Hong_Kong_skyscrapers_in_a_night_of_typhoon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_skyscrapers_in_a_night_of_typhoon.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "Wilfredor",
+     "desc": "Hong Kong skyscrapers in a night of typhoon"
+    },
+    {
+     "title": "File:Cityscape of central Taihoku.jpg",
+     "w": 2048,
+     "h": 1365,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Cityscape_of_central_Taihoku.jpg/960px-Cityscape_of_central_Taihoku.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cityscape_of_central_Taihoku.jpg",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Unknown authorUnknown author",
+     "desc": "​臺北市行政中樞附近都市景觀。"
+    }
+   ]
+  },
+  "후쿠오카": {
+   "codes": [
+    "FUK"
+   ],
+   "en": "Fukuoka",
+   "chosen": {
+    "title": "File:Nissan GH-V35 Skyline 250GT (23022416113).jpg",
+    "w": 4608,
+    "h": 3072,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Nissan_GH-V35_Skyline_250GT_%2823022416113%29.jpg/960px-Nissan_GH-V35_Skyline_250GT_%2823022416113%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Nissan_GH-V35_Skyline_250GT_(23022416113).jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "先従隗始",
+    "desc": "c/n unknown. This is 4-door fastback sedan, BLGARHAV35DDA----- 250GT(early) version. Parked at Kanzeonji, Dazaifu, Fukuoka. 24th February 20"
+   },
+   "alternates": [
+    {
+     "title": "File:Nissan GH-V35 Skyline 250GT (23022416112).jpg",
+     "w": 4608,
+     "h": 3072,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Nissan_GH-V35_Skyline_250GT_%2823022416112%29.jpg/960px-Nissan_GH-V35_Skyline_250GT_%2823022416112%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Nissan_GH-V35_Skyline_250GT_(23022416112).jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "先従隗始",
+     "desc": "c/n unknown. This is 4-door fastback sedan, BLGARHAV35DDA----- 250GT(early) version. Parked at Kanzeonji, Dazaifu, Fukuoka. 24th February 20"
+    },
+    {
+     "title": "File:Nissan 5BA-RV37 Skyline 400R (23022507583).jpg",
+     "w": 4608,
+     "h": 3072,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Nissan_5BA-RV37_Skyline_400R_%2823022507583%29.jpg/960px-Nissan_5BA-RV37_Skyline_400R_%2823022507583%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Nissan_5BA-RV37_Skyline_400R_(23022507583).jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "先従隗始",
+     "desc": "c/n unknown. This is 4-door fastback sedan, BLVARWLV37ZDAA---- 400R version. Parked at Saifu, Dazaifu, Fukuoka. 25th February 2023"
+    }
+   ]
+  },
+  "히로시마": {
+   "codes": [
+    "HIJ"
+   ],
+   "en": "Hiroshima",
+   "chosen": {
+    "title": "File:Hiroshima sky.jpg",
+    "w": 1924,
+    "h": 681,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Hiroshima_sky.jpg/960px-Hiroshima_sky.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Hiroshima_sky.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "author": "Lemon-s",
+    "desc": "比治山から広島市内を望む"
+   },
+   "alternates": [
+    {
+     "title": "File:広島のスカイライン Hiroshima Skyline - panoramio.jpg",
+     "w": 4000,
+     "h": 3000,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/%E5%BA%83%E5%B3%B6%E3%81%AE%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%B3_Hiroshima_Skyline_-_panoramio.jpg/960px-%E5%BA%83%E5%B3%B6%E3%81%AE%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%B3_Hiroshima_Skyline_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:%E5%BA%83%E5%B3%B6%E3%81%AE%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%B3_Hiroshima_Skyline_-_panoramio.jpg",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "author": "Bohao Zhao",
+     "desc": "広島のスカイライン Hiroshima Skyline"
+    },
+    {
+     "title": "File:Cityscape of Hiroshima City; 2013.jpg",
+     "w": 8000,
+     "h": 5333,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Cityscape_of_Hiroshima_City%3B_2013.jpg/960px-Cityscape_of_Hiroshima_City%3B_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Cityscape_of_Hiroshima_City;_2013.jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "author": "Freedom II Andres from Yashio Saitama, Japan",
+     "desc": "Cityscape of Hiroshima City in 2013."
+    }
+   ]
+  }
+ }
+}
