@@ -83,6 +83,17 @@ def cat_members(cat, n=40):
     return [x["title"] for x in r.get("query", {}).get("categorymembers", [])]
 
 
+def cat_deep(cat, subcats=10, per=4):
+    """대도시의 「Tourist attractions in X」는 파일 없이 하위 분류(명소별)만 있다 → 하위 한 단계에서 몇 장씩."""
+    out = cat_members(cat, 20)
+    r = api({"action": "query", "list": "categorymembers", "cmtitle": "Category:" + cat, "cmnamespace": 14,
+             "cmtype": "subcat", "cmlimit": subcats})
+    for sc in r.get("query", {}).get("categorymembers", []):
+        try: out += [t for t in cat_members(sc["title"][9:], per) if t not in out]
+        except Exception: pass
+    return out
+
+
 def wiki_lead(en):
     """en.wikipedia 문서의 대표 사진 파일명 — 사람이 고른 사진이라 잡음이 적다."""
     url = "https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode(
@@ -100,9 +111,9 @@ def good(rows):
     out = [r for r in rows if OK_LIC.match(r["license"]) and r["mime"] in ("image/jpeg", "image/png")
            and r["w"] >= 1200 and r["w"] > r["h"] * 1.15 and not BAD.search(r["title"]) and not BAD2.search(r["title"])
            and not BAD2.search(r["desc"]) and r["thumb"]]
-    def rank(r):  # 오래된 흑백(PD)이 위로 오는 걸 막는다 — 최신 CC 를 앞에, PD 는 맨 뒤
-        Lc = r["license"].upper()
-        return (2 if Lc.startswith("PUBLIC") else 0 if ("4.0" in Lc or Lc.startswith("CC0")) else 1, -min(r["w"], 4000))
+    def rank(r):  # 도시 풍경은 뒤로(「여행지답게」), 오래된 PD 는 맨 뒤, 최신 CC 를 앞에
+        Lc = r["license"].upper(); city_shot = bool(re.search(r"skyline|skyscraper|cityscape|downtown|cbd", r["title"], re.I))
+        return (1 if city_shot else 0, 2 if Lc.startswith("PUBLIC") else 0 if ("4.0" in Lc or Lc.startswith("CC0")) else 1, -min(r["w"], 4000))
     out.sort(key=rank)
     return out
 
@@ -128,7 +139,7 @@ def pick(ko, en):
         f"Historic centre of {city}", f"Parks in {city}", f"Night in {city}", f"Views of {city}", f"Skylines of {city}"]
     pool = []
     for c in cats:
-        try: pool += [t for t in cat_members(c) if t not in pool]
+        try: pool += [t for t in (cat_deep(c) if c.startswith(("Tourist attractions", "Landmarks", "Beaches")) else cat_members(c)) if t not in pool]
         except Exception: pass
         if len(pool) >= 60: break
     rows = []
@@ -142,7 +153,13 @@ def pick(ko, en):
                 r = good(info([t]))
                 if r and r[0]["title"] not in [x["title"] for x in front]: front += r
         except Exception: pass
-    g = front + [x for x in g if x["title"] not in [f["title"] for f in front]]
+    # 대표 사진(front)도 도시 풍경이면 뒤로 — 도쿄 위키백과 대표 사진이 신주쿠 빌딩이라 「여행지답게」가 안 됐다(2026-09-29)
+    ft = [f["title"] for f in front]
+    rest = [x for x in g if x["title"] not in ft]
+    # 채택안 = 여행지 분류에서 고른 것(도시 풍경은 뒤로), 대안 1 = 사람이 고른 대표 사진(위키보이지·위키백과 — 도시 풍경이어도 그대로),
+    # 대안 2 = 분류의 둘째. 자동으로는 「상징적인가」를 못 가르니 사용자가 셋 중에서 고른다(2026-09-29).
+    rest.sort(key=lambda r: (1 if re.search(r"skyline|skyscraper|cityscape|downtown|cbd", r["title"], re.I) else 0))
+    g = ([rest[0]] if rest else []) + front[:1] + rest[1:2] + front[1:2]
     if len(g) < 3:
         cands = []
         for q in (f'"{city}" temple', f'"{city}" landmark', f'"{city}" beach' if beach else f'"{city}" old town'):
