@@ -107,27 +107,45 @@ def good(rows):
     return out
 
 
+def voyage_banner(en):
+    """en.wikivoyage 페이지 배너 — 여행 가이드가 고른 대표 사진(7:1, 자유 라이선스)."""
+    url = "https://en.wikivoyage.org/w/api.php?" + urllib.parse.urlencode(
+        {"action": "query", "prop": "pageprops", "titles": en, "redirects": 1, "format": "json", "formatversion": "2"})
+    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=40) as r:
+        j = json.load(r)
+    for pg in j.get("query", {}).get("pages", []):
+        b = (pg.get("pageprops") or {}).get("wpb_banner")
+        if b: return "File:" + b
+    return None
+
+
 def pick(ko, en):
     city = en.replace(" City", "").replace(" Fiji", "").replace(" Island", "")
+    beach = any(k in ko for k in BEACH)
+    # 여행지 분류를 앞에, 도시 풍경(skyline)은 맨 뒤 — 2026-09-29 사용자: 「여행지라고 보기엔 너무 도시 사진」
+    cats = ([f"Beaches of {city}", f"Beaches in {city}"] if beach else []) + [
+        f"Tourist attractions in {city}", f"Landmarks in {city}", f"Temples in {city}", f"Old town of {city}",
+        f"Historic centre of {city}", f"Parks in {city}", f"Night in {city}", f"Views of {city}", f"Skylines of {city}"]
     pool = []
-    cats = [f"Skylines of {city}", f"Cityscapes of {city}", f"Panoramas of {city}", f"Views of {city}", f"Aerial photographs of {city}"]
-    if any(k in ko for k in BEACH): cats = [f"Beaches of {city}", f"Beaches in {city}", f"Coasts of {city}"] + cats
     for c in cats:
         try: pool += [t for t in cat_members(c) if t not in pool]
         except Exception: pass
-        if len(pool) >= 40: break
+        if len(pool) >= 60: break
     rows = []
-    for i in range(0, min(len(pool), 40), 20): rows += info(pool[i:i+20])
+    for i in range(0, min(len(pool), 60), 20): rows += info(pool[i:i+20])
     g = good(rows)
-    try:
-        lead = wiki_lead(en)
-        if lead:
-            lr = good(info([lead]))
-            if lr and lr[0]["title"] not in [x["title"] for x in g]: g = lr + g   # 대표 사진을 맨 앞에
-    except Exception: pass
+    front = []
+    for fn in (voyage_banner, wiki_lead):          # 사람이 고른 대표 사진을 맨 앞에: Wikivoyage 배너 → 위키백과 대표
+        try:
+            t = fn(en)
+            if t:
+                r = good(info([t]))
+                if r and r[0]["title"] not in [x["title"] for x in front]: front += r
+        except Exception: pass
+    g = front + [x for x in g if x["title"] not in [f["title"] for f in front]]
     if len(g) < 3:
         cands = []
-        for q in (f'"{city}" skyline', f'"{city}" cityscape', f'"{city}" beach' if any(k in ko for k in BEACH) else f'"{city}" panorama'):
+        for q in (f'"{city}" temple', f'"{city}" landmark', f'"{city}" beach' if beach else f'"{city}" old town'):
             try: cands += [t for t in search(q) if t not in cands and t not in pool]
             except Exception: pass
         g += [r for r in good(info(cands[:20])) if r["title"] not in [x["title"] for x in g]]
