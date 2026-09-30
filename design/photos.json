@@ -1624,6 +1624,122 @@
    },
    "alternates": [],
    "ok": true
+  },
+  "헬싱키": {
+   "codes": [
+    "HEL"
+   ],
+   "en": "Helsinki Cathedral Senate Square",
+   "chosen": {
+    "title": "File:Senate Square - Senaatintori - Senatstorget, Helsinki, Finland.jpg",
+    "w": 12336,
+    "h": 2973,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Senate_Square_-_Senaatintori_-_Senatstorget%2C_Helsinki%2C_Finland.jpg/960px-Senate_Square_-_Senaatintori_-_Senatstorget%2C_Helsinki%2C_Finland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Senate_Square_-_Senaatintori_-_Senatstorget,_Helsinki,_Finland.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Matti Mattila",
+    "desc": "Senate Square, Helsinki, Finland",
+    "assess": "",
+    "q": "Helsinki Cathedral Senate Square"
+   },
+   "alternates": [
+    {
+     "title": "File:Catedral Luterana de Helsinki, Finlandia, 2012-08-14, DD 05.JPG",
+     "w": 3223,
+     "h": 3693,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Catedral_Luterana_de_Helsinki%2C_Finlandia%2C_2012-08-14%2C_DD_05.JPG/960px-Catedral_Luterana_de_Helsinki%2C_Finlandia%2C_2012-08-14%2C_DD_05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Catedral_Luterana_de_Helsinki,_Finlandia,_2012-08-14,_DD_05.JPG",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Diego Delso",
+     "desc": "Helsinki Lutheran Cathedral, Finnland",
+     "assess": "quality",
+     "q": "Helsinki Cathedral Senate Square"
+    },
+    {
+     "title": "File:Suomenlinna aerial.JPG",
+     "w": 1600,
+     "h": 1057,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Suomenlinna_aerial.JPG/960px-Suomenlinna_aerial.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Suomenlinna_aerial.JPG",
+     "license": "Public domain",
+     "license_url": "",
+     "author": "Migro",
+     "desc": "Aerial view of Suomenlinna, Helsinki, Finland",
+     "assess": "",
+     "q": "Helsinki Cathedral Senate Square"
+    }
+   ],
+   "ok": false
+  },
+  "이시가키": {
+   "codes": [
+    "ISG"
+   ],
+   "en": "Kabira Bay Ishigaki",
+   "chosen": {
+    "title": "File:Kabira Bay Ishigaki Island21bs5s4410.jpg",
+    "w": 4410,
+    "h": 2940,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Kabira_Bay_Ishigaki_Island21bs5s4410.jpg/960px-Kabira_Bay_Ishigaki_Island21bs5s4410.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kabira_Bay_Ishigaki_Island21bs5s4410.jpg",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "author": "663highland",
+    "desc": "Kabira Bay of Ishigaki Island in Ishigaki City, Okinawa Prefecture, Japan. It is one of the Japan's Places of Scenic Beauty.",
+    "q": "Kabira Bay Ishigaki",
+    "assess": "quality"
+   },
+   "alternates": [
+    {
+     "title": "File:Kabira Bay Ishigaki Island40bs3s4592.jpg",
+     "w": 4592,
+     "h": 3056,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Kabira_Bay_Ishigaki_Island40bs3s4592.jpg/960px-Kabira_Bay_Ishigaki_Island40bs3s4592.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Kabira_Bay_Ishigaki_Island40bs3s4592.jpg",
+     "license": "CC BY 2.5",
+     "license_url": "https://creativecommons.org/licenses/by/2.5",
+     "author": "663highland",
+     "desc": "Kabira Bay of Ishigaki Island in Ishigaki City, Okinawa Prefecture, Japan. It is one of the Japan's Places of Scenic Beauty.",
+     "q": "Kabira Bay Ishigaki",
+     "assess": "quality"
+    },
+    {
+     "title": "File:Kabira Bay Ishigaki Island09s3s4592.jpg",
+     "w": 4592,
+     "h": 3056,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Kabira_Bay_Ishigaki_Island09s3s4592.jpg/960px-Kabira_Bay_Ishigaki_Island09s3s4592.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Kabira_Bay_Ishigaki_Island09s3s4592.jpg",
+     "license": "CC BY 2.5",
+     "license_url": "https://creativecommons.org/licenses/by/2.5",
+     "author": "663highland",
+     "desc": "Kabira Bay of Ishigaki Island in Ishigaki City, Okinawa Prefecture, Japan. It is one of the Japan's Places of Scenic Beauty.",
+     "q": "Kabira Bay Ishigaki",
+     "assess": ""
+    },
+    {
+     "title": "File:Kabira Bay Ishigaki Island10o4592.jpg",
+     "w": 4592,
+     "h": 3056,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Kabira_Bay_Ishigaki_Island10o4592.jpg/960px-Kabira_Bay_Ishigaki_Island10o4592.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Kabira_Bay_Ishigaki_Island10o4592.jpg",
+     "license": "CC BY 2.5",
+     "license_url": "https://creativecommons.org/licenses/by/2.5",
+     "author": "663highland",
+     "desc": "Kabira Bay of Ishigaki Island in Ishigaki City, Okinawa Prefecture, Japan. It is one of the Japan's Places of Scenic Beauty.",
+     "q": "Kabira Bay Ishigaki",
+     "assess": ""
+    }
+   ],
+   "ok": false
   }
  },
  "confirmed": "2026-09-29",
