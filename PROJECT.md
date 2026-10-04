@@ -30,9 +30,9 @@
   실제 시작은 GitHub 큐 지연만큼 늦다(커밋 80건 실측 중앙값: 7월 58분 · 8월 41분 · 9월 121분 — 시간대를 옮겨도 안 줄었다).
   새 슬롯 관측: 09-28 주 실행 시작 20:31Z(지연 6h21m) → 사이트 갱신 05:32 KST. 지연이 22시대로 이어지면 주 실행을 앞당긴다(백엔드 제안 예정)
   수집 → 판정 → 메일 수집·파싱 → 알림 발송 → publish.py(docs/v1) → 커밋 → Pages(api.galmal.kr)
-  → API가 새 값을 서빙하는지 확인 → repository_dispatch(client_payload.generated)
+  → API가 새 값을 서빙하는지 확인 → repository_dispatch(client_payload.generated) → **운영자 일일 보고 메일 1통**(잡 결과·시작 시각과 지연·상태 점검·발행 수치·노선 후보, 2026-10-04~. 본문은 공개 로그에 안 찍힘)
 galmal-frontend deploy.yml
-  v1 51개(meta·index·deals·vocab + 노선 47)를 한 스냅숏으로 받는다(섞이면 배포 안 함) → site/build.py → Pages(galmal.kr) + build.json
+  v1 52개(meta·index·deals·vocab + 노선 48)를 한 스냅숏으로 받는다(섞이면 배포 안 함) → site/build.py → Pages(galmal.kr) + build.json
 다음 날 백엔드 상태 점검: API 신선도 · 사이트 build.json 일치 · 구독 주소
 ```
 
@@ -44,7 +44,7 @@ galmal-frontend deploy.yml
 - 메인 화면 = **인터랙티브 세계지도** (아래 로드맵 참조).
 
 ## 데이터 파이프라인 (2계층) — `galmal-backend`
-1. **노선 상세(depth)**: `fetch_prices.py` — 47개 노선을 v3 API로 날짜별 깊게 수집 → `offers` 테이블.
+1. **노선 상세(depth)**: `fetch_prices.py` — 48개 노선을 v3 API로 날짜별 깊게 수집 → `offers` 테이블.
    특가 판정(`detect_deals.py`)·노선 상세 페이지·30일 히스토리 차트용.
 2. **광역 발견(breadth)**: `fetch_breadth.py` — 한국 전 공항(ICN/GMP/PUS/TAE/CJU)을 v2 API로
    공항당 1회 호출, 목적지당 최저가 → `broad_offers` 테이블. "어디 갈까" 발견 피드용.
