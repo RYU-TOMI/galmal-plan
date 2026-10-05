@@ -1,4 +1,4 @@
-# 오늘의 판 — 2026-10-05 (갱신 16:20 KST)
+# 오늘의 판 — 2026-10-05 (갱신 16:40 KST)
 
 > 세 터미널 어디서든 `! cat ../galmal-plan/TODAY.md`. 기획이 세션 간 메시지 하나 처리할 때마다 갱신한다(`SESSIONS.md` §판 하나). 수치는 수집·발행 것만.
 
@@ -7,6 +7,7 @@
 - [x] 사진 붙이기 순서 — **PH5c 병합 직후**(사용자). 검수 페이지 둘은 내렸다
 - [x] 사진 검수 5곳 — 헬싱키만 대안으로(사용자 10-05). `ok:true`, 프론트에 통지
 - [x] 방문 분석 → **GoatCounter**(사용자 10-05). 결정 10-05 (2)
+- [ ] **프론트 「사진 5곳 굽기」 챕터 승인** — 프론트 터미널에서. 순서: 새 도구로 굽기 → 건너뜀 0 확인 → 출처 페이지 행·BY-SA 머리말을 구운 결과에서 판정 → 사진 없는 카드 0 인지 여집합으로
 - [ ] **goatcounter.com 계정 만들기** → ① 사이트 코드(`<코드>.goatcounter.com` 의 코드) → 프론트에 + 백엔드 `production` **변수** `GOATCOUNTER_SITE` ② API 토큰(**통계 읽기 권한만**) → 백엔드 `production` **시크릿** `GOATCOUNTER_TOKEN`. 가입 때 「합리적 공개 이용」 약관만 한 번 봐줘
 - [ ] Claude 표기 제거 — A만 / A+B(이력 재작성) 결정
 - [ ] **일일 보고 메일 받은편지함 도착 확인**(백엔드, 10-04 17:27 KST 발송)
@@ -64,4 +65,4 @@
 - 기획→백엔드·프론트: GoatCounter 결정 + 순서(계정 → 프론트 삽입·검사·전후 실측 → 백엔드 메일) ✅
 - 백엔드→기획: 시크릿 이름 `GOATCOUNTER_TOKEN`(시크릿)·`GOATCOUNTER_SITE`(vars), 없으면 「아직 연결 안 됨」으로 메일은 그대로 → 기획: PROJECT 반영 ✅
 - 프론트→기획: CH11 병합 + 허용목록 검사 실측(외부 출처 jsdelivr 하나 — 구글 폰트 아님) + GoatCounter 는 할 일 없음 + 사진 기준선 2장 + 곁가지 B83(index preconnect)·B82 → 기획: SESSIONS 「Google Fonts」→ Pretendard/jsdelivr 로 정정, B83 은 GoatCounter 챕터에 묶기 동의 ✅
-- ⏳ 답 대기: 사용자(goatcounter 계정·토큰 · Claude 표기 A / A+B · 보고 메일 도착 · ponytail 설치)
+- ⏳ 답 대기: 사용자(사진 굽기 챕터 승인(프론트) · goatcounter 계정·토큰 · Claude 표기 A / A+B · 보고 메일 도착 · ponytail 설치)
