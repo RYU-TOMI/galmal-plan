@@ -13,7 +13,13 @@
 - [ ] 세 레포 `git status -sb` 가 `main...origin/main` 과 같음(기획이 읽기만으로 확인).
 - [ ] GitHub Actions 에서 돌고 있는 워크플로 0(백엔드 collect · 프론트 deploy).
 
-## 2. 도구·백업
+## 2. 먼저 규칙을 뒤집는다 (A) — §4 치환 커밋이 trailer 를 다시 넣지 않게 (프론트 지적)
+- [ ] 사용자가 **세 터미널 각각**에 「trailer 중단」을 말한다 — 세션 간 메시지는 권한이 아니다. 기획 터미널의 「시작하자」가 기획 몫, 백엔드·프론트는 각자 「ㅇㅋ」.
+- [ ] 기획: `SESSIONS.md` 법적·보안 「`Co-Authored-By: Claude` 라인 포함」 → 「**AI 표기 trailer(Co-Authored-By · Claude-Session · Generated with)를 붙이지 않는다** — AI 사용은 README 한 문장으로 밝힌다(10-06 (1))」. **이 커밋부터 trailer 없이**, 일반 push(fast-forward — ruleset 통과).
+- [ ] 기획 `~/.claude/settings.json`: `"includeCoAuthoredBy": false`(`update-config` 스킬). 사용자 설정이라 세 세션 공통 — 다른 두 세션은 재시작해야 읽지만, SESSIONS 규칙이 먼저 바뀌어 있으므로 재시작 전에도 trailer 를 안 붙인다.
+- [ ] 확인: 세 세션이 **다음 커밋 하나**에서 trailer 가 없는지 각자 본다(§4 치환 커밋이 그 자리). 순서가 이래야 §5 의 「0」이 끝난 뒤에도 참이다 — 치환 커밋 셋이 1씩 올리는 구멍을 막는다.
+
+## 2b. 도구·백업
 - [ ] `pip install git-filter-repo` (2.47.0 확인됨, Python 3.11).
 - [ ] 레포마다 **백업 브랜치를 원격에 push**: `git branch backup/pre-rewrite-2026-10-06 origin/main && git push origin backup/pre-rewrite-2026-10-06`. 모든 게 끝나고 contributor 그래프까지 확인한 뒤(며칠) 지운다 — 옛 trailer 가 든 이력이라 남겨 두면 contributor 에 그대로 잡힌다.
 - [ ] `filter-repo` 는 원격을 지우므로 **각 레포의 원격 URL 을 적어 둔다**: `git remote -v`.
@@ -34,7 +40,7 @@ return re.sub(rb"\n{3,}$", b"\n\n", m)
 
 ## 4. 문서의 해시 치환
 - 기획: `python scripts/rewrite_hashes.py <map-plan> <map-backend> <map-frontend>` — 세 대응표를 모두 받아 `*.md` 안 7·8자리 해시를 치환(기획 문서가 남의 레포 해시도 인용한다). 사전 측정: 기획 문서 안 자기 해시 9건.
-- 백엔드(58건)·프론트(83건 + **남의 레포 커밋 11건·커밋 아닌 16진 1건** — 프론트 실측): 각 세션에 **대응표 셋**을 보내 **각자** 치환·커밋. 한 레포 표만 돌리면 남의 레포 인용이 조용히 틀린 채 남는다. `rewrite_hashes.py` 는 **대응표에 있는 옛 SHA 접두사만** 바꾸므로 ruleset ID(`22933079`)처럼 커밋이 아닌 16진은 건드리지 않는다 — 돌린 뒤 그 줄이 그대로인지 한 번 본다. 치환 커밋은 새 이력 위에 쌓인다 — trailer 없이(6 이 먼저).
+- 백엔드(58건)·프론트(83건 + **남의 레포 커밋 11건·커밋 아닌 16진 1건** — 프론트 실측): 각 세션에 **대응표 셋**을 보내 **각자** 치환·커밋 — **trailer 없이**(§2 가 끝났으므로). 한 레포 표만 돌리면 남의 레포 인용이 조용히 틀린 채 남는다. `rewrite_hashes.py` 는 **대응표에 있는 옛 SHA 접두사만** 바꾸므로 ruleset ID(`22933079`)처럼 커밋이 아닌 16진은 건드리지 않는다 — 돌린 뒤 그 줄이 그대로인지 한 번 본다. 치환 커밋은 새 이력 위에 쌓인다 — trailer 없이(6 이 먼저).
 
 ## 5. 밀기·맞추기
 - [ ] 레포마다 `git push --force origin main`(기획 레포는 `plan` → `main`). **셋 다 한 번에 — 중간에 쉬지 않는다.**
@@ -43,11 +49,8 @@ return re.sub(rb"\n{3,}$", b"\n\n", m)
 - [ ] 각 레포 `git log --all --format=%B | grep -c "Co-Authored-By\|Claude-Session"` == 0 을 **각 세션이 자기 터미널에서** 다시 센다(프론트 기준선: 1016줄·603커밋/831 — 전부 줄머리 trailer 꼴, 본문 인용 0).
 - [ ] 🔴 **ruleset 다시 켜기 — 사용자가**: 두 `main-protection` 을 `Active` 로. 기획이 `gh api` 로 `active` 를 읽어 확인. 이걸 빼먹으면 보호가 꺼진 채 남는다.
 
-## 6. 앞으로 안 붙이기 (A)
-- [ ] 기획 `~/.claude/settings.json`: `"includeCoAuthoredBy": false`(`update-config` 스킬). **세션별 설정이 아니라 사용자 설정**이라 세 세션 공통 — 다른 두 세션은 재시작해야 읽는다.
-- [ ] `SESSIONS.md` 법적·보안: 「`Co-Authored-By: Claude` 라인 포함」 → 「**AI 표기 trailer(Co-Authored-By · Claude-Session · Generated with)를 붙이지 않는다** — AI 사용은 README 한 문장으로 밝힌다(10-06 (1))」.
-- [ ] 각 세션의 시스템 attribution 안내보다 **사용자 규칙이 우선**한다 — SESSIONS 가 바뀐 뒤 첫 커밋에서 trailer 가 없는지 셋 다 확인.
-- [ ] README(기획 레포 91행 「Claude 세션 셋과 함께 만들었다」)는 **유지** — 사용자: 「AI 썼다고는 할 것」.
+## 6. (A 는 §2 에서 끝났다) README 유지
+- [ ] README(기획 레포 91행 「Claude 세션 셋과 함께 만들었다」)는 **유지** — 사용자: 「AI 썼다고는 할 것」. 두 세션 README 에 같은 문장이 없으면 각자 한 줄(선택).
 
 ## 7. 뒤
 - [ ] GitHub 저장소 Contributors 에서 Claude 가 빠졌는지 — 그래프 갱신에 며칠 걸릴 수 있다. 안 빠지면 백업 브랜치(2)가 원인 — 확인 뒤 지운다.
