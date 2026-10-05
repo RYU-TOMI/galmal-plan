@@ -1740,6 +1740,187 @@
     }
    ],
    "ok": false
+  },
+  "프놈펜": {
+   "codes": [
+    "PNH"
+   ],
+   "en": "Royal Palace Phnom Penh",
+   "chosen": {
+    "title": "File:2016 Phnom Penh, Pałac Królewski, Pawilon Chanchhaya (02).jpg",
+    "w": 4890,
+    "h": 3277,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/2016_Phnom_Penh%2C_Pa%C5%82ac_Kr%C3%B3lewski%2C_Pawilon_Chanchhaya_%2802%29.jpg/960px-2016_Phnom_Penh%2C_Pa%C5%82ac_Kr%C3%B3lewski%2C_Pawilon_Chanchhaya_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2016_Phnom_Penh,_Pa%C5%82ac_Kr%C3%B3lewski,_Pawilon_Chanchhaya_(02).jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Marcin Konsek",
+    "desc": "Chanchhaya Pavilion. Royal Palace. Phnom Penh, Cambodia.",
+    "assess": "quality|featured",
+    "q": "Royal Palace Phnom Penh"
+   },
+   "alternates": [
+    {
+     "title": "File:2016 Phnom Penh, Pałac Królewski, Srebrna Pagoda (02).jpg",
+     "w": 4854,
+     "h": 3540,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/2016_Phnom_Penh%2C_Pa%C5%82ac_Kr%C3%B3lewski%2C_Srebrna_Pagoda_%2802%29.jpg/960px-2016_Phnom_Penh%2C_Pa%C5%82ac_Kr%C3%B3lewski%2C_Srebrna_Pagoda_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2016_Phnom_Penh,_Pa%C5%82ac_Kr%C3%B3lewski,_Srebrna_Pagoda_(02).jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Marcin Konsek",
+     "desc": "Silver Pagoda. Royal Palace. Phnom Penh, Cambodia.",
+     "assess": "quality|featured|valued",
+     "q": "Royal Palace Phnom Penh"
+    },
+    {
+     "title": "File:2016 Phnom Penh, Wat Phnom (04).jpg",
+     "w": 4930,
+     "h": 3287,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/2016_Phnom_Penh%2C_Wat_Phnom_%2804%29.jpg/960px-2016_Phnom_Penh%2C_Wat_Phnom_%2804%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:2016_Phnom_Penh,_Wat_Phnom_(04).jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Marcin Konsek",
+     "desc": "Wat Phnom. Phnom Penh, Cambodia.",
+     "assess": "quality",
+     "q": "Royal Palace Phnom Penh"
+    },
+    {
+     "title": "File:Royal Palace, Phnom Penh Cambodia 1.jpg",
+     "w": 2033,
+     "h": 1378,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Royal_Palace%2C_Phnom_Penh_Cambodia_1.jpg/960px-Royal_Palace%2C_Phnom_Penh_Cambodia_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Royal_Palace,_Phnom_Penh_Cambodia_1.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "author": "Hanay",
+     "desc": "Royal Palace including gardens and tombs in pagoda, Phnom Penh Cambodia \n\nהארמון המלכותי שעיר פנום פן בירת קמבודיה. הארמון  נמצא במתחם סגור ",
+     "assess": "",
+     "q": "Royal Palace Phnom Penh"
+    }
+   ],
+   "ok": false
+  },
+  "팔라우": {
+   "codes": [
+    "ROR"
+   ],
+   "en": "Rock Islands Palau aerial",
+   "chosen": {
+    "title": "File:Rock-Islands-Palau-1-2016-aerial-view-Luka-Peternel.jpg",
+    "w": 5472,
+    "h": 3648,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Rock-Islands-Palau-1-2016-aerial-view-Luka-Peternel.jpg/960px-Rock-Islands-Palau-1-2016-aerial-view-Luka-Peternel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Rock-Islands-Palau-1-2016-aerial-view-Luka-Peternel.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Luka Peternel",
+    "desc": "Aerial view of Rock Islands in Palau.",
+    "assess": "",
+    "q": "Rock Islands Palau aerial"
+   },
+   "alternates": [
+    {
+     "title": "File:Jellyfish Lake aerial (March 2008).jpg",
+     "w": 3456,
+     "h": 2304,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Jellyfish_Lake_aerial_%28March_2008%29.jpg/960px-Jellyfish_Lake_aerial_%28March_2008%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Jellyfish_Lake_aerial_(March_2008).jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "author": "Lukas from Munich, Germany",
+     "desc": "Jellyfish Lake on Eil Malk Island, Palau. Looking west-northwest with some coral and rock islets in the background. The Seventy Island Prese",
+     "assess": "valued",
+     "q": "Rock Islands Palau aerial"
+    },
+    {
+     "title": "File:Seventy Islands (29596700363).jpg",
+     "w": 3200,
+     "h": 1800,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Seventy_Islands_%2829596700363%29.jpg/960px-Seventy_Islands_%2829596700363%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Seventy_Islands_(29596700363).jpg",
+     "license": "CC BY-SA 2.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+     "author": "Tetsuji Sakakibara",
+     "desc": "Seventy Islands in Palau.",
+     "assess": "",
+     "q": "Rock Islands Palau aerial"
+    },
+    {
+     "title": "File:Ngerukewid-2016-aerial-view-Luka-Peternel.jpg",
+     "w": 5472,
+     "h": 3648,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Ngerukewid-2016-aerial-view-Luka-Peternel.jpg/960px-Ngerukewid-2016-aerial-view-Luka-Peternel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Ngerukewid-2016-aerial-view-Luka-Peternel.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "author": "Luka Peternel",
+     "desc": "Aerial view of Ngerukewid, Palau facing south. The area includes 37 small raised coral islands that are part of the Ngerukewid Islands Wildl",
+     "assess": "",
+     "q": "Rock Islands Palau aerial"
+    }
+   ],
+   "ok": false
+  },
+  "다카마쓰": {
+   "codes": [
+    "TAK"
+   ],
+   "en": "Ritsurin Garden Takamatsu",
+   "chosen": {
+    "title": "File:栗林公園偃月橋 Ritsurinkoen Engetsu Bridge - panoramio.jpg",
+    "w": 4000,
+    "h": 3000,
+    "mime": "image/jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/%E6%A0%97%E6%9E%97%E5%85%AC%E5%9C%92%E5%81%83%E6%9C%88%E6%A9%8B_Ritsurinkoen_Engetsu_Bridge_-_panoramio.jpg/960px-%E6%A0%97%E6%9E%97%E5%85%AC%E5%9C%92%E5%81%83%E6%9C%88%E6%A9%8B_Ritsurinkoen_Engetsu_Bridge_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:%E6%A0%97%E6%9E%97%E5%85%AC%E5%9C%92%E5%81%83%E6%9C%88%E6%A9%8B_Ritsurinkoen_Engetsu_Bridge_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "author": "lienyuan lee",
+    "desc": "栗林公園偃月橋  Ritsurinkoen Engetsu Bridge",
+    "assess": "",
+    "q": "Ritsurin Garden Takamatsu"
+   },
+   "alternates": [
+    {
+     "title": "File:Takamatsu castle09s3872.jpg",
+     "w": 3872,
+     "h": 2592,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Takamatsu_castle09s3872.jpg/960px-Takamatsu_castle09s3872.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Takamatsu_castle09s3872.jpg",
+     "license": "CC BY 2.5",
+     "license_url": "https://creativecommons.org/licenses/by/2.5",
+     "author": "663highland",
+     "desc": "Takamatsu Castle (Tamamo park) in Takamatsu, Kagawa prefecture, Japan",
+     "assess": "quality",
+     "q": "Ritsurin Garden Takamatsu"
+    },
+    {
+     "title": "File:Takamatsu Castle - Tamamo Park 20211125 01.jpg",
+     "w": 4608,
+     "h": 3456,
+     "mime": "image/jpeg",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Takamatsu_Castle_-_Tamamo_Park_20211125_01.jpg/960px-Takamatsu_Castle_-_Tamamo_Park_20211125_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "page": "https://commons.wikimedia.org/wiki/File:Takamatsu_Castle_-_Tamamo_Park_20211125_01.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "author": "先従隗始",
+     "desc": "高松市玉藻町にある玉藻公園（高松城跡）。南西から見た本丸の地久櫓（ちきゅうやぐら）台石垣。",
+     "assess": "",
+     "q": "Ritsurin Garden Takamatsu"
+    }
+   ],
+   "ok": false
   }
  },
  "confirmed": "2026-09-29",
