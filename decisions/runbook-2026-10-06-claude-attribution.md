@@ -8,7 +8,8 @@
 - 시작 전 확인: `galmal-backend` origin/main 의 마지막 봇 커밋이 **10-05 밤 몫**(`collect: 2026-10-06`)인가. 아니면 아직 크론이 안 끝난 것 — 기다린다.
 
 ## 1. 멈춤 (기획이 통보, 두 세션이 답해야 진행)
-- [ ] 프론트·백엔드: 작업 트리 깨끗 + 로컬 브랜치 전부 push + 열린 PR 없음 → 「준비됨」 회신.
+- [ ] 프론트·백엔드: 작업 트리 깨끗 + stash 0 + **로컬 브랜치 전수 확인**(upstream 없는 것·origin/main 조상인 것은 재작성 뒤 떠돌이 라벨이 되므로 `reset` 때 지운다) + 열린 PR 없음 → 「준비됨」 회신.
+- [ ] 🔴 **ruleset 끄기 — 사용자가 GitHub 에서 직접**: 프론트 `main-protection`(22933079) · 백엔드 `main-protection`(22932969) 둘 다 `non_fast_forward` 규칙이 force push 를 막고 우회자가 0 이다(프론트 실측 10-06). Settings → Rules → Rulesets → 각각 **Enforcement: Disabled** 로. 기획이 `gh api repos/RYU-TOMI/<repo>/rulesets` 로 `disabled` 를 **읽어 확인**한 뒤에만 5 로 간다. 세션은 끄지 않는다(사용자가 승인해 건 보안 설정).
 - [ ] 세 레포 `git status -sb` 가 `main...origin/main` 과 같음(기획이 읽기만으로 확인).
 - [ ] GitHub Actions 에서 돌고 있는 워크플로 0(백엔드 collect · 프론트 deploy).
 
@@ -33,13 +34,14 @@ return re.sub(rb"\n{3,}$", b"\n\n", m)
 
 ## 4. 문서의 해시 치환
 - 기획: `python scripts/rewrite_hashes.py <map-plan> <map-backend> <map-frontend>` — 세 대응표를 모두 받아 `*.md` 안 7·8자리 해시를 치환(기획 문서가 남의 레포 해시도 인용한다). 사전 측정: 기획 문서 안 자기 해시 9건.
-- 백엔드(58건)·프론트(83건): 각 세션에 **대응표 셋**을 보내 **각자** 치환·커밋. 치환 커밋은 새 이력 위에 쌓인다 — trailer 없이(6 이 먼저).
+- 백엔드(58건)·프론트(83건 + **남의 레포 커밋 11건·커밋 아닌 16진 1건** — 프론트 실측): 각 세션에 **대응표 셋**을 보내 **각자** 치환·커밋. 한 레포 표만 돌리면 남의 레포 인용이 조용히 틀린 채 남는다. `rewrite_hashes.py` 는 **대응표에 있는 옛 SHA 접두사만** 바꾸므로 ruleset ID(`22933079`)처럼 커밋이 아닌 16진은 건드리지 않는다 — 돌린 뒤 그 줄이 그대로인지 한 번 본다. 치환 커밋은 새 이력 위에 쌓인다 — trailer 없이(6 이 먼저).
 
 ## 5. 밀기·맞추기
 - [ ] 레포마다 `git push --force origin main`(기획 레포는 `plan` → `main`). **셋 다 한 번에 — 중간에 쉬지 않는다.**
 - [ ] 프론트 deploy · 백엔드 Pages 가 새 이력으로 다시 돌아 **초록**인지 본다(내용은 같으니 산출물 동일해야 한다 — 프론트 `build.json` 의 커밋 해시만 바뀐다).
 - [ ] 세 세션 + `promo-ticket-site`(galmal-plan 의 원본 저장소): `git fetch && git reset --hard origin/main`(기획은 `plan` 브랜치를 `origin/main` 에). worktree 공유 객체라 `promo-ticket-site` 를 빠뜨리면 옛 객체가 남는다.
-- [ ] 각 레포 `git log --all --format=%B | grep -c "Co-Authored-By\|Claude-Session"` == 0 을 **각 세션이 자기 터미널에서** 다시 센다.
+- [ ] 각 레포 `git log --all --format=%B | grep -c "Co-Authored-By\|Claude-Session"` == 0 을 **각 세션이 자기 터미널에서** 다시 센다(프론트 기준선: 1016줄·603커밋/831 — 전부 줄머리 trailer 꼴, 본문 인용 0).
+- [ ] 🔴 **ruleset 다시 켜기 — 사용자가**: 두 `main-protection` 을 `Active` 로. 기획이 `gh api` 로 `active` 를 읽어 확인. 이걸 빼먹으면 보호가 꺼진 채 남는다.
 
 ## 6. 앞으로 안 붙이기 (A)
 - [ ] 기획 `~/.claude/settings.json`: `"includeCoAuthoredBy": false`(`update-config` 스킬). **세션별 설정이 아니라 사용자 설정**이라 세 세션 공통 — 다른 두 세션은 재시작해야 읽는다.
