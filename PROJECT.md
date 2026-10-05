@@ -127,5 +127,5 @@ PROJECT.md에 열린 결정을 중복해 적지 않는다 — 두 곳에 적으�
   - 🔴 미등록 3종 `TP_TRIP_TRS`·`TP_TRIP_P`·`TP_TRIP_CAMPAIGN` — Trip.com 제휴 승인 후 등록. 없으면 Trip.com 링크가 수수료 없이 나간다.
 - **변수**(로그에 보여야 해서 vars): `galmal-backend` `API_URL=https://api.galmal.kr` · `SITE_URL=https://galmal.kr` / `galmal-frontend` `API_URL=https://api.galmal.kr/v1`.
 - 전용 메일: flightpromokr@gmail.com (항공사 뉴스레터 구독 + 구독 신청 접수)
-- ⏳ **방문 집계**: GoatCounter(goatcounter.com, 사용자 계정) — 사이트 코드는 프론트 `count.js` 삽입에, API 토큰은 `galmal-backend` `production` 시크릿에(이름은 백엔드가 정함). 수치는 보고 메일·노션에만(2026-10-05 (2)).
+- ⏳ **방문 집계**: GoatCounter(goatcounter.com, 사용자 계정). `galmal-backend` `production` 환경에 **시크릿 `GOATCOUNTER_TOKEN`**(API 토큰, Bearer — 통계 읽기 권한만) · **변수 `GOATCOUNTER_SITE`**(사이트 코드 — count 요청 주소에 드러나는 값이라 vars, 로그에 보여야 오타를 가린다). 둘 중 하나라도 없으면 보고 메일의 방문 구역은 「아직 연결 안 됨」, 나머지는 그대로 나간다. 같은 사이트 코드를 프론트 `count.js` 삽입에. 수치는 보고 메일·노션에만(2026-10-05 (2)).
 - 비용: 연 25,700원 — 도메인 첫해 16,500원(갱신 23,100원) + 메일 파싱 API ~연 2,600원. 호스팅·Actions는 공개 저장소라 $0.
