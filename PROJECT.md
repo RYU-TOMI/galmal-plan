@@ -61,7 +61,7 @@ galmal-frontend deploy.yml
   카드 피드(hero·정렬 3종) · 필터 도크(날짜·분위기·예산) · 확장 상세(시세 비교·예약처 4곳·광고 고지) · noscript 대체
 - **작업 체계 정립(2026-08-22)**: 3세션 모두 챕터제 — `PLAN.md`·`FRONTEND.md`, 미결은 `SPEC.md`·`BACKLOG.md`
 - **저장소 분리 M0~M6 (2026-09-08 ~ 09-19)** — 한 저장소 → `galmal-backend` · `galmal-frontend` · `galmal-plan`.
-  v1 API(`api.galmal.kr/v1`) 뒤로 데이터를 건네고, 화면은 프론트가 굽는다. 기록 `DECISIONS.md` 2026-09-08~09-17 (이전 작업 기록 `SPLIT.md`는 삭제 — `git show 810dafa:SPLIT.md`).
+  v1 API(`api.galmal.kr/v1`) 뒤로 데이터를 건네고, 화면은 프론트가 굽는다. 기록 `DECISIONS.md` 2026-09-08~09-17 (이전 작업 기록 `SPLIT.md`는 삭제 — `git show a9b7f57:SPLIT.md`).
 
 ## 현재 — 세션별 현황
 
@@ -86,7 +86,7 @@ galmal-frontend deploy.yml
 | `CONTRACT.md` · `TAGS.md` | 계약·태그의 **이유와 원칙**(목록 정본은 `galmal-backend`) |
 | `DECISIONS.md` | 왜 그렇게 정했나 + 기각안 |
 | `PLAN.md` | 기획 작업 방식 · 함정 기록 |
-| ~~`SPLIT.md`~~ | 저장소 분리 M0~M6 기록 — **2026-09-19 삭제.** 전문은 `git show 810dafa:SPLIT.md` |
+| ~~`SPLIT.md`~~ | 저장소 분리 M0~M6 기록 — **2026-09-19 삭제.** 전문은 `git show a9b7f57:SPLIT.md` |
 | `design/` | 목업 — 글로 합의 안 되는 것만 |
 
 ### 미결은 한 곳에서 본다
