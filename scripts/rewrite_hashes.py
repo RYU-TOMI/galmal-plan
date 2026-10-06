@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """문서 안 커밋 해시를 옛 → 새 로 치환한다 (절차표 2026-10-06 §4).
 
-사용: python scripts/rewrite_hashes.py <commit-map>... [--dry]
+사용: python scripts/rewrite_hashes.py <commit-map>... [--glob PATTERN]... [--dry]
   commit-map 은 git filter-repo 가 남기는 .git/filter-repo/commit-map (옛 새 두 열). 세 레포 것을 모두 준다 —
   기획 문서는 남의 레포 해시도 인용한다.
 치환 대상: 이 저장소 *.md 안의 7·8자리 16진수 토큰 중 어느 대응표의 옛 SHA 접두사와 일치하는 것. 새 값은 같은 길이 접두사.
@@ -9,8 +9,12 @@
 """
 import glob, io, re, sys
 
-maps = [a for a in sys.argv[1:] if not a.startswith("--")]
-dry = "--dry" in sys.argv
+argv = sys.argv[1:]
+globs = ["**/*.md"]
+while "--glob" in argv:  # 코드 파일 속 인용까지: --glob "**/*.py"
+    k = argv.index("--glob"); globs.append(argv[k + 1]); del argv[k:k + 2]
+maps = [a for a in argv if not a.startswith("--")]
+dry = "--dry" in argv
 old2new = {}
 for m in maps:
     for line in io.open(m, encoding="utf-8"):
@@ -28,7 +32,8 @@ def lookup(tok):
 
 tok_re = re.compile(r"(?<![0-9a-fA-F])[0-9a-f]{7,8}(?![0-9a-fA-F])")
 total = 0; ambig = []
-for f in sorted(glob.glob("**/*.md", recursive=True)):
+files = sorted({f for g in globs for f in glob.glob(g, recursive=True)})
+for f in files:
     s = io.open(f, encoding="utf-8", newline="").read()
     n = 0
     def sub(m):
