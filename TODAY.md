@@ -12,7 +12,7 @@
 - [x] Claude 표기 제거 — **세 저장소 force push 끝**(15:29 KST, 결정 10-06 (2)). trailer 0, 커밋 수·파일 내용 그대로
 - [x] ruleset 둘 다시 Active(기획이 읽어 확인) · 백엔드 터미널 확인 · effort high
 - [x] 두 세션 맞추기 끝 — 세 저장소 로컬·원격 모두 표기 0
-- [ ] **GoatCounter 코드 이름** — `pistoncup12`(메일 아이디와 같아 사이트 소스에 드러남) 그대로 / `galmal` 로 변경. 바꾸면 GoatCounter 설정 + 백엔드 `production` 변수 `GOATCOUNTER_SITE` 둘 다. 현재 백엔드 API 조회는 404 — 「아직 방문 0건」 가설, count.js 가 심기기 전이라 자연스럽다
+- [x] GoatCounter 사이트 코드 — **`galmal`**(사용자가 바꿈. 백엔드 실측: production 변수 `GOATCOUNTER_SITE`=galmal, `galmal.goatcounter.com` 실재). 프론트가 심을 주소 `galmal.goatcounter.com/count`
 - [ ] **백엔드 세션 교체** — 종료 보고 끝, 교체 권함. 닫고 `galmal-backend` 에서 `claude` → `/rename 갈래말래 백엔드` → 「판 보여줘」
 - [ ] 내일: GitHub 저장소 화면의 Contributors 칸에서 Claude 가 빠졌는지(API 는 이미 빠짐 — 화면은 캐시) · 며칠 뒤 백업 폴더 둘 지워도 되는지
 - [ ] **일일 보고 메일 받은편지함 도착 확인**(백엔드, 10-04 17:27 KST 발송)
@@ -82,4 +82,5 @@
 - 백엔드→기획: README 문장 넣음 · 숫자만 토큰 0 · 새 크론 첫 밤 둘 다 success(UTC 자정 전) → 기획: 판 반영 ✅ · cc 프론트→백엔드: B84(피드 헤드 「어제」 문구) 사실 전달, 백엔드가 며칠 뒤 발행 시각 분포로 답하기로 ✅
 - 기획→백엔드·프론트: SESSIONS 세션 교체 규칙 통지. 백엔드는 지금 종료 보고·교체 권유 가능, 프론트는 사진 굽기 끝난 뒤 ✅
 - 백엔드→기획: 종료 보고 4줄(교체 권함) + GoatCounter API 404 는 방문 0건 가설 → 기획: 판 반영, 조치 없음 ✅
-- ⏳ 답 대기: 사용자(GoatCounter 코드 이름 · 보고 메일 도착 · ponytail 두 터미널 설치 · 백엔드 세션 교체)
+- 백엔드→기획: 사이트 코드는 이미 `galmal`(변수·안내문·도메인 실재) → 기획: 답 대기에서 내림, PROJECT·SPEC 에 주소 반영 ✅
+- ⏳ 답 대기: 사용자(보고 메일 도착 · ponytail 두 터미널 설치 · 백엔드 세션 교체)
