@@ -46,6 +46,7 @@ return message if m == message else m.rstrip(b"\n") + b"\n"
 ## 5. 세션 통지 · 맞추기 · 문서의 해시
 - [ ] 기획 → 두 세션: 「push 끝」. 각 세션은 **사용자에게 자기 터미널에서 확인받고**: `git fetch --prune origin && git reset --hard origin/main` — **merge·rebase·pull 금지** — 옛 커밋을 가리키는 로컬 브랜치 삭제 → `git log --all --format=%B | grep -ci "co-authored-by\|claude-session"` == 0.
 - [ ] **문서의 해시 치환**: `python <plan>/scripts/rewrite_hashes.py <maps/…세 개>` — **세 대응표를 다** 준다(문서는 남의 레포 커밋도 인용한다). 코드 파일 속 인용은 `--glob` 으로 더한다. 치환 커밋은 **trailer 없이**, 일반 push.
+  ⚠️ **숫자만으로 된 7·8자리 토큰은 10진수 상수일 수 있다**(`BUDGET_MAX = 1000000` · `1048576` · CSS `#00000018`). 표의 접두사에 안 걸린 건 운이었다(프론트 실측 10-07). 도구는 이제 숫자만인 토큰을 바꾸지 않고 「손으로 확인」으로 보고한다. 실행 결과: 기획 27 · 백엔드 62 · 프론트 103(md 94 + 코드 9).
 - [ ] 🔴 **ruleset 다시 켜기 — 사용자가**: 두 `main-protection` 을 `Active` 로. 기획이 `gh api` 로 `active` 를 읽어 확인.
 
 ## 6. 받아들이는 것 (사용자에게 실행 전에 말한다)
